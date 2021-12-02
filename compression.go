@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main() {
+func main2() {
 	files := []string{
 		"./epub-examples/example2/EPUB/css/images/iconmonstr-info-8-icon-20x20.png",
 		"./epub-examples/example2/EPUB/css/images/iconmonstr-info-8-icon.png",

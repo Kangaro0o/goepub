@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+// TODO language
+<package dir="{{.Dir}}" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title id="title">{{.Title}}</dc:title>
+        <dc:author>{{.Author}}</dc:author>
+        <dc:creator id="creator1">{{.Creator}}</dc:creator>
+        <dc:creator id="creator2">{{.Creator}}</dc:creator>
+        <dc:language id="language">{{.Language}}</dc:language>
+        <dc:identifier id="pub-id">{{.PubID}}</dc:identifier>
+        <dc:date>{{.Date}}</dc:date>
+        <dc:publisher>{{.Publisher}}</dc:publisher>
+        <dc:type>{{.Type}}</dc:type>
+        <dc:source id="src"><{{.Source}}</dc:source>
+        <dc:contributor>{{.Contributor}}</dc:contributor>
+        <dc:description>{{.Description}}</dc:description>
+
+        <meta property="dcterms:modified">{{.Date}}</meta>
+        <meta property="source-of" refines="#src">pagination</meta>
+        <meta name="cover" content="cover-image" />
+        <meta property="schema:accessibilityFeature">alternativeText</meta>
+        <meta property="schema:accessibilityFeature">mathml</meta>
+        <meta property="schema:accessibilityFeature">index</meta>
+        <meta property="schema:accessibilityFeature">readingOrder</meta>
+        <meta property="schema:accessibilityFeature">printPageNumbers</meta>
+        <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+        <meta property="schema:accessibilityFeature">tableOfContents</meta>
+        <meta property="schema:typicalAgeRange">{{.TypicalAgeRange}}</meta>
+        <meta property="schema:interactivityType">mixed</meta>
+    </metadata>
+    <manifest>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+        <item id="cover" href="xhtml/cover.xhtml" media-type="application/xhtml+xml" />
+        <item id="toc" href="xhtml/nav.xhtml" media-type="application/xhtml+xml" />
+        // TODO 章节目录信息
+        <item id="xxxx" href="yyy" media-type="application/xhtml+xml" />
+        // TODO jpg图片信息
+        <item id="zzz" href="hhh" media-type="image/jpeg" />
+        // TODO css
+        <item id="css_0" href="css/main.css" media-type="text/css" />
+        // TODO png图片
+        <item id="png_0" href="png" media-type="image/png" />
+        // 封面
+        <item id="cover-image" href="cover.jpg" media-type="image/jpeg" properties="cover-image" />
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="cover" />
+        // TODO 显示在目录的内容
+        <itemref idref="" />
+    </spine>
+</package>
