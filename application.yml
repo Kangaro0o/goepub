@@ -1,18 +1,12 @@
 epub3:
-  dir: ltr|rtl # 行文方向，左到右｜右到左
-  opf-path: EPUB/package.opf
-  lang: en/zh-CN
-  title: 探窗
-  creator: # 作者，可能多于1个
-    - 热心村民刘同学
-    - 热心难民刘同学
-  language: en
-  pub-id: urn:uuid:10012
-  date: 2011-01-07 # 出版日期
-  publisher: 雀阅
-  type: 教育类
-  source: urn:isbn:10001
-  typical-age-range: 18+
-  contributor: kelvinwliu
-  description: 这是一段描述
-  cover: http://www.test.com/cover.jpg
+  uid: easypub-123
+  book_name: 测试书名
+  author: 测试作者
+  date: 制作日期
+  rights: 版权申明
+  language: zh-CN
+  chapters:
+    - id: chapter0
+      href: chapter0.html
+      play_order: 0
+      name: 第一章

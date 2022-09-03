@@ -1,0 +1,3847 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head>
+<meta name="cover" content="cover"/>
+<meta name="dtb:uid" content="easypub-653c1255" />
+<meta name="dtb:depth" content="1"/>
+<meta name="dtb:generator" content="EasyPub v1.50"/>
+<meta name="dtb:totalPageCount" content="0"/>
+<meta name="dtb:maxPageNumber" content="0"/>
+</head>
+
+<docTitle>
+<text>我师兄实在太稳健了</text>
+</docTitle>
+<docAuthor>
+<text>言归正传</text>
+</docAuthor>
+
+<navMap>
+<navPoint id="cover" playOrder="1">
+<navLabel><text>封面</text></navLabel>
+<content src="cover.html"/>
+</navPoint>
+
+<navPoint id="htmltoc" playOrder="2">
+<navLabel><text>目录</text></navLabel>
+<content src="book-toc.html"/>
+</navPoint>
+
+<navPoint id="chapter0" playOrder="3">
+<navLabel><text>内容简介</text></navLabel>
+<content src="chapter0.html"/>
+</navPoint>
+
+<navPoint id="chapter1" playOrder="4">
+<navLabel><text>第一章 小小灵娥</text></navLabel>
+<content src="chapter1.html"/>
+</navPoint>
+
+<navPoint id="chapter2" playOrder="5">
+<navLabel><text>第二章 师兄的入门审核</text></navLabel>
+<content src="chapter2.html"/>
+</navPoint>
+
+<navPoint id="chapter3" playOrder="6">
+<navLabel><text>第三章 入门第一课</text></navLabel>
+<content src="chapter3.html"/>
+</navPoint>
+
+<navPoint id="chapter4" playOrder="7">
+<navLabel><text>第四章 世界很危险</text></navLabel>
+<content src="chapter4.html"/>
+</navPoint>
+
+<navPoint id="chapter5" playOrder="8">
+<navLabel><text>第五章 师妹的夜间补习</text></navLabel>
+<content src="chapter5.html"/>
+</navPoint>
+
+<navPoint id="chapter6" playOrder="9">
+<navLabel><text>第六章 师妹初长成</text></navLabel>
+<content src="chapter6.html"/>
+</navPoint>
+
+<navPoint id="chapter7" playOrder="10">
+<navLabel><text>第七章 历练大会</text></navLabel>
+<content src="chapter7.html"/>
+</navPoint>
+
+<navPoint id="chapter8" playOrder="11">
+<navLabel><text>第八章 酒仙人上线</text></navLabel>
+<content src="chapter8.html"/>
+</navPoint>
+
+<navPoint id="chapter9" playOrder="12">
+<navLabel><text>第九章 请保持好冰山该有的矜持！</text></navLabel>
+<content src="chapter9.html"/>
+</navPoint>
+
+<navPoint id="chapter10" playOrder="13">
+<navLabel><text>第十章 玄雅的赔礼</text></navLabel>
+<content src="chapter10.html"/>
+</navPoint>
+
+<navPoint id="chapter11" playOrder="14">
+<navLabel><text>第十一章 离队一身轻</text></navLabel>
+<content src="chapter11.html"/>
+</navPoint>
+
+<navPoint id="chapter12" playOrder="15">
+<navLabel><text>第十二章 狐狸尾巴</text></navLabel>
+<content src="chapter12.html"/>
+</navPoint>
+
+<navPoint id="chapter13" playOrder="16">
+<navLabel><text>第十三章 《反杀》</text></navLabel>
+<content src="chapter13.html"/>
+</navPoint>
+
+<navPoint id="chapter14" playOrder="17">
+<navLabel><text>第十四章 这还能从天而降？</text></navLabel>
+<content src="chapter14.html"/>
+</navPoint>
+
+<navPoint id="chapter15" playOrder="18">
+<navLabel><text>第十五章 一个不愿意透露姓名的靓仔</text></navLabel>
+<content src="chapter15.html"/>
+</navPoint>
+
+<navPoint id="chapter16" playOrder="19">
+<navLabel><text>第十六章 有毒，肯定有毒</text></navLabel>
+<content src="chapter16.html"/>
+</navPoint>
+
+<navPoint id="chapter17" playOrder="20">
+<navLabel><text>第十七章 活到最后才算黄雀</text></navLabel>
+<content src="chapter17.html"/>
+</navPoint>
+
+<navPoint id="chapter18" playOrder="21">
+<navLabel><text>第十八章 走的很安详</text></navLabel>
+<content src="chapter18.html"/>
+</navPoint>
+
+<navPoint id="chapter19" playOrder="22">
+<navLabel><text>第十九章 师父们来援</text></navLabel>
+<content src="chapter19.html"/>
+</navPoint>
+
+<navPoint id="chapter20" playOrder="23">
+<navLabel><text>第二十章 有些坑是跳不过去的</text></navLabel>
+<content src="chapter20.html"/>
+</navPoint>
+
+<navPoint id="chapter21" playOrder="24">
+<navLabel><text>第二十一章 臭师兄</text></navLabel>
+<content src="chapter21.html"/>
+</navPoint>
+
+<navPoint id="chapter22" playOrder="25">
+<navLabel><text>第二十二章 ‘助师渡劫’第一套方案</text></navLabel>
+<content src="chapter22.html"/>
+</navPoint>
+
+<navPoint id="chapter23" playOrder="26">
+<navLabel><text>第二十三章 被师兄安排了</text></navLabel>
+<content src="chapter23.html"/>
+</navPoint>
+
+<navPoint id="chapter24" playOrder="27">
+<navLabel><text>第二十四章 真仙是不可能打工的</text></navLabel>
+<content src="chapter24.html"/>
+</navPoint>
+
+<navPoint id="chapter25" playOrder="28">
+<navLabel><text>第二十五章 师叔饲养员</text></navLabel>
+<content src="chapter25.html"/>
+</navPoint>
+
+<navPoint id="chapter26" playOrder="29">
+<navLabel><text>第二十六章 《表象》</text></navLabel>
+<content src="chapter26.html"/>
+</navPoint>
+
+<navPoint id="chapter27" playOrder="30">
+<navLabel><text>第二十七章 哼，这区区小阵</text></navLabel>
+<content src="chapter27.html"/>
+</navPoint>
+
+<navPoint id="chapter28" playOrder="31">
+<navLabel><text>第二十八章 夜会‘老父亲’</text></navLabel>
+<content src="chapter28.html"/>
+</navPoint>
+
+<navPoint id="chapter29" playOrder="32">
+<navLabel><text>第二十九章 ‘助师渡劫’第二套方案</text></navLabel>
+<content src="chapter29.html"/>
+</navPoint>
+
+<navPoint id="chapter30" playOrder="33">
+<navLabel><text>第三十章 《师徒》</text></navLabel>
+<content src="chapter30.html"/>
+</navPoint>
+
+<navPoint id="chapter31" playOrder="34">
+<navLabel><text>第三十一章 龙宫之邀</text></navLabel>
+<content src="chapter31.html"/>
+</navPoint>
+
+<navPoint id="chapter32" playOrder="35">
+<navLabel><text>第三十二章 我，齐源，今天就算被天劫劈死！</text></navLabel>
+<content src="chapter32.html"/>
+</navPoint>
+
+<navPoint id="chapter33" playOrder="36">
+<navLabel><text>第三十三章 本师伯毕竟不是什么大恶人</text></navLabel>
+<content src="chapter33.html"/>
+</navPoint>
+
+<navPoint id="chapter34" playOrder="37">
+<navLabel><text>第三十四章 模拟仙生</text></navLabel>
+<content src="chapter34.html"/>
+</navPoint>
+
+<navPoint id="chapter35" playOrder="38">
+<navLabel><text>第三十五章 套路、反套路、反反套路</text></navLabel>
+<content src="chapter35.html"/>
+</navPoint>
+
+<navPoint id="chapter36" playOrder="39">
+<navLabel><text>第三十六章 折了张良计，还有过墙梯</text></navLabel>
+<content src="chapter36.html"/>
+</navPoint>
+
+<navPoint id="chapter37" playOrder="40">
+<navLabel><text>第三十七章 大场面，小伎俩</text></navLabel>
+<content src="chapter37.html"/>
+</navPoint>
+
+<navPoint id="chapter38" playOrder="41">
+<navLabel><text>第三十八章 只要足够镇定，就可无事发生</text></navLabel>
+<content src="chapter38.html"/>
+</navPoint>
+
+<navPoint id="chapter39" playOrder="42">
+<navLabel><text>第三十九章 三教，炼气士，天劫</text></navLabel>
+<content src="chapter39.html"/>
+</navPoint>
+
+<navPoint id="chapter40" playOrder="43">
+<navLabel><text>第四十章 我，龙宫二太子</text></navLabel>
+<content src="chapter40.html"/>
+</navPoint>
+
+<navPoint id="chapter41" playOrder="44">
+<navLabel><text>第四十一章 人龙‘巅峰’对决！</text></navLabel>
+<content src="chapter41.html"/>
+</navPoint>
+
+<navPoint id="chapter42" playOrder="45">
+<navLabel><text>第四十二章 算计我师兄……</text></navLabel>
+<content src="chapter42.html"/>
+</navPoint>
+
+<navPoint id="chapter43" playOrder="46">
+<navLabel><text>第四十三章 只要脸皮够厚</text></navLabel>
+<content src="chapter43.html"/>
+</navPoint>
+
+<navPoint id="chapter44" playOrder="47">
+<navLabel><text>第四十四章 师父，我师兄其实</text></navLabel>
+<content src="chapter44.html"/>
+</navPoint>
+
+<navPoint id="chapter45" playOrder="48">
+<navLabel><text>第四十五章 一点点，筹算封神</text></navLabel>
+<content src="chapter45.html"/>
+</navPoint>
+
+<navPoint id="chapter46" playOrder="49">
+<navLabel><text>第四十六章 师侄我又不是歹恶人</text></navLabel>
+<content src="chapter46.html"/>
+</navPoint>
+
+<navPoint id="chapter47" playOrder="50">
+<navLabel><text>第四十七章 叛逆龙子，在线……</text></navLabel>
+<content src="chapter47.html"/>
+</navPoint>
+
+<navPoint id="chapter48" playOrder="51">
+<navLabel><text>第四十八章 吨吨吨吨吨</text></navLabel>
+<content src="chapter48.html"/>
+</navPoint>
+
+<navPoint id="chapter49" playOrder="52">
+<navLabel><text>第四十九章 我师兄这麻烦性格</text></navLabel>
+<content src="chapter49.html"/>
+</navPoint>
+
+<navPoint id="chapter50" playOrder="53">
+<navLabel><text>第五十章 精选渡劫之地</text></navLabel>
+<content src="chapter50.html"/>
+</navPoint>
+
+<navPoint id="chapter51" playOrder="54">
+<navLabel><text>第五十一章 《洗龙》</text></navLabel>
+<content src="chapter51.html"/>
+</navPoint>
+
+<navPoint id="chapter52" playOrder="55">
+<navLabel><text>第五十二章 感谢天劫大人百忙之中抽空来劈！</text></navLabel>
+<content src="chapter52.html"/>
+</navPoint>
+
+<navPoint id="chapter53" playOrder="56">
+<navLabel><text>第五十三章 天劫请再爱我一次！</text></navLabel>
+<content src="chapter53.html"/>
+</navPoint>
+
+<navPoint id="chapter54" playOrder="57">
+<navLabel><text>第五十四章 九霄神魔劫！</text></navLabel>
+<content src="chapter54.html"/>
+</navPoint>
+
+<navPoint id="chapter55" playOrder="58">
+<navLabel><text>第五十五章 师兄南海漂流记</text></navLabel>
+<content src="chapter55.html"/>
+</navPoint>
+
+<navPoint id="chapter56" playOrder="59">
+<navLabel><text>第五十六章 熊氏熊寨</text></navLabel>
+<content src="chapter56.html"/>
+</navPoint>
+
+<navPoint id="chapter57" playOrder="60">
+<navLabel><text>第五十七章 《功德》</text></navLabel>
+<content src="chapter57.html"/>
+</navPoint>
+
+<navPoint id="chapter58" playOrder="61">
+<navLabel><text>第五十八章 人间处处有……套路</text></navLabel>
+<content src="chapter58.html"/>
+</navPoint>
+
+<navPoint id="chapter59" playOrder="62">
+<navLabel><text>第五十九章 熊寨强壮的秘密&#183;伪</text></navLabel>
+<content src="chapter59.html"/>
+</navPoint>
+
+<navPoint id="chapter60" playOrder="63">
+<navLabel><text>第六十章 稳字经</text></navLabel>
+<content src="chapter60.html"/>
+</navPoint>
+
+<navPoint id="chapter61" playOrder="64">
+<navLabel><text>第六十一章 小穷峰</text></navLabel>
+<content src="chapter61.html"/>
+</navPoint>
+
+<navPoint id="chapter62" playOrder="65">
+<navLabel><text>第六十二章 人教首徒真难做</text></navLabel>
+<content src="chapter62.html"/>
+</navPoint>
+
+<navPoint id="chapter63" playOrder="66">
+<navLabel><text>第六十三章 少一些套路，多一些真诚</text></navLabel>
+<content src="chapter63.html"/>
+</navPoint>
+
+<navPoint id="chapter64" playOrder="67">
+<navLabel><text>第六十四章 在毒道上撒欢前行</text></navLabel>
+<content src="chapter64.html"/>
+</navPoint>
+
+<navPoint id="chapter65" playOrder="68">
+<navLabel><text>第六十五章 我，师妹，这波测试最少优秀！</text></navLabel>
+<content src="chapter65.html"/>
+</navPoint>
+
+<navPoint id="chapter66" playOrder="69">
+<navLabel><text>第六十六章 原来是你在搞鬼</text></navLabel>
+<content src="chapter66.html"/>
+</navPoint>
+
+<navPoint id="chapter67" playOrder="70">
+<navLabel><text>第六十七章 知我者，长寿矣！</text></navLabel>
+<content src="chapter67.html"/>
+</navPoint>
+
+<navPoint id="chapter68" playOrder="71">
+<navLabel><text>第六十八章 魔改神通初体验</text></navLabel>
+<content src="chapter68.html"/>
+</navPoint>
+
+<navPoint id="chapter69" playOrder="72">
+<navLabel><text>第六十九章 别逼我拔剑！</text></navLabel>
+<content src="chapter69.html"/>
+</navPoint>
+
+<navPoint id="chapter70" playOrder="73">
+<navLabel><text>第七十章 这是，什么路子？</text></navLabel>
+<content src="chapter70.html"/>
+</navPoint>
+
+<navPoint id="chapter71" playOrder="74">
+<navLabel><text>第七十一章 我，敖乙……不长了</text></navLabel>
+<content src="chapter71.html"/>
+</navPoint>
+
+<navPoint id="chapter72" playOrder="75">
+<navLabel><text>第七十二章 放心，这次绝对打不起来</text></navLabel>
+<content src="chapter72.html"/>
+</navPoint>
+
+<navPoint id="chapter73" playOrder="76">
+<navLabel><text>第七十三章 仙识一扫，半声卧……</text></navLabel>
+<content src="chapter73.html"/>
+</navPoint>
+
+<navPoint id="chapter74" playOrder="77">
+<navLabel><text>第七十四章 我摊牌了！</text></navLabel>
+<content src="chapter74.html"/>
+</navPoint>
+
+<navPoint id="chapter75" playOrder="78">
+<navLabel><text>第七十五章 稳中求胜&#183;第一式</text></navLabel>
+<content src="chapter75.html"/>
+</navPoint>
+
+<navPoint id="chapter76" playOrder="79">
+<navLabel><text>第七十六章 惊妹之谜！</text></navLabel>
+<content src="chapter76.html"/>
+</navPoint>
+
+<navPoint id="chapter77" playOrder="80">
+<navLabel><text>第七十七章 老身，有礼了</text></navLabel>
+<content src="chapter77.html"/>
+</navPoint>
+
+<navPoint id="chapter78" playOrder="81">
+<navLabel><text>第七十八章 道藏内殿准入令！</text></navLabel>
+<content src="chapter78.html"/>
+</navPoint>
+
+<navPoint id="chapter79" playOrder="82">
+<navLabel><text>第七十九章 得偿所愿，酒娘破关</text></navLabel>
+<content src="chapter79.html"/>
+</navPoint>
+
+<navPoint id="chapter80" playOrder="83">
+<navLabel><text>第八十章 元泽：此事定可功成！</text></navLabel>
+<content src="chapter80.html"/>
+</navPoint>
+
+<navPoint id="chapter81" playOrder="84">
+<navLabel><text>第八十一章 一只瓷瓶引发的……</text></navLabel>
+<content src="chapter81.html"/>
+</navPoint>
+
+<navPoint id="chapter82" playOrder="85">
+<navLabel><text>第八十二章 《备战》</text></navLabel>
+<content src="chapter82.html"/>
+</navPoint>
+
+<navPoint id="chapter83" playOrder="86">
+<navLabel><text>第八十三章 毒毒联手</text></navLabel>
+<content src="chapter83.html"/>
+</navPoint>
+
+<navPoint id="chapter84" playOrder="87">
+<navLabel><text>第八十四章 长寿，你说怎么办</text></navLabel>
+<content src="chapter84.html"/>
+</navPoint>
+
+<navPoint id="chapter85" playOrder="88">
+<navLabel><text>第八十五章 灭蚊之计在于……</text></navLabel>
+<content src="chapter85.html"/>
+</navPoint>
+
+<navPoint id="chapter86" playOrder="89">
+<navLabel><text>第八十六章 假如我是偷袭者……</text></navLabel>
+<content src="chapter86.html"/>
+</navPoint>
+
+<navPoint id="chapter87" playOrder="90">
+<navLabel><text>第八十七章 毒阵战，嘿，毒阵战！</text></navLabel>
+<content src="chapter87.html"/>
+</navPoint>
+
+<navPoint id="chapter88" playOrder="91">
+<navLabel><text>第八十八章 新赠殡葬服务</text></navLabel>
+<content src="chapter88.html"/>
+</navPoint>
+
+<navPoint id="chapter89" playOrder="92">
+<navLabel><text>第八十九章 快去请……</text></navLabel>
+<content src="chapter89.html"/>
+</navPoint>
+
+<navPoint id="chapter90" playOrder="93">
+<navLabel><text>第九十章 哭，也是门技术活</text></navLabel>
+<content src="chapter90.html"/>
+</navPoint>
+
+<navPoint id="chapter91" playOrder="94">
+<navLabel><text>第九十一章 纸军秃击！</text></navLabel>
+<content src="chapter91.html"/>
+</navPoint>
+
+<navPoint id="chapter92" playOrder="95">
+<navLabel><text>第九十二章 “你过来啊！”</text></navLabel>
+<content src="chapter92.html"/>
+</navPoint>
+
+<navPoint id="chapter93" playOrder="96">
+<navLabel><text>第九十三章 小琼火葬场开业大酬宾</text></navLabel>
+<content src="chapter93.html"/>
+</navPoint>
+
+<navPoint id="chapter94" playOrder="97">
+<navLabel><text>第九十四章 《求稳》</text></navLabel>
+<content src="chapter94.html"/>
+</navPoint>
+
+<navPoint id="chapter95" playOrder="98">
+<navLabel><text>第九十五章 一点点底牌</text></navLabel>
+<content src="chapter95.html"/>
+</navPoint>
+
+<navPoint id="chapter96" playOrder="99">
+<navLabel><text>第九十六章 《吓蚊》</text></navLabel>
+<content src="chapter96.html"/>
+</navPoint>
+
+<navPoint id="chapter97" playOrder="100">
+<navLabel><text>第九十七章 大腿本腿</text></navLabel>
+<content src="chapter97.html"/>
+</navPoint>
+
+<navPoint id="chapter98" playOrder="101">
+<navLabel><text>第九十八章 汝弟子，吾善待之</text></navLabel>
+<content src="chapter98.html"/>
+</navPoint>
+
+<navPoint id="chapter99" playOrder="102">
+<navLabel><text>第九十九章 ‘野’神的忧虑</text></navLabel>
+<content src="chapter99.html"/>
+</navPoint>
+
+<navPoint id="chapter100" playOrder="103">
+<navLabel><text>第一百章 男人就该对自己……</text></navLabel>
+<content src="chapter100.html"/>
+</navPoint>
+
+<navPoint id="chapter101" playOrder="104">
+<navLabel><text>第一百零一章 穷的诞生</text></navLabel>
+<content src="chapter101.html"/>
+</navPoint>
+
+<navPoint id="chapter102" playOrder="105">
+<navLabel><text>第一百零二章 你根本不懂海神！</text></navLabel>
+<content src="chapter102.html"/>
+</navPoint>
+
+<navPoint id="chapter103" playOrder="106">
+<navLabel><text>第一百零三章 自毁神教第一战</text></navLabel>
+<content src="chapter103.html"/>
+</navPoint>
+
+<navPoint id="chapter104" playOrder="107">
+<navLabel><text>第一百零四章 这剧本有点不对</text></navLabel>
+<content src="chapter104.html"/>
+</navPoint>
+
+<navPoint id="chapter105" playOrder="108">
+<navLabel><text>第一百零五章 熊寨强壮的秘密&#183;真</text></navLabel>
+<content src="chapter105.html"/>
+</navPoint>
+
+<navPoint id="chapter106" playOrder="109">
+<navLabel><text>第一百零六章 把握不大李长寿</text></navLabel>
+<content src="chapter106.html"/>
+</navPoint>
+
+<navPoint id="chapter107" playOrder="110">
+<navLabel><text>第一百零七章 忽忽悠悠龙瘸了</text></navLabel>
+<content src="chapter107.html"/>
+</navPoint>
+
+<navPoint id="chapter108" playOrder="111">
+<navLabel><text>第一百零八章 功德我拿，锅你们背</text></navLabel>
+<content src="chapter108.html"/>
+</navPoint>
+
+<navPoint id="chapter109" playOrder="112">
+<navLabel><text>第一百零九章 师兄一笑</text></navLabel>
+<content src="chapter109.html"/>
+</navPoint>
+
+<navPoint id="chapter110" playOrder="113">
+<navLabel><text>第一百一十章 道友，您听说过……</text></navLabel>
+<content src="chapter110.html"/>
+</navPoint>
+
+<navPoint id="chapter111" playOrder="114">
+<navLabel><text>第一百一十一章 炼气士是不可能逛花楼的</text></navLabel>
+<content src="chapter111.html"/>
+</navPoint>
+
+<navPoint id="chapter112" playOrder="115">
+<navLabel><text>第一百一十二章 论场地对扬灰手感的影响</text></navLabel>
+<content src="chapter112.html"/>
+</navPoint>
+
+<navPoint id="chapter113" playOrder="116">
+<navLabel><text>第一百一十三章 专克一切魅惑神通！</text></navLabel>
+<content src="chapter113.html"/>
+</navPoint>
+
+<navPoint id="chapter114" playOrder="117">
+<navLabel><text>第一百一十四章 欺师元凶</text></navLabel>
+<content src="chapter114.html"/>
+</navPoint>
+
+<navPoint id="chapter115" playOrder="118">
+<navLabel><text>第一百一十五章 道友，路走窄了</text></navLabel>
+<content src="chapter115.html"/>
+</navPoint>
+
+<navPoint id="chapter116" playOrder="119">
+<navLabel><text>第一百一十六章 以彼之道，加倍还施彼身</text></navLabel>
+<content src="chapter116.html"/>
+</navPoint>
+
+<navPoint id="chapter117" playOrder="120">
+<navLabel><text>第一百一十七章 唉，感情破裂了</text></navLabel>
+<content src="chapter117.html"/>
+</navPoint>
+
+<navPoint id="chapter118" playOrder="121">
+<navLabel><text>第一百一十八章 小琼峰特产雄心丹</text></navLabel>
+<content src="chapter118.html"/>
+</navPoint>
+
+<navPoint id="chapter119" playOrder="122">
+<navLabel><text>第一百一十九章 大比开锣，二教主助威</text></navLabel>
+<content src="chapter119.html"/>
+</navPoint>
+
+<navPoint id="chapter120" playOrder="123">
+<navLabel><text>第一百二十章 真是一场势均力敌之战</text></navLabel>
+<content src="chapter120.html"/>
+</navPoint>
+
+<navPoint id="chapter121" playOrder="124">
+<navLabel><text>第一百二十一章 战胜恐惧的唯一办法</text></navLabel>
+<content src="chapter121.html"/>
+</navPoint>
+
+<navPoint id="chapter122" playOrder="125">
+<navLabel><text>第一百二十二章 海神庙内白衣男</text></navLabel>
+<content src="chapter122.html"/>
+</navPoint>
+
+<navPoint id="chapter123" playOrder="126">
+<navLabel><text>第一百二十三章 知吾心意者，南海海神矣</text></navLabel>
+<content src="chapter123.html"/>
+</navPoint>
+
+<navPoint id="chapter124" playOrder="127">
+<navLabel><text>第一百二十四章 修道‘鬼才’蓝灵娥</text></navLabel>
+<content src="chapter124.html"/>
+</navPoint>
+
+<navPoint id="chapter125" playOrder="128">
+<navLabel><text>第一百二十五章 度仙门必游景点</text></navLabel>
+<content src="chapter125.html"/>
+</navPoint>
+
+<navPoint id="chapter126" playOrder="129">
+<navLabel><text>第一百二十六章 学到了，学到了</text></navLabel>
+<content src="chapter126.html"/>
+</navPoint>
+
+<navPoint id="chapter127" playOrder="130">
+<navLabel><text>第一百二十七章 寿的临别赠礼</text></navLabel>
+<content src="chapter127.html"/>
+</navPoint>
+
+<navPoint id="chapter128" playOrder="131">
+<navLabel><text>第一百二十八章 师兄一‘怒’</text></navLabel>
+<content src="chapter128.html"/>
+</navPoint>
+
+<navPoint id="chapter129" playOrder="132">
+<navLabel><text>第一百二十九章 仙识毒丹：心火烧</text></navLabel>
+<content src="chapter129.html"/>
+</navPoint>
+
+<navPoint id="chapter130" playOrder="133">
+<navLabel><text>第一百三十章 师父，弟子尽力了</text></navLabel>
+<content src="chapter130.html"/>
+</navPoint>
+
+<navPoint id="chapter131" playOrder="134">
+<navLabel><text>第一百三十一章 你，本来就很俊</text></navLabel>
+<content src="chapter131.html"/>
+</navPoint>
+
+<navPoint id="chapter132" playOrder="135">
+<navLabel><text>第一百三十二章 真假小药丸</text></navLabel>
+<content src="chapter132.html"/>
+</navPoint>
+
+<navPoint id="chapter133" playOrder="136">
+<navLabel><text>第一百三十三章 小琼峰流浪计划</text></navLabel>
+<content src="chapter133.html"/>
+</navPoint>
+
+<navPoint id="chapter134" playOrder="137">
+<navLabel><text>第一百三十四章 我……有一个道友</text></navLabel>
+<content src="chapter134.html"/>
+</navPoint>
+
+<navPoint id="chapter135" playOrder="138">
+<navLabel><text>第一百三十五章 瞎蛙碰上死蚊子</text></navLabel>
+<content src="chapter135.html"/>
+</navPoint>
+
+<navPoint id="chapter136" playOrder="139">
+<navLabel><text>第一百三十六章 当啷个当</text></navLabel>
+<content src="chapter136.html"/>
+</navPoint>
+
+<navPoint id="chapter137" playOrder="140">
+<navLabel><text>第一百三十七章 南洲启小战，长寿拜圣像</text></navLabel>
+<content src="chapter137.html"/>
+</navPoint>
+
+<navPoint id="chapter138" playOrder="141">
+<navLabel><text>第一百三十八章 人教第二大腿！</text></navLabel>
+<content src="chapter138.html"/>
+</navPoint>
+
+<navPoint id="chapter139" playOrder="142">
+<navLabel><text>第一百三十九章 大法师之训诫</text></navLabel>
+<content src="chapter139.html"/>
+</navPoint>
+
+<navPoint id="chapter140" playOrder="143">
+<navLabel><text>第一百四十章 一石惊群鸟</text></navLabel>
+<content src="chapter140.html"/>
+</navPoint>
+
+<navPoint id="chapter141" playOrder="144">
+<navLabel><text>第一百四十一章 长庚道人</text></navLabel>
+<content src="chapter141.html"/>
+</navPoint>
+
+<navPoint id="chapter142" playOrder="145">
+<navLabel><text>第一百四十二章 天上掉下个……</text></navLabel>
+<content src="chapter142.html"/>
+</navPoint>
+
+<navPoint id="chapter143" playOrder="146">
+<navLabel><text>第一百四十三章 小琼我林‘哥’</text></navLabel>
+<content src="chapter143.html"/>
+</navPoint>
+
+<navPoint id="chapter144" playOrder="147">
+<navLabel><text>第一百四十四章 唯有小师叔才可战胜小师叔！</text></navLabel>
+<content src="chapter144.html"/>
+</navPoint>
+
+<navPoint id="chapter145" playOrder="148">
+<navLabel><text>第一百四十五章 稳门四书之《海神兵录》毛皮版</text></navLabel>
+<content src="chapter145.html"/>
+</navPoint>
+
+<navPoint id="chapter146" playOrder="149">
+<navLabel><text>第一百四十六章 这徒孙……</text></navLabel>
+<content src="chapter146.html"/>
+</navPoint>
+
+<navPoint id="chapter147" playOrder="150">
+<navLabel><text>第一百四十七章 我和财神有个约</text></navLabel>
+<content src="chapter147.html"/>
+</navPoint>
+
+<navPoint id="chapter148" playOrder="151">
+<navLabel><text>第一百四十八章 义薄云天赵大爷</text></navLabel>
+<content src="chapter148.html"/>
+</navPoint>
+
+<navPoint id="chapter149" playOrder="152">
+<navLabel><text>第一百四十九章 洪荒首场规范碰瓷</text></navLabel>
+<content src="chapter149.html"/>
+</navPoint>
+
+<navPoint id="chapter150" playOrder="153">
+<navLabel><text>第一百五十章 师兄再授业，将传稳中法</text></navLabel>
+<content src="chapter150.html"/>
+</navPoint>
+
+<navPoint id="chapter151" playOrder="154">
+<navLabel><text>第一百五十一章 小琼峰上小课堂</text></navLabel>
+<content src="chapter151.html"/>
+</navPoint>
+
+<navPoint id="chapter152" playOrder="155">
+<navLabel><text>第一百五十二章 《装伤》——从入门到放弃</text></navLabel>
+<content src="chapter152.html"/>
+</navPoint>
+
+<navPoint id="chapter153" playOrder="156">
+<navLabel><text>第一百五十三章 天仙级纸道人的诞生</text></navLabel>
+<content src="chapter153.html"/>
+</navPoint>
+
+<navPoint id="chapter154" playOrder="157">
+<navLabel><text>第一百五十四章 善用法宝人者……</text></navLabel>
+<content src="chapter154.html"/>
+</navPoint>
+
+<navPoint id="chapter155" playOrder="158">
+<navLabel><text>第一百五十五章 出发在即，灵娥托兄</text></navLabel>
+<content src="chapter155.html"/>
+</navPoint>
+
+<navPoint id="chapter156" playOrder="159">
+<navLabel><text>第一百五十六章 长庚第一奏</text></navLabel>
+<content src="chapter156.html"/>
+</navPoint>
+
+<navPoint id="chapter157" playOrder="160">
+<navLabel><text>第一百五十七章 功德小坎肩</text></navLabel>
+<content src="chapter157.html"/>
+</navPoint>
+
+<navPoint id="chapter158" playOrder="161">
+<navLabel><text>第一百五十八章 海神咋在这？</text></navLabel>
+<content src="chapter158.html"/>
+</navPoint>
+
+<navPoint id="chapter159" playOrder="162">
+<navLabel><text>第一百五十九章 小熊熊拜师记</text></navLabel>
+<content src="chapter159.html"/>
+</navPoint>
+
+<navPoint id="chapter160" playOrder="163">
+<navLabel><text>第一百六十章 三教齐聚，玉符摇人</text></navLabel>
+<content src="chapter160.html"/>
+</navPoint>
+
+<navPoint id="chapter161" playOrder="164">
+<navLabel><text>第一百六十一章 江山小社稷图</text></navLabel>
+<content src="chapter161.html"/>
+</navPoint>
+
+<navPoint id="chapter162" playOrder="165">
+<navLabel><text>第一百六十二章 熊人在明寿在暗</text></navLabel>
+<content src="chapter162.html"/>
+</navPoint>
+
+<navPoint id="chapter163" playOrder="166">
+<navLabel><text>第一百六十三章 人教高阶测试</text></navLabel>
+<content src="chapter163.html"/>
+</navPoint>
+
+<navPoint id="chapter164" playOrder="167">
+<navLabel><text>第一百六十四章 寿的反向教学</text></navLabel>
+<content src="chapter164.html"/>
+</navPoint>
+
+<navPoint id="chapter165" playOrder="168">
+<navLabel><text>第一百六十五章 法爷鸟笼的洪荒扬名之路</text></navLabel>
+<content src="chapter165.html"/>
+</navPoint>
+
+<navPoint id="chapter166" playOrder="169">
+<navLabel><text>第一百六十六章 看我眼色行事</text></navLabel>
+<content src="chapter166.html"/>
+</navPoint>
+
+<navPoint id="chapter167" playOrder="170">
+<navLabel><text>第一百六十七章 你觉得我可能亏了，但……</text></navLabel>
+<content src="chapter167.html"/>
+</navPoint>
+
+<navPoint id="chapter168" playOrder="171">
+<navLabel><text>第一百六十八章 《碰瓷》&#183;琼霄进阶版</text></navLabel>
+<content src="chapter168.html"/>
+</navPoint>
+
+<navPoint id="chapter169" playOrder="172">
+<navLabel><text>第一百六十九章 洪荒太复杂，道路阻且滑</text></navLabel>
+<content src="chapter169.html"/>
+</navPoint>
+
+<navPoint id="chapter170" playOrder="173">
+<navLabel><text>第一百七十章 要不，大法师您立个誓……</text></navLabel>
+<content src="chapter170.html"/>
+</navPoint>
+
+<navPoint id="chapter171" playOrder="174">
+<navLabel><text>第一百七十一章 普通斗法模式</text></navLabel>
+<content src="chapter171.html"/>
+</navPoint>
+
+<navPoint id="chapter172" playOrder="175">
+<navLabel><text>第一百七十二章 唉，金仙确实难杀</text></navLabel>
+<content src="chapter172.html"/>
+</navPoint>
+
+<navPoint id="chapter173" playOrder="176">
+<navLabel><text>第一百七十三章 持证上岗小法师</text></navLabel>
+<content src="chapter173.html"/>
+</navPoint>
+
+<navPoint id="chapter174" playOrder="177">
+<navLabel><text>第一百七十四章 深海里犯了错~</text></navLabel>
+<content src="chapter174.html"/>
+</navPoint>
+
+<navPoint id="chapter175" playOrder="178">
+<navLabel><text>第一百七十五章 神通：撒豆成兵！</text></navLabel>
+<content src="chapter175.html"/>
+</navPoint>
+
+<navPoint id="chapter176" playOrder="179">
+<navLabel><text>第一百七十六章 阴差阳也错</text></navLabel>
+<content src="chapter176.html"/>
+</navPoint>
+
+<navPoint id="chapter177" playOrder="180">
+<navLabel><text>第一百七十七章 狠人与狠人与稳</text></navLabel>
+<content src="chapter177.html"/>
+</navPoint>
+
+<navPoint id="chapter178" playOrder="181">
+<navLabel><text>第一百七十八章 寿的层层套路</text></navLabel>
+<content src="chapter178.html"/>
+</navPoint>
+
+<navPoint id="chapter179" playOrder="182">
+<navLabel><text>第一百七十九章 最怕陌生人突然关心</text></navLabel>
+<content src="chapter179.html"/>
+</navPoint>
+
+<navPoint id="chapter180" playOrder="183">
+<navLabel><text>第一百八十章 道门大运，再续亿秒！</text></navLabel>
+<content src="chapter180.html"/>
+</navPoint>
+
+<navPoint id="chapter181" playOrder="184">
+<navLabel><text>第一百八十一章 洪荒整风一小步</text></navLabel>
+<content src="chapter181.html"/>
+</navPoint>
+
+<navPoint id="chapter182" playOrder="185">
+<navLabel><text>第一百八十二章 寿门弄演</text></navLabel>
+<content src="chapter182.html"/>
+</navPoint>
+
+<navPoint id="chapter183" playOrder="186">
+<navLabel><text>第一百八十三章 对碰瓷，勇敢说不！</text></navLabel>
+<content src="chapter183.html"/>
+</navPoint>
+
+<navPoint id="chapter184" playOrder="187">
+<navLabel><text>第一百八十四章 大能的事，能说怕吗？</text></navLabel>
+<content src="chapter184.html"/>
+</navPoint>
+
+<navPoint id="chapter185" playOrder="188">
+<navLabel><text>第一百八十五章 师妹做不到啊！</text></navLabel>
+<content src="chapter185.html"/>
+</navPoint>
+
+<navPoint id="chapter186" playOrder="189">
+<navLabel><text>第一百八十六章 答案不可能这么简单！</text></navLabel>
+<content src="chapter186.html"/>
+</navPoint>
+
+<navPoint id="chapter187" playOrder="190">
+<navLabel><text>第一百八十七章 坑寿的厚礼</text></navLabel>
+<content src="chapter187.html"/>
+</navPoint>
+
+<navPoint id="chapter188" playOrder="191">
+<navLabel><text>第一百八十八章 明白了，全明白了！</text></navLabel>
+<content src="chapter188.html"/>
+</navPoint>
+
+<navPoint id="chapter189" playOrder="192">
+<navLabel><text>第一百八十九章 《背影》</text></navLabel>
+<content src="chapter189.html"/>
+</navPoint>
+
+<navPoint id="chapter190" playOrder="193">
+<navLabel><text>第一百九十章 候选法宝人</text></navLabel>
+<content src="chapter190.html"/>
+</navPoint>
+
+<navPoint id="chapter191" playOrder="194">
+<navLabel><text>第一百九十一章 不魔改就莫得灵魂</text></navLabel>
+<content src="chapter191.html"/>
+</navPoint>
+
+<navPoint id="chapter192" playOrder="195">
+<navLabel><text>第一百九十二章 不可以貌取……豆</text></navLabel>
+<content src="chapter192.html"/>
+</navPoint>
+
+<navPoint id="chapter193" playOrder="196">
+<navLabel><text>第一百九十三章 来趄了</text></navLabel>
+<content src="chapter193.html"/>
+</navPoint>
+
+<navPoint id="chapter194" playOrder="197">
+<navLabel><text>第一百九十四章 感性月老，在线护寿</text></navLabel>
+<content src="chapter194.html"/>
+</navPoint>
+
+<navPoint id="chapter195" playOrder="198">
+<navLabel><text>第一百九十五章 瓷海无边</text></navLabel>
+<content src="chapter195.html"/>
+</navPoint>
+
+<navPoint id="chapter196" playOrder="199">
+<navLabel><text>第一百九十六章 憋说话，吻鹅</text></navLabel>
+<content src="chapter196.html"/>
+</navPoint>
+
+<navPoint id="chapter197" playOrder="200">
+<navLabel><text>第一百九十七章 穷凶极恶的良心</text></navLabel>
+<content src="chapter197.html"/>
+</navPoint>
+
+<navPoint id="chapter198" playOrder="201">
+<navLabel><text>第一百九十八章 我，敖乙，绝不可能女……</text></navLabel>
+<content src="chapter198.html"/>
+</navPoint>
+
+<navPoint id="chapter199" playOrder="202">
+<navLabel><text>第一百九十九章 敢问乐儿仙子芳名！</text></navLabel>
+<content src="chapter199.html"/>
+</navPoint>
+
+<navPoint id="chapter200" playOrder="203">
+<navLabel><text>第二百章 悲伤，那么大</text></navLabel>
+<content src="chapter200.html"/>
+</navPoint>
+
+<navPoint id="chapter201" playOrder="204">
+<navLabel><text>第二百零一章 自古多情空余恨，此恨……</text></navLabel>
+<content src="chapter201.html"/>
+</navPoint>
+
+<navPoint id="chapter202" playOrder="205">
+<navLabel><text>第二百零二章 低调中，蕴含着一丝丝奢华</text></navLabel>
+<content src="chapter202.html"/>
+</navPoint>
+
+<navPoint id="chapter203" playOrder="206">
+<navLabel><text>第二百零三章 山寿自有妙计</text></navLabel>
+<content src="chapter203.html"/>
+</navPoint>
+
+<navPoint id="chapter204" playOrder="207">
+<navLabel><text>第二百零四章 师祖，只能帮你到这了</text></navLabel>
+<content src="chapter204.html"/>
+</navPoint>
+
+<navPoint id="chapter205" playOrder="208">
+<navLabel><text>第二百零五章 没人能在这个领域击败贫道！</text></navLabel>
+<content src="chapter205.html"/>
+</navPoint>
+
+<navPoint id="chapter206" playOrder="209">
+<navLabel><text>第二百零六章 大道誓言，一键五连</text></navLabel>
+<content src="chapter206.html"/>
+</navPoint>
+
+<navPoint id="chapter207" playOrder="210">
+<navLabel><text>第二百零七章 这事，公明帮定了！</text></navLabel>
+<content src="chapter207.html"/>
+</navPoint>
+
+<navPoint id="chapter208" playOrder="211">
+<navLabel><text>第二百零八章 仙豆兵&#183;超进化</text></navLabel>
+<content src="chapter208.html"/>
+</navPoint>
+
+<navPoint id="chapter209" playOrder="212">
+<navLabel><text>第二百零九章 善安排者，终被……</text></navLabel>
+<content src="chapter209.html"/>
+</navPoint>
+
+<navPoint id="chapter210" playOrder="213">
+<navLabel><text>第二百一十章 从导演，到观众</text></navLabel>
+<content src="chapter210.html"/>
+</navPoint>
+
+<navPoint id="chapter211" playOrder="214">
+<navLabel><text>第二百一十一章 就特么你叫卞庄啊！</text></navLabel>
+<content src="chapter211.html"/>
+</navPoint>
+
+<navPoint id="chapter212" playOrder="215">
+<navLabel><text>第二百一十二章 ‘笑而不语’</text></navLabel>
+<content src="chapter212.html"/>
+</navPoint>
+
+<navPoint id="chapter213" playOrder="216">
+<navLabel><text>第二百一十三章 劫起南海，黄雀未定！</text></navLabel>
+<content src="chapter213.html"/>
+</navPoint>
+
+<navPoint id="chapter214" playOrder="217">
+<navLabel><text>第二百一十四章 稳字十二谋之偷天换日</text></navLabel>
+<content src="chapter214.html"/>
+</navPoint>
+
+<navPoint id="chapter215" playOrder="218">
+<navLabel><text>第二百一十五章 大法师，您看那是谁~</text></navLabel>
+<content src="chapter215.html"/>
+</navPoint>
+
+<navPoint id="chapter216" playOrder="219">
+<navLabel><text>第二百一十六章 甚至，我们还准备了出场音乐</text></navLabel>
+<content src="chapter216.html"/>
+</navPoint>
+
+<navPoint id="chapter217" playOrder="220">
+<navLabel><text>第二百一十七章 表面四万，实际……</text></navLabel>
+<content src="chapter217.html"/>
+</navPoint>
+
+<navPoint id="chapter218" playOrder="221">
+<navLabel><text>第二百一十八章 九转丹入底牌库！</text></navLabel>
+<content src="chapter218.html"/>
+</navPoint>
+
+<navPoint id="chapter219" playOrder="222">
+<navLabel><text>第二百一十九章 谁还没骂过玉帝？</text></navLabel>
+<content src="chapter219.html"/>
+</navPoint>
+
+<navPoint id="chapter220" playOrder="223">
+<navLabel><text>第二百二十章 一剂猛药</text></navLabel>
+<content src="chapter220.html"/>
+</navPoint>
+
+<navPoint id="chapter221" playOrder="224">
+<navLabel><text>第二百二十一章 天道迷惑行为小赏</text></navLabel>
+<content src="chapter221.html"/>
+</navPoint>
+
+<navPoint id="chapter222" playOrder="225">
+<navLabel><text>第二百二十二章 《嘿嘿》</text></navLabel>
+<content src="chapter222.html"/>
+</navPoint>
+
+<navPoint id="chapter223" playOrder="226">
+<navLabel><text>第二百二十三章 你们要找的是海神，关我……</text></navLabel>
+<content src="chapter223.html"/>
+</navPoint>
+
+<navPoint id="chapter224" playOrder="227">
+<navLabel><text>第二百二十四章 寿之毒舌初体验</text></navLabel>
+<content src="chapter224.html"/>
+</navPoint>
+
+<navPoint id="chapter225" playOrder="228">
+<navLabel><text>第二百二十五章 我富贵儿不配拥有道侣！</text></navLabel>
+<content src="chapter225.html"/>
+</navPoint>
+
+<navPoint id="chapter226" playOrder="229">
+<navLabel><text>第二百二十六章 风评被害</text></navLabel>
+<content src="chapter226.html"/>
+</navPoint>
+
+<navPoint id="chapter227" playOrder="230">
+<navLabel><text>第二百二十七章 赵大爷的……迷妹？</text></navLabel>
+<content src="chapter227.html"/>
+</navPoint>
+
+<navPoint id="chapter228" playOrder="231">
+<navLabel><text>第二百二十八章 被盯之寿</text></navLabel>
+<content src="chapter228.html"/>
+</navPoint>
+
+<navPoint id="chapter229" playOrder="232">
+<navLabel><text>第二百二十九章 狡兔三&#183;&#183;&#183;窟</text></navLabel>
+<content src="chapter229.html"/>
+</navPoint>
+
+<navPoint id="chapter230" playOrder="233">
+<navLabel><text>第二百三十章 要做一个出色的女王大人哟</text></navLabel>
+<content src="chapter230.html"/>
+</navPoint>
+
+<navPoint id="chapter231" playOrder="234">
+<navLabel><text>第二百三十一章 天劫热</text></navLabel>
+<content src="chapter231.html"/>
+</navPoint>
+
+<navPoint id="chapter232" playOrder="235">
+<navLabel><text>第二百三十二章 道友，你听说过南海海神吗（貮）</text></navLabel>
+<content src="chapter232.html"/>
+</navPoint>
+
+<navPoint id="chapter233" playOrder="236">
+<navLabel><text>第二百三十三章 度（人）仙（教）小月老</text></navLabel>
+<content src="chapter233.html"/>
+</navPoint>
+
+<navPoint id="chapter234" playOrder="237">
+<navLabel><text>第二百三十四章 令寿脱发</text></navLabel>
+<content src="chapter234.html"/>
+</navPoint>
+
+<navPoint id="chapter235" playOrder="238">
+<navLabel><text>第二百三十五章 怪他……过分主动</text></navLabel>
+<content src="chapter235.html"/>
+</navPoint>
+
+<navPoint id="chapter236" playOrder="239">
+<navLabel><text>第二百三十六章 前方到站，幽冥东</text></navLabel>
+<content src="chapter236.html"/>
+</navPoint>
+
+<navPoint id="chapter237" playOrder="240">
+<navLabel><text>第二百三十七章 小鬼难缠</text></navLabel>
+<content src="chapter237.html"/>
+</navPoint>
+
+<navPoint id="chapter238" playOrder="241">
+<navLabel><text>第二百三十八章 寿之基操小套路</text></navLabel>
+<content src="chapter238.html"/>
+</navPoint>
+
+<navPoint id="chapter239" playOrder="242">
+<navLabel><text>第二百三十九章 营救师伯树！</text></navLabel>
+<content src="chapter239.html"/>
+</navPoint>
+
+<navPoint id="chapter240" playOrder="243">
+<navLabel><text>第二百四十章 传统艺能</text></navLabel>
+<content src="chapter240.html"/>
+</navPoint>
+
+<navPoint id="chapter241" playOrder="244">
+<navLabel><text>第二百四十一章 小琼峰上添新口</text></navLabel>
+<content src="chapter241.html"/>
+</navPoint>
+
+<navPoint id="chapter242" playOrder="245">
+<navLabel><text>第二百四十二章 天庭 玉帝 现状</text></navLabel>
+<content src="chapter242.html"/>
+</navPoint>
+
+<navPoint id="chapter243" playOrder="246">
+<navLabel><text>第二百四十三章 我的一个玉帝朋友</text></navLabel>
+<content src="chapter243.html"/>
+</navPoint>
+
+<navPoint id="chapter244" playOrder="247">
+<navLabel><text>第二百四十四章 即将上天！</text></navLabel>
+<content src="chapter244.html"/>
+</navPoint>
+
+<navPoint id="chapter245" playOrder="248">
+<navLabel><text>第二百四十五章 不愧是你</text></navLabel>
+<content src="chapter245.html"/>
+</navPoint>
+
+<navPoint id="chapter246" playOrder="249">
+<navLabel><text>第二百四十六章 以前吹过的牛，今天……</text></navLabel>
+<content src="chapter246.html"/>
+</navPoint>
+
+<navPoint id="chapter247" playOrder="250">
+<navLabel><text>第二百四十七章 洪荒娱乐新形式</text></navLabel>
+<content src="chapter247.html"/>
+</navPoint>
+
+<navPoint id="chapter248" playOrder="251">
+<navLabel><text>第二百四十八章 封！赏！正神之位！</text></navLabel>
+<content src="chapter248.html"/>
+</navPoint>
+
+<navPoint id="chapter249" playOrder="252">
+<navLabel><text>第二百四十九章 折现行不行？</text></navLabel>
+<content src="chapter249.html"/>
+</navPoint>
+
+<navPoint id="chapter250" playOrder="253">
+<navLabel><text>第二百五十章 人教传统艺能</text></navLabel>
+<content src="chapter250.html"/>
+</navPoint>
+
+<navPoint id="chapter251" playOrder="254">
+<navLabel><text>第二百五十一章 是个好人</text></navLabel>
+<content src="chapter251.html"/>
+</navPoint>
+
+<navPoint id="chapter252" playOrder="255">
+<navLabel><text>第二百五十二章 也就普通权臣待遇</text></navLabel>
+<content src="chapter252.html"/>
+</navPoint>
+
+<navPoint id="chapter253" playOrder="256">
+<navLabel><text>第二百五十三章 治疗昏睡的唯一办法</text></navLabel>
+<content src="chapter253.html"/>
+</navPoint>
+
+<navPoint id="chapter254" playOrder="257">
+<navLabel><text>第二百五十四章 人教六小杰</text></navLabel>
+<content src="chapter254.html"/>
+</navPoint>
+
+<navPoint id="chapter255" playOrder="258">
+<navLabel><text>第二百五十五章 还是原来的配方，还是熟悉的味道</text></navLabel>
+<content src="chapter255.html"/>
+</navPoint>
+
+<navPoint id="chapter256" playOrder="259">
+<navLabel><text>第二百五十六章 套路现场教学</text></navLabel>
+<content src="chapter256.html"/>
+</navPoint>
+
+<navPoint id="chapter257" playOrder="260">
+<navLabel><text>第二百五十七章 送师伯……上路</text></navLabel>
+<content src="chapter257.html"/>
+</navPoint>
+
+<navPoint id="chapter258" playOrder="261">
+<navLabel><text>第二百五十八章 投胎贵宾通道</text></navLabel>
+<content src="chapter258.html"/>
+</navPoint>
+
+<navPoint id="chapter259" playOrder="262">
+<navLabel><text>第二百五十九章 金仙劫倒计时！</text></navLabel>
+<content src="chapter259.html"/>
+</navPoint>
+
+<navPoint id="chapter260" playOrder="263">
+<navLabel><text>第二百六十章 精选渡劫之地（贰）</text></navLabel>
+<content src="chapter260.html"/>
+</navPoint>
+
+<navPoint id="chapter261" playOrder="264">
+<navLabel><text>第二百六十一章 这次确定渡劫？</text></navLabel>
+<content src="chapter261.html"/>
+</navPoint>
+
+<navPoint id="chapter262" playOrder="265">
+<navLabel><text>第二百六十二章 字少事大万灵劫！</text></navLabel>
+<content src="chapter262.html"/>
+</navPoint>
+
+<navPoint id="chapter263" playOrder="266">
+<navLabel><text>第二百六十三章 寿的最强神通！</text></navLabel>
+<content src="chapter263.html"/>
+</navPoint>
+
+<navPoint id="chapter264" playOrder="267">
+<navLabel><text>第二百六十四章 真的，拦都拦不住</text></navLabel>
+<content src="chapter264.html"/>
+</navPoint>
+
+<navPoint id="chapter265" playOrder="268">
+<navLabel><text>第二百六十五章 总有些事难以理解</text></navLabel>
+<content src="chapter265.html"/>
+</navPoint>
+
+<navPoint id="chapter266" playOrder="269">
+<navLabel><text>第二百六十六章 你看这个坑它又大又深</text></navLabel>
+<content src="chapter266.html"/>
+</navPoint>
+
+<navPoint id="chapter267" playOrder="270">
+<navLabel><text>第二百六十七章 保重了，老伙计们</text></navLabel>
+<content src="chapter267.html"/>
+</navPoint>
+
+<navPoint id="chapter268" playOrder="271">
+<navLabel><text>第二百六十八章 洪荒第一场……选秀</text></navLabel>
+<content src="chapter268.html"/>
+</navPoint>
+
+<navPoint id="chapter269" playOrder="272">
+<navLabel><text>第二百六十九章 硬怼是不可能硬怼的</text></navLabel>
+<content src="chapter269.html"/>
+</navPoint>
+
+<navPoint id="chapter270" playOrder="273">
+<navLabel><text>第二百七十章 初‘战’燃灯</text></navLabel>
+<content src="chapter270.html"/>
+</navPoint>
+
+<navPoint id="chapter271" playOrder="274">
+<navLabel><text>第二百七十一章 我需要充实自己！</text></navLabel>
+<content src="chapter271.html"/>
+</navPoint>
+
+<navPoint id="chapter272" playOrder="275">
+<navLabel><text>第二百七十二章 师父，您看这边……</text></navLabel>
+<content src="chapter272.html"/>
+</navPoint>
+
+<navPoint id="chapter273" playOrder="276">
+<navLabel><text>第二百七十三章 护寿使者</text></navLabel>
+<content src="chapter273.html"/>
+</navPoint>
+
+<navPoint id="chapter274" playOrder="277">
+<navLabel><text>第二百七十四章 调料，才是男人的浪漫！</text></navLabel>
+<content src="chapter274.html"/>
+</navPoint>
+
+<navPoint id="chapter275" playOrder="278">
+<navLabel><text>第二百七十五章 上奏凌霄殿，日天亲出征！</text></navLabel>
+<content src="chapter275.html"/>
+</navPoint>
+
+<navPoint id="chapter276" playOrder="279">
+<navLabel><text>第二百七十六章 帅哥你哪位？</text></navLabel>
+<content src="chapter276.html"/>
+</navPoint>
+
+<navPoint id="chapter277" playOrder="280">
+<navLabel><text>第二百七十七章 意外炸出的大鱼</text></navLabel>
+<content src="chapter277.html"/>
+</navPoint>
+
+<navPoint id="chapter278" playOrder="281">
+<navLabel><text>第二百七十八章 对诗之王</text></navLabel>
+<content src="chapter278.html"/>
+</navPoint>
+
+<navPoint id="chapter279" playOrder="282">
+<navLabel><text>第二百七十九章 白衣天帝起杀心</text></navLabel>
+<content src="chapter279.html"/>
+</navPoint>
+
+<navPoint id="chapter280" playOrder="283">
+<navLabel><text>第二百八十章 一切都是……的选择</text></navLabel>
+<content src="chapter280.html"/>
+</navPoint>
+
+<navPoint id="chapter281" playOrder="284">
+<navLabel><text>第二百八十一章 有心寻宝无所得，无心插柳事大了</text></navLabel>
+<content src="chapter281.html"/>
+</navPoint>
+
+<navPoint id="chapter282" playOrder="285">
+<navLabel><text>第二百八十二章 寿……寿儿</text></navLabel>
+<content src="chapter282.html"/>
+</navPoint>
+
+<navPoint id="chapter283" playOrder="286">
+<navLabel><text>第二百八十三章 啊，是寂寞啊……</text></navLabel>
+<content src="chapter283.html"/>
+</navPoint>
+
+<navPoint id="chapter284" playOrder="287">
+<navLabel><text>第二百八十四章 初探火云洞，雪狐问本心</text></navLabel>
+<content src="chapter284.html"/>
+</navPoint>
+
+<navPoint id="chapter285" playOrder="288">
+<navLabel><text>第二百八十五章 关爱退休人皇的和谐生活</text></navLabel>
+<content src="chapter285.html"/>
+</navPoint>
+
+<navPoint id="chapter286" playOrder="289">
+<navLabel><text>第二百八十六章 不拿就是不给我面子喽</text></navLabel>
+<content src="chapter286.html"/>
+</navPoint>
+
+<navPoint id="chapter287" playOrder="290">
+<navLabel><text>第二百八十七章 多谢前辈！</text></navLabel>
+<content src="chapter287.html"/>
+</navPoint>
+
+<navPoint id="chapter288" playOrder="291">
+<navLabel><text>第二百八十八章 漫漫仙研路，步步灵爆生</text></navLabel>
+<content src="chapter288.html"/>
+</navPoint>
+
+<navPoint id="chapter289" playOrder="292">
+<navLabel><text>第二百八十九章 你见过洪荒丑时……会拐弯的天罚神雷吗？</text></navLabel>
+<content src="chapter289.html"/>
+</navPoint>
+
+<navPoint id="chapter290" playOrder="293">
+<navLabel><text>第二百九十章 宝未出世，大佬先来</text></navLabel>
+<content src="chapter290.html"/>
+</navPoint>
+
+<navPoint id="chapter291" playOrder="294">
+<navLabel><text>第二百九十一章 谁还没点个人癖好了！</text></navLabel>
+<content src="chapter291.html"/>
+</navPoint>
+
+<navPoint id="chapter292" playOrder="295">
+<navLabel><text>第二百九十二章 落宝铜钱！</text></navLabel>
+<content src="chapter292.html"/>
+</navPoint>
+
+<navPoint id="chapter293" playOrder="296">
+<navLabel><text>第二百九十三章 又得五行珠，多宝碰燃灯</text></navLabel>
+<content src="chapter293.html"/>
+</navPoint>
+
+<navPoint id="chapter294" playOrder="297">
+<navLabel><text>第二百九十四章 云霄三问退燃灯</text></navLabel>
+<content src="chapter294.html"/>
+</navPoint>
+
+<navPoint id="chapter295" playOrder="298">
+<navLabel><text>第二百九十五章 星夜送万里，灵娥将渡劫</text></navLabel>
+<content src="chapter295.html"/>
+</navPoint>
+
+<navPoint id="chapter296" playOrder="299">
+<navLabel><text>第二百九十六章 九天素灵劫！</text></navLabel>
+<content src="chapter296.html"/>
+</navPoint>
+
+<navPoint id="chapter297" playOrder="300">
+<navLabel><text>第二百九十七章 师兄，我一定……</text></navLabel>
+<content src="chapter297.html"/>
+</navPoint>
+
+<navPoint id="chapter298" playOrder="301">
+<navLabel><text>第二百九十八章 长庚奉旨戏黑豹</text></navLabel>
+<content src="chapter298.html"/>
+</navPoint>
+
+<navPoint id="chapter299" playOrder="302">
+<navLabel><text>第二百九十九章 秘密底牌</text></navLabel>
+<content src="chapter299.html"/>
+</navPoint>
+
+<navPoint id="chapter300" playOrder="303">
+<navLabel><text>第三百章 带着玉帝去钓‘鱼’</text></navLabel>
+<content src="chapter300.html"/>
+</navPoint>
+
+<navPoint id="chapter301" playOrder="304">
+<navLabel><text>第三百零一章 御弟哥哥，你路堵了</text></navLabel>
+<content src="chapter301.html"/>
+</navPoint>
+
+<navPoint id="chapter302" playOrder="305">
+<navLabel><text>第三百零二章 白衣玉帝阐帝心</text></navLabel>
+<content src="chapter302.html"/>
+</navPoint>
+
+<navPoint id="chapter303" playOrder="306">
+<navLabel><text>第三百零三章 玄都游小琼，长寿欲传经</text></navLabel>
+<content src="chapter303.html"/>
+</navPoint>
+
+<navPoint id="chapter304" playOrder="307">
+<navLabel><text>第三百零四章 首先，应有一个小小的计划</text></navLabel>
+<content src="chapter304.html"/>
+</navPoint>
+
+<navPoint id="chapter305" playOrder="308">
+<navLabel><text>第三百零五章 论圣</text></navLabel>
+<content src="chapter305.html"/>
+</navPoint>
+
+<navPoint id="chapter306" playOrder="309">
+<navLabel><text>第三百零六章 暴躁塔爷，在线……</text></navLabel>
+<content src="chapter306.html"/>
+</navPoint>
+
+<navPoint id="chapter307" playOrder="310">
+<navLabel><text>第三百零七章 终极底牌……之一</text></navLabel>
+<content src="chapter307.html"/>
+</navPoint>
+
+<navPoint id="chapter308" playOrder="311">
+<navLabel><text>第三百零八章 初会圣人，寿算金蝉</text></navLabel>
+<content src="chapter308.html"/>
+</navPoint>
+
+<navPoint id="chapter309" playOrder="312">
+<navLabel><text>第三百零九章 收网龙族事，山门寻心魔</text></navLabel>
+<content src="chapter309.html"/>
+</navPoint>
+
+<navPoint id="chapter310" playOrder="313">
+<navLabel><text>第三百一十章 唯有……才可战胜心魔！</text></navLabel>
+<content src="chapter310.html"/>
+</navPoint>
+
+<navPoint id="chapter311" playOrder="314">
+<navLabel><text>第三百一十一章 天帝斩魔剑，江河湖开神！</text></navLabel>
+<content src="chapter311.html"/>
+</navPoint>
+
+<navPoint id="chapter312" playOrder="315">
+<navLabel><text>第三百一十二章 海神，你缺女徒弟不缺？</text></navLabel>
+<content src="chapter312.html"/>
+</navPoint>
+
+<navPoint id="chapter313" playOrder="316">
+<navLabel><text>第三百一十三章 大法师归观，三仙岛送桃</text></navLabel>
+<content src="chapter313.html"/>
+</navPoint>
+
+<navPoint id="chapter314" playOrder="317">
+<navLabel><text>第三百一十四章 三教通吃唯海神！</text></navLabel>
+<content src="chapter314.html"/>
+</navPoint>
+
+<navPoint id="chapter315" playOrder="318">
+<navLabel><text>第三百一十五章 水晶宫中定龙心！</text></navLabel>
+<content src="chapter315.html"/>
+</navPoint>
+
+<navPoint id="chapter316" playOrder="319">
+<navLabel><text>第三百一十六章 你这瓜，它保熟吗？</text></navLabel>
+<content src="chapter316.html"/>
+</navPoint>
+
+<navPoint id="chapter317" playOrder="320">
+<navLabel><text>第三百一十七章 要啥灵兽？你要啥灵兽！</text></navLabel>
+<content src="chapter317.html"/>
+</navPoint>
+
+<navPoint id="chapter318" playOrder="321">
+<navLabel><text>第三百一十八章 小琼峰长寿散桃，三仙岛仙子疑心</text></navLabel>
+<content src="chapter318.html"/>
+</navPoint>
+
+<navPoint id="chapter319" playOrder="322">
+<navLabel><text>第三百一十九章 教主迷惑行为</text></navLabel>
+<content src="chapter319.html"/>
+</navPoint>
+
+<navPoint id="chapter320" playOrder="323">
+<navLabel><text>第三百二十章 今我来之，君何所思？今你所来，解我所思。</text></navLabel>
+<content src="chapter320.html"/>
+</navPoint>
+
+<navPoint id="chapter321" playOrder="324">
+<navLabel><text>第三百二十一章 截教，多保重啊</text></navLabel>
+<content src="chapter321.html"/>
+</navPoint>
+
+<navPoint id="chapter322" playOrder="325">
+<navLabel><text>第三百二十二章 蟠桃宴在即，长寿谋封神！</text></navLabel>
+<content src="chapter322.html"/>
+</navPoint>
+
+<navPoint id="chapter323" playOrder="326">
+<navLabel><text>第三百二十三章 天庭自此兴！</text></navLabel>
+<content src="chapter323.html"/>
+</navPoint>
+
+<navPoint id="chapter324" playOrder="327">
+<navLabel><text>第三百二十四章 仙生不过一场戏</text></navLabel>
+<content src="chapter324.html"/>
+</navPoint>
+
+<navPoint id="chapter325" playOrder="328">
+<navLabel><text>第三百二十五章 西方圣人的面皮，今日由我海神来守护！</text></navLabel>
+<content src="chapter325.html"/>
+</navPoint>
+
+<navPoint id="chapter326" playOrder="329">
+<navLabel><text>第三百二十六章 蟠桃宴长庚晋三，收龙族四海奉天！</text></navLabel>
+<content src="chapter326.html"/>
+</navPoint>
+
+<navPoint id="chapter327" playOrder="330">
+<navLabel><text>第三百二十七章 寿之危机感</text></navLabel>
+<content src="chapter327.html"/>
+</navPoint>
+
+<navPoint id="chapter328" playOrder="331">
+<navLabel><text>第三百二十八章 养师妹百岁，用……</text></navLabel>
+<content src="chapter328.html"/>
+</navPoint>
+
+<navPoint id="chapter329" playOrder="332">
+<navLabel><text>第三百二十九章 想在天庭有块地，再跟老君做邻居</text></navLabel>
+<content src="chapter329.html"/>
+</navPoint>
+
+<navPoint id="chapter330" playOrder="333">
+<navLabel><text>第三百三十章 雷厉风行真天帝！</text></navLabel>
+<content src="chapter330.html"/>
+</navPoint>
+
+<navPoint id="chapter331" playOrder="334">
+<navLabel><text>第三百三十一章 是你，李！</text></navLabel>
+<content src="chapter331.html"/>
+</navPoint>
+
+<navPoint id="chapter332" playOrder="335">
+<navLabel><text>第三百三十二章 《安排》：从修行到上天</text></navLabel>
+<content src="chapter332.html"/>
+</navPoint>
+
+<navPoint id="chapter333" playOrder="336">
+<navLabel><text>第三百三十三章 放心，守口如瓶！</text></navLabel>
+<content src="chapter333.html"/>
+</navPoint>
+
+<navPoint id="chapter334" playOrder="337">
+<navLabel><text>第三百三十四章 跨服交流</text></navLabel>
+<content src="chapter334.html"/>
+</navPoint>
+
+<navPoint id="chapter335" playOrder="338">
+<navLabel><text>第三百三十五章 输人不输阵！</text></navLabel>
+<content src="chapter335.html"/>
+</navPoint>
+
+<navPoint id="chapter336" playOrder="339">
+<navLabel><text>第三百三十六章 西海事起，仙子相随</text></navLabel>
+<content src="chapter336.html"/>
+</navPoint>
+
+<navPoint id="chapter337" playOrder="340">
+<navLabel><text>第三百三十七章 没有人比我更懂［拖延时间］</text></navLabel>
+<content src="chapter337.html"/>
+</navPoint>
+
+<navPoint id="chapter338" playOrder="341">
+<navLabel><text>第三百三十八章 天庭文官，不善斗法</text></navLabel>
+<content src="chapter338.html"/>
+</navPoint>
+
+<navPoint id="chapter339" playOrder="342">
+<navLabel><text>第三百三十九章 洪荒最强助攻王！</text></navLabel>
+<content src="chapter339.html"/>
+</navPoint>
+
+<navPoint id="chapter340" playOrder="343">
+<navLabel><text>第三百四十章 凑巧路过</text></navLabel>
+<content src="chapter340.html"/>
+</navPoint>
+
+<navPoint id="chapter341" playOrder="344">
+<navLabel><text>第三百四十一章 寿算有时穷，龙族劫当头！</text></navLabel>
+<content src="chapter341.html"/>
+</navPoint>
+
+<navPoint id="chapter342" playOrder="345">
+<navLabel><text>第三百四十二章 愿，为苍生顾！</text></navLabel>
+<content src="chapter342.html"/>
+</navPoint>
+
+<navPoint id="chapter343" playOrder="346">
+<navLabel><text>第三百四十三章 不当人的快乐</text></navLabel>
+<content src="chapter343.html"/>
+</navPoint>
+
+<navPoint id="chapter344" playOrder="347">
+<navLabel><text>第三百四十四章 初闻敌名</text></navLabel>
+<content src="chapter344.html"/>
+</navPoint>
+
+<navPoint id="chapter345" playOrder="348">
+<navLabel><text>第三百四十五章 守口如瓶（这玩意还有续集）</text></navLabel>
+<content src="chapter345.html"/>
+</navPoint>
+
+<navPoint id="chapter346" playOrder="349">
+<navLabel><text>第三百四十六章 洪荒治……哪家强！</text></navLabel>
+<content src="chapter346.html"/>
+</navPoint>
+
+<navPoint id="chapter347" playOrder="350">
+<navLabel><text>第三百四十七章 君子报仇，不用太晚</text></navLabel>
+<content src="chapter347.html"/>
+</navPoint>
+
+<navPoint id="chapter348" playOrder="351">
+<navLabel><text>第三百四十八章 阐截双教中洲对，灵山独坐暗忧心</text></navLabel>
+<content src="chapter348.html"/>
+</navPoint>
+
+<navPoint id="chapter349" playOrder="352">
+<navLabel><text>第三百四十九章 三教众仙上灵山！</text></navLabel>
+<content src="chapter349.html"/>
+</navPoint>
+
+<navPoint id="chapter350" playOrder="353">
+<navLabel><text>第三百五十章 寿，面都不露</text></navLabel>
+<content src="chapter350.html"/>
+</navPoint>
+
+<navPoint id="chapter351" playOrder="354">
+<navLabel><text>第三百五十一章 就你叫七宝妙树啊！</text></navLabel>
+<content src="chapter351.html"/>
+</navPoint>
+
+<navPoint id="chapter352" playOrder="355">
+<navLabel><text>第三百五十二章 一点【小】事</text></navLabel>
+<content src="chapter352.html"/>
+</navPoint>
+
+<navPoint id="chapter353" playOrder="356">
+<navLabel><text>第三百五十三章 阴阳未定</text></navLabel>
+<content src="chapter353.html"/>
+</navPoint>
+
+<navPoint id="chapter354" playOrder="357">
+<navLabel><text>第三百五十四章 三步一疗程</text></navLabel>
+<content src="chapter354.html"/>
+</navPoint>
+
+<navPoint id="chapter355" playOrder="358">
+<navLabel><text>第三百五十五章 倩女幽魂</text></navLabel>
+<content src="chapter355.html"/>
+</navPoint>
+
+<navPoint id="chapter356" playOrder="359">
+<navLabel><text>第三百五十六章 其实可以有</text></navLabel>
+<content src="chapter356.html"/>
+</navPoint>
+
+<navPoint id="chapter357" playOrder="360">
+<navLabel><text>第三百五十七章 妇科妙手唯水神</text></navLabel>
+<content src="chapter357.html"/>
+</navPoint>
+
+<navPoint id="chapter358" playOrder="361">
+<navLabel><text>第三百五十八章 地下妖穴，巫魂之剑！</text></navLabel>
+<content src="chapter358.html"/>
+</navPoint>
+
+<navPoint id="chapter359" playOrder="362">
+<navLabel><text>第三百五十九章 长寿算妖，乐儿助阵！</text></navLabel>
+<content src="chapter359.html"/>
+</navPoint>
+
+<navPoint id="chapter360" playOrder="363">
+<navLabel><text>第三百六十章 覆妖运之战！</text></navLabel>
+<content src="chapter360.html"/>
+</navPoint>
+
+<navPoint id="chapter361" playOrder="364">
+<navLabel><text>第三百六十一章 趁寿之危</text></navLabel>
+<content src="chapter361.html"/>
+</navPoint>
+
+<navPoint id="chapter362" playOrder="365">
+<navLabel><text>第三百六十二章 圣母宫中拜圣母</text></navLabel>
+<content src="chapter362.html"/>
+</navPoint>
+
+<navPoint id="chapter363" playOrder="366">
+<navLabel><text>第三百六十三章 女娲三问</text></navLabel>
+<content src="chapter363.html"/>
+</navPoint>
+
+<navPoint id="chapter364" playOrder="367">
+<navLabel><text>第三百六十四章 池边女神</text></navLabel>
+<content src="chapter364.html"/>
+</navPoint>
+
+<navPoint id="chapter365" playOrder="368">
+<navLabel><text>第三百六十五章 寿的决心寿的道</text></navLabel>
+<content src="chapter365.html"/>
+</navPoint>
+
+<navPoint id="chapter366" playOrder="369">
+<navLabel><text>第三百六十六章 齐源的奇妙冒险</text></navLabel>
+<content src="chapter366.html"/>
+</navPoint>
+
+<navPoint id="chapter367" playOrder="370">
+<navLabel><text>第三百六十七章 人生必须经历的一课</text></navLabel>
+<content src="chapter367.html"/>
+</navPoint>
+
+<navPoint id="chapter368" playOrder="371">
+<navLabel><text>第三百六十八章 小算计，大报复</text></navLabel>
+<content src="chapter368.html"/>
+</navPoint>
+
+<navPoint id="chapter369" playOrder="372">
+<navLabel><text>第三百六十九章 神珠对神光，公明遇孔宣</text></navLabel>
+<content src="chapter369.html"/>
+</navPoint>
+
+<navPoint id="chapter370" playOrder="373">
+<navLabel><text>第三百七十章 人教师弟，在线助攻</text></navLabel>
+<content src="chapter370.html"/>
+</navPoint>
+
+<navPoint id="chapter371" playOrder="374">
+<navLabel><text>第三百七十一章 仙子点寿</text></navLabel>
+<content src="chapter371.html"/>
+</navPoint>
+
+<navPoint id="chapter372" playOrder="375">
+<navLabel><text>第三百七十二章 有些人，走着走着……路窄了</text></navLabel>
+<content src="chapter372.html"/>
+</navPoint>
+
+<navPoint id="chapter373" playOrder="376">
+<navLabel><text>第三百七十三章 狩猎水神</text></navLabel>
+<content src="chapter373.html"/>
+</navPoint>
+
+<navPoint id="chapter374" playOrder="377">
+<navLabel><text>第三百七十四章 地藏道友诚不欺我</text></navLabel>
+<content src="chapter374.html"/>
+</navPoint>
+
+<navPoint id="chapter375" playOrder="378">
+<navLabel><text>第三百七十五章 天庭文官战力参考</text></navLabel>
+<content src="chapter375.html"/>
+</navPoint>
+
+<navPoint id="chapter376" playOrder="379">
+<navLabel><text>第三百七十六章 我水神，绝对没跟地藏合作</text></navLabel>
+<content src="chapter376.html"/>
+</navPoint>
+
+<navPoint id="chapter377" playOrder="380">
+<navLabel><text>第三百七十七章 她只是我的妹妹……</text></navLabel>
+<content src="chapter377.html"/>
+</navPoint>
+
+<navPoint id="chapter378" playOrder="381">
+<navLabel><text>第三百七十八章 纯阳枯木初逢春</text></navLabel>
+<content src="chapter378.html"/>
+</navPoint>
+
+<navPoint id="chapter379" playOrder="382">
+<navLabel><text>第三百七十九章 玉帝的烦心事</text></navLabel>
+<content src="chapter379.html"/>
+</navPoint>
+
+<navPoint id="chapter380" playOrder="383">
+<navLabel><text>第三百八十章 《普通》</text></navLabel>
+<content src="chapter380.html"/>
+</navPoint>
+
+<navPoint id="chapter381" playOrder="384">
+<navLabel><text>第三百八十一章 守护！巫族最‘温柔’的祖！</text></navLabel>
+<content src="chapter381.html"/>
+</navPoint>
+
+<navPoint id="chapter382" playOrder="385">
+<navLabel><text>第三百八十二章 王母之罚，玉帝之辛</text></navLabel>
+<content src="chapter382.html"/>
+</navPoint>
+
+<navPoint id="chapter383" playOrder="386">
+<navLabel><text>第三百八十三章 虽只是修得浊仙……</text></navLabel>
+<content src="chapter383.html"/>
+</navPoint>
+
+<navPoint id="chapter384" playOrder="387">
+<navLabel><text>第三百八十四章 对战士最佳的奖赏，就是……</text></navLabel>
+<content src="chapter384.html"/>
+</navPoint>
+
+<navPoint id="chapter385" playOrder="388">
+<navLabel><text>第三百八十五章 商【上】</text></navLabel>
+<content src="chapter385.html"/>
+</navPoint>
+
+<navPoint id="chapter386" playOrder="389">
+<navLabel><text>第三百八十六章 师兄，保重</text></navLabel>
+<content src="chapter386.html"/>
+</navPoint>
+
+<navPoint id="chapter387" playOrder="390">
+<navLabel><text>第三百八十七章 《支援》</text></navLabel>
+<content src="chapter387.html"/>
+</navPoint>
+
+<navPoint id="chapter388" playOrder="391">
+<navLabel><text>第三百八十八章 给我……个面子！</text></navLabel>
+<content src="chapter388.html"/>
+</navPoint>
+
+<navPoint id="chapter389" playOrder="392">
+<navLabel><text>第三百八十九章 商【下】</text></navLabel>
+<content src="chapter389.html"/>
+</navPoint>
+
+<navPoint id="chapter390" playOrder="393">
+<navLabel><text>第三百九十章 一顿小酒</text></navLabel>
+<content src="chapter390.html"/>
+</navPoint>
+
+<navPoint id="chapter391" playOrder="394">
+<navLabel><text>第三百九十一章 与太清圣人的对话</text></navLabel>
+<content src="chapter391.html"/>
+</navPoint>
+
+<navPoint id="chapter392" playOrder="395">
+<navLabel><text>第三百九十二章 来自地府深处的求援</text></navLabel>
+<content src="chapter392.html"/>
+</navPoint>
+
+<navPoint id="chapter393" playOrder="396">
+<navLabel><text>第三百九十三章 圣母宫中得秘闻</text></navLabel>
+<content src="chapter393.html"/>
+</navPoint>
+
+<navPoint id="chapter394" playOrder="397">
+<navLabel><text>第三百九十四章 悲伤，辣么大</text></navLabel>
+<content src="chapter394.html"/>
+</navPoint>
+
+<navPoint id="chapter395" playOrder="398">
+<navLabel><text>第三百九十五章 解开枷锁之欲</text></navLabel>
+<content src="chapter395.html"/>
+</navPoint>
+
+<navPoint id="chapter396" playOrder="399">
+<navLabel><text>第三百九十六章 天克</text></navLabel>
+<content src="chapter396.html"/>
+</navPoint>
+
+<navPoint id="chapter397" playOrder="400">
+<navLabel><text>第三百九十七章 高手，我们需要大量的高手</text></navLabel>
+<content src="chapter397.html"/>
+</navPoint>
+
+<navPoint id="chapter398" playOrder="401">
+<navLabel><text>第三百九十八章 豪华阵容</text></navLabel>
+<content src="chapter398.html"/>
+</navPoint>
+
+<navPoint id="chapter399" playOrder="402">
+<navLabel><text>第三百九十九章 专业团队</text></navLabel>
+<content src="chapter399.html"/>
+</navPoint>
+
+<navPoint id="chapter400" playOrder="403">
+<navLabel><text>第四百章 后土&#183;七情</text></navLabel>
+<content src="chapter400.html"/>
+</navPoint>
+
+<navPoint id="chapter401" playOrder="404">
+<navLabel><text>第四百零一章 八九玄功</text></navLabel>
+<content src="chapter401.html"/>
+</navPoint>
+
+<navPoint id="chapter402" playOrder="405">
+<navLabel><text>第四百零二章 长寿归山，黑豹探友</text></navLabel>
+<content src="chapter402.html"/>
+</navPoint>
+
+<navPoint id="chapter403" playOrder="406">
+<navLabel><text>第四百零三章 《整活》</text></navLabel>
+<content src="chapter403.html"/>
+</navPoint>
+
+<navPoint id="chapter404" playOrder="407">
+<navLabel><text>第四百零四章 无为</text></navLabel>
+<content src="chapter404.html"/>
+</navPoint>
+
+<navPoint id="chapter405" playOrder="408">
+<navLabel><text>第四百零五章 某神兽：我与水神单方面神交已久</text></navLabel>
+<content src="chapter405.html"/>
+</navPoint>
+
+<navPoint id="chapter406" playOrder="409">
+<navLabel><text>第四百零六章 当真要与天庭斗？</text></navLabel>
+<content src="chapter406.html"/>
+</navPoint>
+
+<navPoint id="chapter407" playOrder="410">
+<navLabel><text>第四百零七章 大法师的重礼</text></navLabel>
+<content src="chapter407.html"/>
+</navPoint>
+
+<navPoint id="chapter408" playOrder="411">
+<navLabel><text>第四百零八章 曾有十万魔，踏天破妖庭</text></navLabel>
+<content src="chapter408.html"/>
+</navPoint>
+
+<navPoint id="chapter409" playOrder="412">
+<navLabel><text>第四百零九章 必须承认，这里面有赌的成分</text></navLabel>
+<content src="chapter409.html"/>
+</navPoint>
+
+<navPoint id="chapter410" playOrder="413">
+<navLabel><text>第四百一十章 迫害瑞兽哪家强</text></navLabel>
+<content src="chapter410.html"/>
+</navPoint>
+
+<navPoint id="chapter411" playOrder="414">
+<navLabel><text>第四百一十一章 黑池之论</text></navLabel>
+<content src="chapter411.html"/>
+</navPoint>
+
+<navPoint id="chapter412" playOrder="415">
+<navLabel><text>第四百一十二章 《白给》</text></navLabel>
+<content src="chapter412.html"/>
+</navPoint>
+
+<navPoint id="chapter413" playOrder="416">
+<navLabel><text>第四百一十三章 如此灵珠子</text></navLabel>
+<content src="chapter413.html"/>
+</navPoint>
+
+<navPoint id="chapter414" playOrder="417">
+<navLabel><text>第四百一十四章 这孩子，连闯祸都不会！</text></navLabel>
+<content src="chapter414.html"/>
+</navPoint>
+
+<navPoint id="chapter415" playOrder="418">
+<navLabel><text>第四百一十五章 白泽初显威，西方再施算</text></navLabel>
+<content src="chapter415.html"/>
+</navPoint>
+
+<navPoint id="chapter416" playOrder="419">
+<navLabel><text>第四百一十六章 正道之光！</text></navLabel>
+<content src="chapter416.html"/>
+</navPoint>
+
+<navPoint id="chapter417" playOrder="420">
+<navLabel><text>第四百一十七章 降临</text></navLabel>
+<content src="chapter417.html"/>
+</navPoint>
+
+<navPoint id="chapter418" playOrder="421">
+<navLabel><text>第四百一十八章 战金乌！</text></navLabel>
+<content src="chapter418.html"/>
+</navPoint>
+
+<navPoint id="chapter419" playOrder="422">
+<navLabel><text>第四百一十九章 云公子登门</text></navLabel>
+<content src="chapter419.html"/>
+</navPoint>
+
+<navPoint id="chapter420" playOrder="423">
+<navLabel><text>第四百二十章 这仗怎么打！</text></navLabel>
+<content src="chapter420.html"/>
+</navPoint>
+
+<navPoint id="chapter421" playOrder="424">
+<navLabel><text>第四百二十一章 灵霄会</text></navLabel>
+<content src="chapter421.html"/>
+</navPoint>
+
+<navPoint id="chapter422" playOrder="425">
+<navLabel><text>第四百二十二章 诛仙四剑图</text></navLabel>
+<content src="chapter422.html"/>
+</navPoint>
+
+<navPoint id="chapter423" playOrder="426">
+<navLabel><text>第四百二十三章 时间管理</text></navLabel>
+<content src="chapter423.html"/>
+</navPoint>
+
+<navPoint id="chapter424" playOrder="427">
+<navLabel><text>第四百二十四章 灵娥下山</text></navLabel>
+<content src="chapter424.html"/>
+</navPoint>
+
+<navPoint id="chapter425" playOrder="428">
+<navLabel><text>第四百二十五章 赏罚分明</text></navLabel>
+<content src="chapter425.html"/>
+</navPoint>
+
+<navPoint id="chapter426" playOrder="429">
+<navLabel><text>第四百二十六章 暂离五部洲</text></navLabel>
+<content src="chapter426.html"/>
+</navPoint>
+
+<navPoint id="chapter427" playOrder="430">
+<navLabel><text>第四百二十七章 人小鬼大</text></navLabel>
+<content src="chapter427.html"/>
+</navPoint>
+
+<navPoint id="chapter428" playOrder="431">
+<navLabel><text>第四百二十八章 王母与玉帝</text></navLabel>
+<content src="chapter428.html"/>
+</navPoint>
+
+<navPoint id="chapter429" playOrder="432">
+<navLabel><text>第四百二十九章 天外之魔</text></navLabel>
+<content src="chapter429.html"/>
+</navPoint>
+
+<navPoint id="chapter430" playOrder="433">
+<navLabel><text>第四百三十章 丢人谛听，在线求生</text></navLabel>
+<content src="chapter430.html"/>
+</navPoint>
+
+<navPoint id="chapter431" playOrder="434">
+<navLabel><text>第四百三十一章 天魔的心声</text></navLabel>
+<content src="chapter431.html"/>
+</navPoint>
+
+<navPoint id="chapter432" playOrder="435">
+<navLabel><text>第四百三十二章 你追我、你追到我……</text></navLabel>
+<content src="chapter432.html"/>
+</navPoint>
+
+<navPoint id="chapter433" playOrder="436">
+<navLabel><text>第四百三十三章 娥归山</text></navLabel>
+<content src="chapter433.html"/>
+</navPoint>
+
+<navPoint id="chapter434" playOrder="437">
+<navLabel><text>第四百三十四章 有铭与凝霜</text></navLabel>
+<content src="chapter434.html"/>
+</navPoint>
+
+<navPoint id="chapter435" playOrder="438">
+<navLabel><text>第四百三十五章 劫运初起</text></navLabel>
+<content src="chapter435.html"/>
+</navPoint>
+
+<navPoint id="chapter436" playOrder="439">
+<navLabel><text>第四百三十六章 战北洲！（上）</text></navLabel>
+<content src="chapter436.html"/>
+</navPoint>
+
+<navPoint id="chapter437" playOrder="440">
+<navLabel><text>第四百三十七章 万、物、均、衡！</text></navLabel>
+<content src="chapter437.html"/>
+</navPoint>
+
+<navPoint id="chapter438" playOrder="441">
+<navLabel><text>第四百三十八章 玉帝：这特么心态崩了啊</text></navLabel>
+<content src="chapter438.html"/>
+</navPoint>
+
+<navPoint id="chapter439" playOrder="442">
+<navLabel><text>第四百三十九章 长寿定道算西方，玉帝一怒启封神！</text></navLabel>
+<content src="chapter439.html"/>
+</navPoint>
+
+<navPoint id="chapter440" playOrder="443">
+<navLabel><text>第四百四十章 不，你不快乐</text></navLabel>
+<content src="chapter440.html"/>
+</navPoint>
+
+<navPoint id="chapter441" playOrder="444">
+<navLabel><text>第四百四十一章 三百嫦娥总教习</text></navLabel>
+<content src="chapter441.html"/>
+</navPoint>
+
+<navPoint id="chapter442" playOrder="445">
+<navLabel><text>第四百四十二章 凌霄殿谈劫，水神庙说难</text></navLabel>
+<content src="chapter442.html"/>
+</navPoint>
+
+<navPoint id="chapter443" playOrder="446">
+<navLabel><text>第四百四十三章 云霄醉酒</text></navLabel>
+<content src="chapter443.html"/>
+</navPoint>
+
+<navPoint id="chapter444" playOrder="447">
+<navLabel><text>第四百四十四章 斩仙飞刀&#183;拆解教程</text></navLabel>
+<content src="chapter444.html"/>
+</navPoint>
+
+<navPoint id="chapter445" playOrder="448">
+<navLabel><text>第四百四十五章 天庭再起兵，水神掌杀名！</text></navLabel>
+<content src="chapter445.html"/>
+</navPoint>
+
+<navPoint id="chapter446" playOrder="449">
+<navLabel><text>第四百四十六章 战北洲！（下）</text></navLabel>
+<content src="chapter446.html"/>
+</navPoint>
+
+<navPoint id="chapter447" playOrder="450">
+<navLabel><text>第四百四十七章 区区月宫</text></navLabel>
+<content src="chapter447.html"/>
+</navPoint>
+
+<navPoint id="chapter448" playOrder="451">
+<navLabel><text>第四百四十八章 水神闯月宫，玉兔险被炖</text></navLabel>
+<content src="chapter448.html"/>
+</navPoint>
+
+<navPoint id="chapter449" playOrder="452">
+<navLabel><text>第四百四十九章 长寿暗渡陈仓，云华仙子思凡</text></navLabel>
+<content src="chapter449.html"/>
+</navPoint>
+
+<navPoint id="chapter450" playOrder="453">
+<navLabel><text>第四百五十章 五字杀仙翁</text></navLabel>
+<content src="chapter450.html"/>
+</navPoint>
+
+<navPoint id="chapter451" playOrder="454">
+<navLabel><text>第四百五十一章 一点，小底牌</text></navLabel>
+<content src="chapter451.html"/>
+</navPoint>
+
+<navPoint id="chapter452" playOrder="455">
+<navLabel><text>第四百五十二章 一点点，小反击</text></navLabel>
+<content src="chapter452.html"/>
+</navPoint>
+
+<navPoint id="chapter453" playOrder="456">
+<navLabel><text>第四百五十三章 女仙的好胜心</text></navLabel>
+<content src="chapter453.html"/>
+</navPoint>
+
+<navPoint id="chapter454" playOrder="457">
+<navLabel><text>第四百五十四章 如此广寒</text></navLabel>
+<content src="chapter454.html"/>
+</navPoint>
+
+<navPoint id="chapter455" playOrder="458">
+<navLabel><text>第四百五十五章 姮娥</text></navLabel>
+<content src="chapter455.html"/>
+</navPoint>
+
+<navPoint id="chapter456" playOrder="459">
+<navLabel><text>第四百五十六章 来自【太清】的召唤！</text></navLabel>
+<content src="chapter456.html"/>
+</navPoint>
+
+<navPoint id="chapter457" playOrder="460">
+<navLabel><text>第四百五十七章 太清观中拜太清</text></navLabel>
+<content src="chapter457.html"/>
+</navPoint>
+
+<navPoint id="chapter458" playOrder="461">
+<navLabel><text>第四百五十八章 玄雅入天，寿访玉泉</text></navLabel>
+<content src="chapter458.html"/>
+</navPoint>
+
+<navPoint id="chapter459" playOrder="462">
+<navLabel><text>第四百五十九章 文净报信，卞庄着慌</text></navLabel>
+<content src="chapter459.html"/>
+</navPoint>
+
+<navPoint id="chapter460" playOrder="463">
+<navLabel><text>第四百六十章 棋牌室中定暗殿，天涯秘境遇瘟神</text></navLabel>
+<content src="chapter460.html"/>
+</navPoint>
+
+<navPoint id="chapter461" playOrder="464">
+<navLabel><text>第四百六十一章 初会吕岳</text></navLabel>
+<content src="chapter461.html"/>
+</navPoint>
+
+<navPoint id="chapter462" playOrder="465">
+<navLabel><text>第四百六十二章 瘟神醉酒吹英雄</text></navLabel>
+<content src="chapter462.html"/>
+</navPoint>
+
+<navPoint id="chapter463" playOrder="466">
+<navLabel><text>第四百六十三章 寿化加一</text></navLabel>
+<content src="chapter463.html"/>
+</navPoint>
+
+<navPoint id="chapter464" playOrder="467">
+<navLabel><text>第四百六十四章 洪荒恐怖小故事</text></navLabel>
+<content src="chapter464.html"/>
+</navPoint>
+
+<navPoint id="chapter465" playOrder="468">
+<navLabel><text>第四百六十五章 《娥的使用方法》</text></navLabel>
+<content src="chapter465.html"/>
+</navPoint>
+
+<navPoint id="chapter466" playOrder="469">
+<navLabel><text>第四百六十六章 天道债券持有者</text></navLabel>
+<content src="chapter466.html"/>
+</navPoint>
+
+<navPoint id="chapter467" playOrder="470">
+<navLabel><text>第四百六十七章 阎君之言，临天圣女</text></navLabel>
+<content src="chapter467.html"/>
+</navPoint>
+
+<navPoint id="chapter468" playOrder="471">
+<navLabel><text>第四百六十八章 血海生变</text></navLabel>
+<content src="chapter468.html"/>
+</navPoint>
+
+<navPoint id="chapter469" playOrder="472">
+<navLabel><text>第四百六十九章 稳之召唤！超阶高手团！</text></navLabel>
+<content src="chapter469.html"/>
+</navPoint>
+
+<navPoint id="chapter470" playOrder="473">
+<navLabel><text>第四百七十章 稳健如风，常伴寿身</text></navLabel>
+<content src="chapter470.html"/>
+</navPoint>
+
+<navPoint id="chapter471" playOrder="474">
+<navLabel><text>第四百七十一章 七情首战！</text></navLabel>
+<content src="chapter471.html"/>
+</navPoint>
+
+<navPoint id="chapter472" playOrder="475">
+<navLabel><text>第四百七十二章 讲道理的事，怎能算是冒犯圣人</text></navLabel>
+<content src="chapter472.html"/>
+</navPoint>
+
+<navPoint id="chapter473" playOrder="476">
+<navLabel><text>第四百七十三章 通天教主，在线……</text></navLabel>
+<content src="chapter473.html"/>
+</navPoint>
+
+<navPoint id="chapter474" playOrder="477">
+<navLabel><text>第四百七十四章 寿辩群熊</text></navLabel>
+<content src="chapter474.html"/>
+</navPoint>
+
+<navPoint id="chapter475" playOrder="478">
+<navLabel><text>第四百七十五章 开锣！</text></navLabel>
+<content src="chapter475.html"/>
+</navPoint>
+
+<navPoint id="chapter476" playOrder="479">
+<navLabel><text>第四百七十六章 杀太乙，正道心！</text></navLabel>
+<content src="chapter476.html"/>
+</navPoint>
+
+<navPoint id="chapter477" playOrder="480">
+<navLabel><text>第四百七十七章 元始笑接引，长寿辩地藏</text></navLabel>
+<content src="chapter477.html"/>
+</navPoint>
+
+<navPoint id="chapter478" playOrder="481">
+<navLabel><text>第四百七十八章 三途河现&#183;第二轮回</text></navLabel>
+<content src="chapter478.html"/>
+</navPoint>
+
+<navPoint id="chapter479" playOrder="482">
+<navLabel><text>第四百七十九章 希望人没事</text></navLabel>
+<content src="chapter479.html"/>
+</navPoint>
+
+<navPoint id="chapter480" playOrder="483">
+<navLabel><text>第四百八十章 通天赐宝，后土之请</text></navLabel>
+<content src="chapter480.html"/>
+</navPoint>
+
+<navPoint id="chapter481" playOrder="484">
+<navLabel><text>第四百八十一章 封太白，稳地藏</text></navLabel>
+<content src="chapter481.html"/>
+</navPoint>
+
+<navPoint id="chapter482" playOrder="485">
+<navLabel><text>第四百八十二章 这时，我们再增加一点细节……</text></navLabel>
+<content src="chapter482.html"/>
+</navPoint>
+
+<navPoint id="chapter483" playOrder="486">
+<navLabel><text>第四百八十三章 我师兄这并不惨烈的修罗场</text></navLabel>
+<content src="chapter483.html"/>
+</navPoint>
+
+<navPoint id="chapter484" playOrder="487">
+<navLabel><text>第四百八十四章 寿尽力了</text></navLabel>
+<content src="chapter484.html"/>
+</navPoint>
+
+<navPoint id="chapter485" playOrder="488">
+<navLabel><text>第四百八十五章 灵珠异样，再访广寒</text></navLabel>
+<content src="chapter485.html"/>
+</navPoint>
+
+<navPoint id="chapter486" playOrder="489">
+<navLabel><text>第四百八十六章 昆仑玉虚行</text></navLabel>
+<content src="chapter486.html"/>
+</navPoint>
+
+<navPoint id="chapter487" playOrder="490">
+<navLabel><text>第四百八十七章 仙盟盟主</text></navLabel>
+<content src="chapter487.html"/>
+</navPoint>
+
+<navPoint id="chapter488" playOrder="491">
+<navLabel><text>第四百八十八章 狂鸟金鹏</text></navLabel>
+<content src="chapter488.html"/>
+</navPoint>
+
+<navPoint id="chapter489" playOrder="492">
+<navLabel><text>第四百八十九章 来自仙子的毒打</text></navLabel>
+<content src="chapter489.html"/>
+</navPoint>
+
+<navPoint id="chapter490" playOrder="493">
+<navLabel><text>第四百九十章 水神熬鹰</text></navLabel>
+<content src="chapter490.html"/>
+</navPoint>
+
+<navPoint id="chapter491" playOrder="494">
+<navLabel><text>第四百九十一章 你，悟了吗？</text></navLabel>
+<content src="chapter491.html"/>
+</navPoint>
+
+<navPoint id="chapter492" playOrder="495">
+<navLabel><text>第四百九十二章 仙盟大会前夕</text></navLabel>
+<content src="chapter492.html"/>
+</navPoint>
+
+<navPoint id="chapter493" playOrder="496">
+<navLabel><text>第四百九十三章 长庚稳权！</text></navLabel>
+<content src="chapter493.html"/>
+</navPoint>
+
+<navPoint id="chapter494" playOrder="497">
+<navLabel><text>第四百九十四章 仙凡之辩（上）</text></navLabel>
+<content src="chapter494.html"/>
+</navPoint>
+
+<navPoint id="chapter495" playOrder="498">
+<navLabel><text>第四百九十五章 仙凡之辩（下）</text></navLabel>
+<content src="chapter495.html"/>
+</navPoint>
+
+<navPoint id="chapter496" playOrder="499">
+<navLabel><text>第四百九十六章 毒仙长生劫，第六将访天</text></navLabel>
+<content src="chapter496.html"/>
+</navPoint>
+
+<navPoint id="chapter497" playOrder="500">
+<navLabel><text>第四百九十七章 天道打人了！都看看嗨！</text></navLabel>
+<content src="chapter497.html"/>
+</navPoint>
+
+<navPoint id="chapter498" playOrder="501">
+<navLabel><text>第四百九十八章 白衣玉帝对准提</text></navLabel>
+<content src="chapter498.html"/>
+</navPoint>
+
+<navPoint id="chapter499" playOrder="502">
+<navLabel><text>第四百九十九章 【去】</text></navLabel>
+<content src="chapter499.html"/>
+</navPoint>
+
+<navPoint id="chapter500" playOrder="503">
+<navLabel><text>第五百章 回来了，都回来了！</text></navLabel>
+<content src="chapter500.html"/>
+</navPoint>
+
+<navPoint id="chapter501" playOrder="504">
+<navLabel><text>第五百零一章 风云汇红莲，阐截起暗争</text></navLabel>
+<content src="chapter501.html"/>
+</navPoint>
+
+<navPoint id="chapter502" playOrder="505">
+<navLabel><text>第五百零二章 姐夫~</text></navLabel>
+<content src="chapter502.html"/>
+</navPoint>
+
+<navPoint id="chapter503" playOrder="506">
+<navLabel><text>第五百零三章 有趣的灵魂</text></navLabel>
+<content src="chapter503.html"/>
+</navPoint>
+
+<navPoint id="chapter504" playOrder="507">
+<navLabel><text>第五百零四章 道门，不战之约！</text></navLabel>
+<content src="chapter504.html"/>
+</navPoint>
+
+<navPoint id="chapter505" playOrder="508">
+<navLabel><text>第五百零五章 戮神枪突现！</text></navLabel>
+<content src="chapter505.html"/>
+</navPoint>
+
+<navPoint id="chapter506" playOrder="509">
+<navLabel><text>第五百零六章 最强仙团，在线入梦！</text></navLabel>
+<content src="chapter506.html"/>
+</navPoint>
+
+<navPoint id="chapter507" playOrder="510">
+<navLabel><text>第五百零七章 啊，这春天的气息</text></navLabel>
+<content src="chapter507.html"/>
+</navPoint>
+
+<navPoint id="chapter508" playOrder="511">
+<navLabel><text>第五百零八章 你，并不重要</text></navLabel>
+<content src="chapter508.html"/>
+</navPoint>
+
+<navPoint id="chapter509" playOrder="512">
+<navLabel><text>第五百零九章 芭蕉扇！</text></navLabel>
+<content src="chapter509.html"/>
+</navPoint>
+
+<navPoint id="chapter510" playOrder="513">
+<navLabel><text>第五百一十章 访三清小院，守仙子睡颜</text></navLabel>
+<content src="chapter510.html"/>
+</navPoint>
+
+<navPoint id="chapter511" playOrder="514">
+<navLabel><text>第五百一十一章 惊！截教圣人竟与天庭水神……</text></navLabel>
+<content src="chapter511.html"/>
+</navPoint>
+
+<navPoint id="chapter512" playOrder="515">
+<navLabel><text>第五百一十二章 寿算有时穷</text></navLabel>
+<content src="chapter512.html"/>
+</navPoint>
+
+<navPoint id="chapter513" playOrder="516">
+<navLabel><text>第五百一十三章 洪荒宣传哪家强！</text></navLabel>
+<content src="chapter513.html"/>
+</navPoint>
+
+<navPoint id="chapter514" playOrder="517">
+<navLabel><text>第五百一十四章 毕竟咱不是什么恶神</text></navLabel>
+<content src="chapter514.html"/>
+</navPoint>
+
+<navPoint id="chapter515" playOrder="518">
+<navLabel><text>第五百一十五章 《撑腰》</text></navLabel>
+<content src="chapter515.html"/>
+</navPoint>
+
+<navPoint id="chapter516" playOrder="519">
+<navLabel><text>第五百一十六章 灵娥的完美体验</text></navLabel>
+<content src="chapter516.html"/>
+</navPoint>
+
+<navPoint id="chapter517" playOrder="520">
+<navLabel><text>第五百一十七章 倒霉石矶</text></navLabel>
+<content src="chapter517.html"/>
+</navPoint>
+
+<navPoint id="chapter518" playOrder="521">
+<navLabel><text>第五百一十八章 多宝：我，水神，打钱。</text></navLabel>
+<content src="chapter518.html"/>
+</navPoint>
+
+<navPoint id="chapter519" playOrder="522">
+<navLabel><text>第五百一十九章 多宝怒斥截教仙</text></navLabel>
+<content src="chapter519.html"/>
+</navPoint>
+
+<navPoint id="chapter520" playOrder="523">
+<navLabel><text>第五百二十章 兄弟，你不太对劲</text></navLabel>
+<content src="chapter520.html"/>
+</navPoint>
+
+<navPoint id="chapter521" playOrder="524">
+<navLabel><text>第五百二十一章 我本低调</text></navLabel>
+<content src="chapter521.html"/>
+</navPoint>
+
+<navPoint id="chapter522" playOrder="525">
+<navLabel><text>第五百二十二章 翻译翻译，什么叫惊喜</text></navLabel>
+<content src="chapter522.html"/>
+</navPoint>
+
+<navPoint id="chapter523" playOrder="526">
+<navLabel><text>第五百二十三章 太白宫！太白殿！</text></navLabel>
+<content src="chapter523.html"/>
+</navPoint>
+
+<navPoint id="chapter524" playOrder="527">
+<navLabel><text>第五百二十四章 翻滚吧，暗浪！</text></navLabel>
+<content src="chapter524.html"/>
+</navPoint>
+
+<navPoint id="chapter525" playOrder="528">
+<navLabel><text>第五百二十五章 《人脉》</text></navLabel>
+<content src="chapter525.html"/>
+</navPoint>
+
+<navPoint id="chapter526" playOrder="529">
+<navLabel><text>第五百二十六章 太白敬酒</text></navLabel>
+<content src="chapter526.html"/>
+</navPoint>
+
+<navPoint id="chapter527" playOrder="530">
+<navLabel><text>第五百二十七章 龙吉拜师！</text></navLabel>
+<content src="chapter527.html"/>
+</navPoint>
+
+<navPoint id="chapter528" playOrder="531">
+<navLabel><text>第五百二十八章 太白对</text></navLabel>
+<content src="chapter528.html"/>
+</navPoint>
+
+<navPoint id="chapter529" playOrder="532">
+<navLabel><text>第五百二十九章 做神仙嘛，开心最重要啦</text></navLabel>
+<content src="chapter529.html"/>
+</navPoint>
+
+<navPoint id="chapter530" playOrder="533">
+<navLabel><text>第五百三十章 水漫海神庙</text></navLabel>
+<content src="chapter530.html"/>
+</navPoint>
+
+<navPoint id="chapter531" playOrder="534">
+<navLabel><text>第五百三十一章 长庚修玄体，将赴紫霄宫！</text></navLabel>
+<content src="chapter531.html"/>
+</navPoint>
+
+<navPoint id="chapter532" playOrder="535">
+<navLabel><text>第五百三十二章 长庚剧组，在线……</text></navLabel>
+<content src="chapter532.html"/>
+</navPoint>
+
+<navPoint id="chapter533" playOrder="536">
+<navLabel><text>第五百三十三章 是谁带来，太清的呼唤~</text></navLabel>
+<content src="chapter533.html"/>
+</navPoint>
+
+<navPoint id="chapter534" playOrder="537">
+<navLabel><text>第五百三十四章 《窥圣》</text></navLabel>
+<content src="chapter534.html"/>
+</navPoint>
+
+<navPoint id="chapter535" playOrder="538">
+<navLabel><text>第五百三十五章 六圣齐聚紫霄宫！</text></navLabel>
+<content src="chapter535.html"/>
+</navPoint>
+
+<navPoint id="chapter536" playOrder="539">
+<navLabel><text>第五百三十六章 君臣相声</text></navLabel>
+<content src="chapter536.html"/>
+</navPoint>
+
+<navPoint id="chapter537" playOrder="540">
+<navLabel><text>第五百三十七章 鸿钧的小灶</text></navLabel>
+<content src="chapter537.html"/>
+</navPoint>
+
+<navPoint id="chapter538" playOrder="541">
+<navLabel><text>第五百三十八章 两教在行动</text></navLabel>
+<content src="chapter538.html"/>
+</navPoint>
+
+<navPoint id="chapter539" playOrder="542">
+<navLabel><text>第五百三十九章 真相，只有一个！</text></navLabel>
+<content src="chapter539.html"/>
+</navPoint>
+
+<navPoint id="chapter540" playOrder="543">
+<navLabel><text>第五百四十章 仙子的决心</text></navLabel>
+<content src="chapter540.html"/>
+</navPoint>
+
+<navPoint id="chapter541" playOrder="544">
+<navLabel><text>第五百四十一章 惨&#183;鲲鹏&#183;惨</text></navLabel>
+<content src="chapter541.html"/>
+</navPoint>
+
+<navPoint id="chapter542" playOrder="545">
+<navLabel><text>第五百四十二章 诡术妖师！</text></navLabel>
+<content src="chapter542.html"/>
+</navPoint>
+
+<navPoint id="chapter543" playOrder="546">
+<navLabel><text>第五百四十三章 浪人‘年’记</text></navLabel>
+<content src="chapter543.html"/>
+</navPoint>
+
+<navPoint id="chapter544" playOrder="547">
+<navLabel><text>第五百四十四章 敖乙渡劫闯金仙，小琼峰外起波澜</text></navLabel>
+<content src="chapter544.html"/>
+</navPoint>
+
+<navPoint id="chapter545" playOrder="548">
+<navLabel><text>第五百四十五章 灵山一动，八方来信！</text></navLabel>
+<content src="chapter545.html"/>
+</navPoint>
+
+<navPoint id="chapter546" playOrder="549">
+<navLabel><text>第五百四十六章 弥勒！</text></navLabel>
+<content src="chapter546.html"/>
+</navPoint>
+
+<navPoint id="chapter547" playOrder="550">
+<navLabel><text>第五百四十七章 度仙劫，小琼峰！</text></navLabel>
+<content src="chapter547.html"/>
+</navPoint>
+
+<navPoint id="chapter548" playOrder="551">
+<navLabel><text>第五百四十八章 社会我寿哥</text></navLabel>
+<content src="chapter548.html"/>
+</navPoint>
+
+<navPoint id="chapter549" playOrder="552">
+<navLabel><text>第五百四十九章 ‘宽宏大量’李长庚</text></navLabel>
+<content src="chapter549.html"/>
+</navPoint>
+
+<navPoint id="chapter550" playOrder="553">
+<navLabel><text>第五百五十章 娥生过于艰难；三千世界开战！</text></navLabel>
+<content src="chapter550.html"/>
+</navPoint>
+
+<navPoint id="chapter551" playOrder="554">
+<navLabel><text>第五百五十一章 这拐弯抹角的小天道</text></navLabel>
+<content src="chapter551.html"/>
+</navPoint>
+
+<navPoint id="chapter552" playOrder="555">
+<navLabel><text>第五百五十二章 天魔永不为奴！</text></navLabel>
+<content src="chapter552.html"/>
+</navPoint>
+
+<navPoint id="chapter553" playOrder="556">
+<navLabel><text>第五百五十三章 催更急先锋！</text></navLabel>
+<content src="chapter553.html"/>
+</navPoint>
+
+<navPoint id="chapter554" playOrder="557">
+<navLabel><text>第五百五十四章 弥勒：西方粗话！</text></navLabel>
+<content src="chapter554.html"/>
+</navPoint>
+
+<navPoint id="chapter555" playOrder="558">
+<navLabel><text>第五百五十五章 会云霄，警龙族，对峙西凶</text></navLabel>
+<content src="chapter555.html"/>
+</navPoint>
+
+<navPoint id="chapter556" playOrder="559">
+<navLabel><text>第五百五十六章 洪荒护短第三名</text></navLabel>
+<content src="chapter556.html"/>
+</navPoint>
+
+<navPoint id="chapter557" playOrder="560">
+<navLabel><text>第五百五十七章 杨戬离玉泉，太白谋菩提</text></navLabel>
+<content src="chapter557.html"/>
+</navPoint>
+
+<navPoint id="chapter558" playOrder="561">
+<navLabel><text>第五百五十八章 摘葡萄，抓菩提！</text></navLabel>
+<content src="chapter558.html"/>
+</navPoint>
+
+<navPoint id="chapter559" playOrder="562">
+<navLabel><text>第五百五十九章 幻境种心魔，玉帝啥都懂</text></navLabel>
+<content src="chapter559.html"/>
+</navPoint>
+
+<navPoint id="chapter560" playOrder="563">
+<navLabel><text>第五百六十章 风云日渐起，长庚执小棋</text></navLabel>
+<content src="chapter560.html"/>
+</navPoint>
+
+<navPoint id="chapter561" playOrder="564">
+<navLabel><text>第五百六十一章 伐天&#183;上篇</text></navLabel>
+<content src="chapter561.html"/>
+</navPoint>
+
+<navPoint id="chapter562" playOrder="565">
+<navLabel><text>第五百六十二章 洪荒恶势太白宫</text></navLabel>
+<content src="chapter562.html"/>
+</navPoint>
+
+<navPoint id="chapter563" playOrder="566">
+<navLabel><text>第五百六十三章 天眼！开！</text></navLabel>
+<content src="chapter563.html"/>
+</navPoint>
+
+<navPoint id="chapter564" playOrder="567">
+<navLabel><text>第五百六十四章 二郎砸山太白护，终是听调不听宣</text></navLabel>
+<content src="chapter564.html"/>
+</navPoint>
+
+<navPoint id="chapter565" playOrder="568">
+<navLabel><text>第五百六十五章 末日锦囊&#183;进阶版</text></navLabel>
+<content src="chapter565.html"/>
+</navPoint>
+
+<navPoint id="chapter566" playOrder="569">
+<navLabel><text>第五百六十六章 一波未平一波又起</text></navLabel>
+<content src="chapter566.html"/>
+</navPoint>
+
+<navPoint id="chapter567" playOrder="570">
+<navLabel><text>第五百六十七章 驰援玄都城</text></navLabel>
+<content src="chapter567.html"/>
+</navPoint>
+
+<navPoint id="chapter568" playOrder="571">
+<navLabel><text>第五百六十八章 鲲鹏之邀</text></navLabel>
+<content src="chapter568.html"/>
+</navPoint>
+
+<navPoint id="chapter569" playOrder="572">
+<navLabel><text>第五百六十九章 巨星杨戬！</text></navLabel>
+<content src="chapter569.html"/>
+</navPoint>
+
+<navPoint id="chapter570" playOrder="573">
+<navLabel><text>第五百七十章 圣女醉心遇七情</text></navLabel>
+<content src="chapter570.html"/>
+</navPoint>
+
+<navPoint id="chapter571" playOrder="574">
+<navLabel><text>第五百七十一章 《盘古》</text></navLabel>
+<content src="chapter571.html"/>
+</navPoint>
+
+<navPoint id="chapter572" playOrder="575">
+<navLabel><text>第五百七十二章 这只鲲鹏异常主动</text></navLabel>
+<content src="chapter572.html"/>
+</navPoint>
+
+<navPoint id="chapter573" playOrder="576">
+<navLabel><text>第五百七十三章 天乙开商！</text></navLabel>
+<content src="chapter573.html"/>
+</navPoint>
+
+<navPoint id="chapter574" playOrder="577">
+<navLabel><text>第五百七十四章 天魔……瘸了。</text></navLabel>
+<content src="chapter574.html"/>
+</navPoint>
+
+<navPoint id="chapter575" playOrder="578">
+<navLabel><text>第五百七十五章 良心师弟，在线……</text></navLabel>
+<content src="chapter575.html"/>
+</navPoint>
+
+<navPoint id="chapter576" playOrder="579">
+<navLabel><text>第五百七十六章 师叔谈心，鲲鹏博弈</text></navLabel>
+<content src="chapter576.html"/>
+</navPoint>
+
+<navPoint id="chapter577" playOrder="580">
+<navLabel><text>第五百七十七章 道祖的疑惑</text></navLabel>
+<content src="chapter577.html"/>
+</navPoint>
+
+<navPoint id="chapter578" playOrder="581">
+<navLabel><text>第五百七十八章 进击之娥！</text></navLabel>
+<content src="chapter578.html"/>
+</navPoint>
+
+<navPoint id="chapter579" playOrder="582">
+<navLabel><text>第五百七十九章 燧人火德，大道不熄</text></navLabel>
+<content src="chapter579.html"/>
+</navPoint>
+
+<navPoint id="chapter580" playOrder="583">
+<navLabel><text>第五百八十章 洪荒最强捕鱼天团！</text></navLabel>
+<content src="chapter580.html"/>
+</navPoint>
+
+<navPoint id="chapter581" playOrder="584">
+<navLabel><text>第五百八十一章 这能遇上点意外收获</text></navLabel>
+<content src="chapter581.html"/>
+</navPoint>
+
+<navPoint id="chapter582" playOrder="585">
+<navLabel><text>第五百八十二章 寿战，青结</text></navLabel>
+<content src="chapter582.html"/>
+</navPoint>
+
+<navPoint id="chapter583" playOrder="586">
+<navLabel><text>第五百八十三章 《温柔》</text></navLabel>
+<content src="chapter583.html"/>
+</navPoint>
+
+<navPoint id="chapter584" playOrder="587">
+<navLabel><text>第五百八十四章 呵，九成八</text></navLabel>
+<content src="chapter584.html"/>
+</navPoint>
+
+<navPoint id="chapter585" playOrder="588">
+<navLabel><text>第五百八十五章 驯飞刀，揭战幕！</text></navLabel>
+<content src="chapter585.html"/>
+</navPoint>
+
+<navPoint id="chapter586" playOrder="589">
+<navLabel><text>第五百八十六章 汇风云，鸿蒙紫气引神动</text></navLabel>
+<content src="chapter586.html"/>
+</navPoint>
+
+<navPoint id="chapter587" playOrder="590">
+<navLabel><text>第五百八十七章 正版紫气！</text></navLabel>
+<content src="chapter587.html"/>
+</navPoint>
+
+<navPoint id="chapter588" playOrder="591">
+<navLabel><text>第五百八十八章 太白抗命道祖，云霄执掌青萍！</text></navLabel>
+<content src="chapter588.html"/>
+</navPoint>
+
+<navPoint id="chapter589" playOrder="592">
+<navLabel><text>第五百八十九章 仙子凡心</text></navLabel>
+<content src="chapter589.html"/>
+</navPoint>
+
+<navPoint id="chapter590" playOrder="593">
+<navLabel><text>第五百九十章 鲲鹏心脉，浪之密室！</text></navLabel>
+<content src="chapter590.html"/>
+</navPoint>
+
+<navPoint id="chapter591" playOrder="594">
+<navLabel><text>第五百九十一章 这确定不是什么自闭挑战？</text></navLabel>
+<content src="chapter591.html"/>
+</navPoint>
+
+<navPoint id="chapter592" playOrder="595">
+<navLabel><text>第五百九十二章 天道之门，公明前难</text></navLabel>
+<content src="chapter592.html"/>
+</navPoint>
+
+<navPoint id="chapter593" playOrder="596">
+<navLabel><text>第五百九十三章 危&#183;寿&#183;危</text></navLabel>
+<content src="chapter593.html"/>
+</navPoint>
+
+<navPoint id="chapter594" playOrder="597">
+<navLabel><text>第五百九十四章 再登紫霄宫</text></navLabel>
+<content src="chapter594.html"/>
+</navPoint>
+
+<navPoint id="chapter595" playOrder="598">
+<navLabel><text>第五百九十五章 太白归，天庭动</text></navLabel>
+<content src="chapter595.html"/>
+</navPoint>
+
+<navPoint id="chapter596" playOrder="599">
+<navLabel><text>第五百九十六章 搞一波大的！</text></navLabel>
+<content src="chapter596.html"/>
+</navPoint>
+
+<navPoint id="chapter597" playOrder="600">
+<navLabel><text>第五百九十七章 妲己现身，妖族除名</text></navLabel>
+<content src="chapter597.html"/>
+</navPoint>
+
+<navPoint id="chapter598" playOrder="601">
+<navLabel><text>第五百九十八章 平北妖，稳诈灵山</text></navLabel>
+<content src="chapter598.html"/>
+</navPoint>
+
+<navPoint id="chapter599" playOrder="602">
+<navLabel><text>第五百九十九章 建议改成：后起之秀</text></navLabel>
+<content src="chapter599.html"/>
+</navPoint>
+
+<navPoint id="chapter600" playOrder="603">
+<navLabel><text>第六百章 直面西方圣，太白搜灵山！</text></navLabel>
+<content src="chapter600.html"/>
+</navPoint>
+
+<navPoint id="chapter601" playOrder="604">
+<navLabel><text>第六百零一章 长庚怼文净，东洲现顽石！</text></navLabel>
+<content src="chapter601.html"/>
+</navPoint>
+
+<navPoint id="chapter602" playOrder="605">
+<navLabel><text>第六百零二章 这次一定！</text></navLabel>
+<content src="chapter602.html"/>
+</navPoint>
+
+<navPoint id="chapter603" playOrder="606">
+<navLabel><text>第六百零三章 阐教十二金仙：这特么怎么打</text></navLabel>
+<content src="chapter603.html"/>
+</navPoint>
+
+<navPoint id="chapter604" playOrder="607">
+<navLabel><text>第六百零四章 小仲啊，人不错</text></navLabel>
+<content src="chapter604.html"/>
+</navPoint>
+
+<navPoint id="chapter605" playOrder="608">
+<navLabel><text>第六百零五章 卞庄死局</text></navLabel>
+<content src="chapter605.html"/>
+</navPoint>
+
+<navPoint id="chapter606" playOrder="609">
+<navLabel><text>第六百零六章 寿之反击，先手掀桌</text></navLabel>
+<content src="chapter606.html"/>
+</navPoint>
+
+<navPoint id="chapter607" playOrder="610">
+<navLabel><text>第六百零七章 《君臣&#183;最佳拍档》</text></navLabel>
+<content src="chapter607.html"/>
+</navPoint>
+
+<navPoint id="chapter608" playOrder="611">
+<navLabel><text>第六百零八章 反击风暴！</text></navLabel>
+<content src="chapter608.html"/>
+</navPoint>
+
+<navPoint id="chapter609" playOrder="612">
+<navLabel><text>第六百零九章 长寿强擒惧留孙！</text></navLabel>
+<content src="chapter609.html"/>
+</navPoint>
+
+<navPoint id="chapter610" playOrder="613">
+<navLabel><text>第六百一十章 戏过的代价</text></navLabel>
+<content src="chapter610.html"/>
+</navPoint>
+
+<navPoint id="chapter611" playOrder="614">
+<navLabel><text>第六百一十一章 玉帝天威镇昆仑！</text></navLabel>
+<content src="chapter611.html"/>
+</navPoint>
+
+<navPoint id="chapter612" playOrder="615">
+<navLabel><text>第六百一十二章 凌霄开堂，正审燃灯！</text></navLabel>
+<content src="chapter612.html"/>
+</navPoint>
+
+<navPoint id="chapter613" playOrder="616">
+<navLabel><text>第六百一十三章 太白显杀机</text></navLabel>
+<content src="chapter613.html"/>
+</navPoint>
+
+<navPoint id="chapter614" playOrder="617">
+<navLabel><text>第六百一十四章 形势骤变，燃灯死劫</text></navLabel>
+<content src="chapter614.html"/>
+</navPoint>
+
+<navPoint id="chapter615" playOrder="618">
+<navLabel><text>第六百一十五章 凌霄殿前！极限翻盘！</text></navLabel>
+<content src="chapter615.html"/>
+</navPoint>
+
+<navPoint id="chapter616" playOrder="619">
+<navLabel><text>第六百一十六章 灭灯！灭灯！</text></navLabel>
+<content src="chapter616.html"/>
+</navPoint>
+
+<navPoint id="chapter617" playOrder="620">
+<navLabel><text>第六百一十七章 轮回塔侠震古棺，小琼峰中聚友仙</text></navLabel>
+<content src="chapter617.html"/>
+</navPoint>
+
+<navPoint id="chapter618" playOrder="621">
+<navLabel><text>第六百一十八章 老哥，寿只能帮你到这了</text></navLabel>
+<content src="chapter618.html"/>
+</navPoint>
+
+<navPoint id="chapter619" playOrder="622">
+<navLabel><text>第六百一十九章 圣人小棉袄，道场挨个跑</text></navLabel>
+<content src="chapter619.html"/>
+</navPoint>
+
+<navPoint id="chapter620" playOrder="623">
+<navLabel><text>第六百二十章 突击小考</text></navLabel>
+<content src="chapter620.html"/>
+</navPoint>
+
+<navPoint id="chapter621" playOrder="624">
+<navLabel><text>第六百二十一章 阻击混沌钟！</text></navLabel>
+<content src="chapter621.html"/>
+</navPoint>
+
+<navPoint id="chapter622" playOrder="625">
+<navLabel><text>第六百二十二章 卧槽！无情！</text></navLabel>
+<content src="chapter622.html"/>
+</navPoint>
+
+<navPoint id="chapter623" playOrder="626">
+<navLabel><text>第六百二十三章 钟艰不拆</text></navLabel>
+<content src="chapter623.html"/>
+</navPoint>
+
+<navPoint id="chapter624" playOrder="627">
+<navLabel><text>第六百二十四章 杀劫将起</text></navLabel>
+<content src="chapter624.html"/>
+</navPoint>
+
+<navPoint id="chapter625" playOrder="628">
+<navLabel><text>第六百二十五章 太清观头号任务</text></navLabel>
+<content src="chapter625.html"/>
+</navPoint>
+
+<navPoint id="chapter626" playOrder="629">
+<navLabel><text>第六百二十六章 人族最古纯阳的终焉</text></navLabel>
+<content src="chapter626.html"/>
+</navPoint>
+
+<navPoint id="chapter627" playOrder="630">
+<navLabel><text>第六百二十七章 花果山中探石，轩辕三妖归位</text></navLabel>
+<content src="chapter627.html"/>
+</navPoint>
+
+<navPoint id="chapter628" playOrder="631">
+<navLabel><text>第六百二十八章 李靖待下山，灵娥长生劫</text></navLabel>
+<content src="chapter628.html"/>
+</navPoint>
+
+<navPoint id="chapter629" playOrder="632">
+<navLabel><text>第六百二十九章 自己人，随意点</text></navLabel>
+<content src="chapter629.html"/>
+</navPoint>
+
+<navPoint id="chapter630" playOrder="633">
+<navLabel><text>第六百三十章 灵珠子转世的主要原因</text></navLabel>
+<content src="chapter630.html"/>
+</navPoint>
+
+<navPoint id="chapter631" playOrder="634">
+<navLabel><text>第六百三十一章 好兄弟，一辈子！</text></navLabel>
+<content src="chapter631.html"/>
+</navPoint>
+
+<navPoint id="chapter632" playOrder="635">
+<navLabel><text>第六百三十二章 地府来信，太公将临</text></navLabel>
+<content src="chapter632.html"/>
+</navPoint>
+
+<navPoint id="chapter633" playOrder="636">
+<navLabel><text>第六百三十三章 花有重开，瓣不相同</text></navLabel>
+<content src="chapter633.html"/>
+</navPoint>
+
+<navPoint id="chapter634" playOrder="637">
+<navLabel><text>第六百三十四章 圣人开会</text></navLabel>
+<content src="chapter634.html"/>
+</navPoint>
+
+<navPoint id="chapter635" playOrder="638">
+<navLabel><text>第六百三十五章 寿娥双人游</text></navLabel>
+<content src="chapter635.html"/>
+</navPoint>
+
+<navPoint id="chapter636" playOrder="639">
+<navLabel><text>第六百三十六章 此乃谎言，各不相让</text></navLabel>
+<content src="chapter636.html"/>
+</navPoint>
+
+<navPoint id="chapter637" playOrder="640">
+<navLabel><text>第六百三十七章 天帝导师</text></navLabel>
+<content src="chapter637.html"/>
+</navPoint>
+
+<navPoint id="chapter638" playOrder="641">
+<navLabel><text>第六百三十八章 天字壹号长工</text></navLabel>
+<content src="chapter638.html"/>
+</navPoint>
+
+<navPoint id="chapter639" playOrder="642">
+<navLabel><text>第六百三十九章 截教杀字令！</text></navLabel>
+<content src="chapter639.html"/>
+</navPoint>
+
+<navPoint id="chapter640" playOrder="643">
+<navLabel><text>第六百四十章 天道的小秘密</text></navLabel>
+<content src="chapter640.html"/>
+</navPoint>
+
+<navPoint id="chapter641" playOrder="644">
+<navLabel><text>第六百四十一章 万仙围灵！</text></navLabel>
+<content src="chapter641.html"/>
+</navPoint>
+
+<navPoint id="chapter642" playOrder="645">
+<navLabel><text>第六百四十二章 话术教学</text></navLabel>
+<content src="chapter642.html"/>
+</navPoint>
+
+<navPoint id="chapter643" playOrder="646">
+<navLabel><text>第六百四十三章 道战灵山！</text></navLabel>
+<content src="chapter643.html"/>
+</navPoint>
+
+<navPoint id="chapter644" playOrder="647">
+<navLabel><text>第六百四十四章 玄都多宝战准提，公明横躺昆仑路</text></navLabel>
+<content src="chapter644.html"/>
+</navPoint>
+
+<navPoint id="chapter645" playOrder="648">
+<navLabel><text>第六百四十五章 小神说句公道话</text></navLabel>
+<content src="chapter645.html"/>
+</navPoint>
+
+<navPoint id="chapter646" playOrder="649">
+<navLabel><text>第六百四十六章 西方暂时休</text></navLabel>
+<content src="chapter646.html"/>
+</navPoint>
+
+<navPoint id="chapter647" playOrder="650">
+<navLabel><text>第六百四十七章 怪主动</text></navLabel>
+<content src="chapter647.html"/>
+</navPoint>
+
+<navPoint id="chapter648" playOrder="651">
+<navLabel><text>第六百四十八章 钟留小琼峰</text></navLabel>
+<content src="chapter648.html"/>
+</navPoint>
+
+<navPoint id="chapter649" playOrder="652">
+<navLabel><text>第六百四十九章 太白小课堂</text></navLabel>
+<content src="chapter649.html"/>
+</navPoint>
+
+<navPoint id="chapter650" playOrder="653">
+<navLabel><text>第六百五十章 父亲在上！</text></navLabel>
+<content src="chapter650.html"/>
+</navPoint>
+
+<navPoint id="chapter651" playOrder="654">
+<navLabel><text>第六百五十一章 节奏大师</text></navLabel>
+<content src="chapter651.html"/>
+</navPoint>
+
+<navPoint id="chapter652" playOrder="655">
+<navLabel><text>第六百五十二章 做官这件小事</text></navLabel>
+<content src="chapter652.html"/>
+</navPoint>
+
+<navPoint id="chapter653" playOrder="656">
+<navLabel><text>第六百五十三章 帝辛降世</text></navLabel>
+<content src="chapter653.html"/>
+</navPoint>
+
+<navPoint id="chapter654" playOrder="657">
+<navLabel><text>第六百五十四章 黑豹改名，计算菩提</text></navLabel>
+<content src="chapter654.html"/>
+</navPoint>
+
+<navPoint id="chapter655" playOrder="658">
+<navLabel><text>第六百五十五章 封神杀劫倒计时！</text></navLabel>
+<content src="chapter655.html"/>
+</navPoint>
+
+<navPoint id="chapter656" playOrder="659">
+<navLabel><text>第六百五十六章 申豹姜公归玉虚，陈塘李靖得麟儿</text></navLabel>
+<content src="chapter656.html"/>
+</navPoint>
+
+<navPoint id="chapter657" playOrder="660">
+<navLabel><text>第六百五十七章 吒有几种写法？</text></navLabel>
+<content src="chapter657.html"/>
+</navPoint>
+
+<navPoint id="chapter658" playOrder="661">
+<navLabel><text>第六百五十八章 夜会子受</text></navLabel>
+<content src="chapter658.html"/>
+</navPoint>
+
+<navPoint id="chapter659" playOrder="662">
+<navLabel><text>第六百五十九章 风起南洲</text></navLabel>
+<content src="chapter659.html"/>
+</navPoint>
+
+<navPoint id="chapter660" playOrder="663">
+<navLabel><text>第六百六十章 朝歌城夺嫡正热，陈塘关文殊忽来</text></navLabel>
+<content src="chapter660.html"/>
+</navPoint>
+
+<navPoint id="chapter661" playOrder="664">
+<navLabel><text>第六百六十一章 很有精神</text></navLabel>
+<content src="chapter661.html"/>
+</navPoint>
+
+<navPoint id="chapter662" playOrder="665">
+<navLabel><text>第六百六十二章 《帝&#183;辛》</text></navLabel>
+<content src="chapter662.html"/>
+</navPoint>
+
+<navPoint id="chapter663" playOrder="666">
+<navLabel><text>第六百六十三章 灵珠将转世</text></navLabel>
+<content src="chapter663.html"/>
+</navPoint>
+
+<navPoint id="chapter664" playOrder="667">
+<navLabel><text>第六百六十四章 陈塘变！</text></navLabel>
+<content src="chapter664.html"/>
+</navPoint>
+
+<navPoint id="chapter665" playOrder="668">
+<navLabel><text>第六百六十五章 抉择</text></navLabel>
+<content src="chapter665.html"/>
+</navPoint>
+
+<navPoint id="chapter666" playOrder="669">
+<navLabel><text>第六百六十六章 是他，是他，就是他</text></navLabel>
+<content src="chapter666.html"/>
+</navPoint>
+
+<navPoint id="chapter667" playOrder="670">
+<navLabel><text>第六百六十七章 寿的小失手</text></navLabel>
+<content src="chapter667.html"/>
+</navPoint>
+
+<navPoint id="chapter668" playOrder="671">
+<navLabel><text>第六百六十八章 如此敖丙</text></navLabel>
+<content src="chapter668.html"/>
+</navPoint>
+
+<navPoint id="chapter669" playOrder="672">
+<navLabel><text>第六百六十九章 女娲庙暗战</text></navLabel>
+<content src="chapter669.html"/>
+</navPoint>
+
+<navPoint id="chapter670" playOrder="673">
+<navLabel><text>第六百七十章 去他的天道！</text></navLabel>
+<content src="chapter670.html"/>
+</navPoint>
+
+<navPoint id="chapter671" playOrder="674">
+<navLabel><text>第六百七十一章 伐天&#183;中篇</text></navLabel>
+<content src="chapter671.html"/>
+</navPoint>
+
+<navPoint id="chapter672" playOrder="675">
+<navLabel><text>第六百七十二章 余烬</text></navLabel>
+<content src="chapter672.html"/>
+</navPoint>
+
+<navPoint id="chapter673" playOrder="676">
+<navLabel><text>第六百七十三章 四成</text></navLabel>
+<content src="chapter673.html"/>
+</navPoint>
+
+<navPoint id="chapter674" playOrder="677">
+<navLabel><text>第六百七十四章 木公之忧，妲己将现</text></navLabel>
+<content src="chapter674.html"/>
+</navPoint>
+
+<navPoint id="chapter675" playOrder="678">
+<navLabel><text>第六百七十五章 这宝物，有点意思</text></navLabel>
+<content src="chapter675.html"/>
+</navPoint>
+
+<navPoint id="chapter676" playOrder="679">
+<navLabel><text>第六百七十六章 哪！吒！</text></navLabel>
+<content src="chapter676.html"/>
+</navPoint>
+
+<navPoint id="chapter677" playOrder="680">
+<navLabel><text>第六百七十七章 与敖公子的第一次冲突</text></navLabel>
+<content src="chapter677.html"/>
+</navPoint>
+
+<navPoint id="chapter678" playOrder="681">
+<navLabel><text>第六百七十八章 惨&#183;掌门&#183;惨</text></navLabel>
+<content src="chapter678.html"/>
+</navPoint>
+
+<navPoint id="chapter679" playOrder="682">
+<navLabel><text>第六百七十九章 妲己入宫</text></navLabel>
+<content src="chapter679.html"/>
+</navPoint>
+
+<navPoint id="chapter680" playOrder="683">
+<navLabel><text>第六百八十章 敖丙起杀心</text></navLabel>
+<content src="chapter680.html"/>
+</navPoint>
+
+<navPoint id="chapter681" playOrder="684">
+<navLabel><text>第六百八十一章 封神第一魂！</text></navLabel>
+<content src="chapter681.html"/>
+</navPoint>
+
+<navPoint id="chapter682" playOrder="685">
+<navLabel><text>第六百八十二章 算龙护人道</text></navLabel>
+<content src="chapter682.html"/>
+</navPoint>
+
+<navPoint id="chapter683" playOrder="686">
+<navLabel><text>第六百八十三章 太乙真人的话术小课堂</text></navLabel>
+<content src="chapter683.html"/>
+</navPoint>
+
+<navPoint id="chapter684" playOrder="687">
+<navLabel><text>第六百八十四章 水淹陈塘！</text></navLabel>
+<content src="chapter684.html"/>
+</navPoint>
+
+<navPoint id="chapter685" playOrder="688">
+<navLabel><text>第六百八十五章 家父，陈塘李靖！</text></navLabel>
+<content src="chapter685.html"/>
+</navPoint>
+
+<navPoint id="chapter686" playOrder="689">
+<navLabel><text>第六百八十六章 太白压龙</text></navLabel>
+<content src="chapter686.html"/>
+</navPoint>
+
+<navPoint id="chapter687" playOrder="690">
+<navLabel><text>第六百八十七章 《稳教》</text></navLabel>
+<content src="chapter687.html"/>
+</navPoint>
+
+<navPoint id="chapter688" playOrder="691">
+<navLabel><text>第六百八十八章 论道鸿钧（上）</text></navLabel>
+<content src="chapter688.html"/>
+</navPoint>
+
+<navPoint id="chapter689" playOrder="692">
+<navLabel><text>第六百八十九章 师祖，这次真不是有意算计</text></navLabel>
+<content src="chapter689.html"/>
+</navPoint>
+
+<navPoint id="chapter690" playOrder="693">
+<navLabel><text>第六百九十章 封神‘学院’！</text></navLabel>
+<content src="chapter690.html"/>
+</navPoint>
+
+<navPoint id="chapter691" playOrder="694">
+<navLabel><text>第六百九十一章 阐截初战</text></navLabel>
+<content src="chapter691.html"/>
+</navPoint>
+
+<navPoint id="chapter692" playOrder="695">
+<navLabel><text>第六百九十二章 差点聊爆小破钟</text></navLabel>
+<content src="chapter692.html"/>
+</navPoint>
+
+<navPoint id="chapter693" playOrder="696">
+<navLabel><text>第六百九十三章 公明大婚！</text></navLabel>
+<content src="chapter693.html"/>
+</navPoint>
+
+<navPoint id="chapter694" playOrder="697">
+<navLabel><text>第六百九十四章 娥这波，必须有排面！</text></navLabel>
+<content src="chapter694.html"/>
+</navPoint>
+
+<navPoint id="chapter695" playOrder="698">
+<navLabel><text>第六百九十五章 你不懂！</text></navLabel>
+<content src="chapter695.html"/>
+</navPoint>
+
+<navPoint id="chapter696" playOrder="699">
+<navLabel><text>第六百九十六章 神农孕灵丹！</text></navLabel>
+<content src="chapter696.html"/>
+</navPoint>
+
+<navPoint id="chapter697" playOrder="700">
+<navLabel><text>第六百九十七章 杀疯了，杀疯了</text></navLabel>
+<content src="chapter697.html"/>
+</navPoint>
+
+<navPoint id="chapter698" playOrder="701">
+<navLabel><text>第六百九十八章 金灵有喜</text></navLabel>
+<content src="chapter698.html"/>
+</navPoint>
+
+<navPoint id="chapter699" playOrder="702">
+<navLabel><text>第六百九十九章 或真或假，惑天之策</text></navLabel>
+<content src="chapter699.html"/>
+</navPoint>
+
+<navPoint id="chapter700" playOrder="703">
+<navLabel><text>第七百章 太白一拜</text></navLabel>
+<content src="chapter700.html"/>
+</navPoint>
+
+<navPoint id="chapter701" playOrder="704">
+<navLabel><text>第七百零一章 囚身圣母宫</text></navLabel>
+<content src="chapter701.html"/>
+</navPoint>
+
+<navPoint id="chapter702" playOrder="705">
+<navLabel><text>第七百零二章 愿这火焰给您些许温暖</text></navLabel>
+<content src="chapter702.html"/>
+</navPoint>
+
+<navPoint id="chapter703" playOrder="706">
+<navLabel><text>第七百零三章 十绝连环天煞断命阵</text></navLabel>
+<content src="chapter703.html"/>
+</navPoint>
+
+<navPoint id="chapter704" playOrder="707">
+<navLabel><text>第七百零四章 圣人下场十绝危</text></navLabel>
+<content src="chapter704.html"/>
+</navPoint>
+
+<navPoint id="chapter705" playOrder="708">
+<navLabel><text>第七百零五章 寿的不放心</text></navLabel>
+<content src="chapter705.html"/>
+</navPoint>
+
+<navPoint id="chapter706" playOrder="709">
+<navLabel><text>第七百零六章 弑圣者：寿</text></navLabel>
+<content src="chapter706.html"/>
+</navPoint>
+
+<navPoint id="chapter707" playOrder="710">
+<navLabel><text>第七百零七章 今日起，洪荒只有五圣！</text></navLabel>
+<content src="chapter707.html"/>
+</navPoint>
+
+<navPoint id="chapter708" playOrder="711">
+<navLabel><text>第七百零八章 扬灰是一件很有仪式感的事</text></navLabel>
+<content src="chapter708.html"/>
+</navPoint>
+
+<navPoint id="chapter709" playOrder="712">
+<navLabel><text>第七百零九章 大劫破局路！</text></navLabel>
+<content src="chapter709.html"/>
+</navPoint>
+
+<navPoint id="chapter710" playOrder="713">
+<navLabel><text>第七百一十章 远古老龙魂</text></navLabel>
+<content src="chapter710.html"/>
+</navPoint>
+
+<navPoint id="chapter711" playOrder="714">
+<navLabel><text>第七百一十一章 论道鸿钧（中）</text></navLabel>
+<content src="chapter711.html"/>
+</navPoint>
+
+<navPoint id="chapter712" playOrder="715">
+<navLabel><text>第七百一十二章 以蚊算金莲</text></navLabel>
+<content src="chapter712.html"/>
+</navPoint>
+
+<navPoint id="chapter713" playOrder="716">
+<navLabel><text>第七百一十三章 生灵之敌！</text></navLabel>
+<content src="chapter713.html"/>
+</navPoint>
+
+<navPoint id="chapter714" playOrder="717">
+<navLabel><text>第七百一十四章 闻仲命陨，梦中献策</text></navLabel>
+<content src="chapter714.html"/>
+</navPoint>
+
+<navPoint id="chapter715" playOrder="718">
+<navLabel><text>第七百一十五章 道祖登门！</text></navLabel>
+<content src="chapter715.html"/>
+</navPoint>
+
+<navPoint id="chapter716" playOrder="719">
+<navLabel><text>第七百一十六章 寿赢道祖一阵！</text></navLabel>
+<content src="chapter716.html"/>
+</navPoint>
+
+<navPoint id="chapter717" playOrder="720">
+<navLabel><text>第七百一十七章 师祖，您着相了</text></navLabel>
+<content src="chapter717.html"/>
+</navPoint>
+
+<navPoint id="chapter718" playOrder="721">
+<navLabel><text>第七百一十八章 广成子定计奇袭</text></navLabel>
+<content src="chapter718.html"/>
+</navPoint>
+
+<navPoint id="chapter719" playOrder="722">
+<navLabel><text>第七百一十九章 《摘星》</text></navLabel>
+<content src="chapter719.html"/>
+</navPoint>
+
+<navPoint id="chapter720" playOrder="723">
+<navLabel><text>第七百二十章 寿临</text></navLabel>
+<content src="chapter720.html"/>
+</navPoint>
+
+<navPoint id="chapter721" playOrder="724">
+<navLabel><text>第七百二十一章 撕开伤口！</text></navLabel>
+<content src="chapter721.html"/>
+</navPoint>
+
+<navPoint id="chapter722" playOrder="725">
+<navLabel><text>第七百二十二章 元始天尊</text></navLabel>
+<content src="chapter722.html"/>
+</navPoint>
+
+<navPoint id="chapter723" playOrder="726">
+<navLabel><text>第七百二十三章 《天变》</text></navLabel>
+<content src="chapter723.html"/>
+</navPoint>
+
+<navPoint id="chapter724" playOrder="727">
+<navLabel><text>第七百二十四章 太清不败！</text></navLabel>
+<content src="chapter724.html"/>
+</navPoint>
+
+<navPoint id="chapter725" playOrder="728">
+<navLabel><text>第七百二十五章 流浪玄都城！</text></navLabel>
+<content src="chapter725.html"/>
+</navPoint>
+
+<navPoint id="chapter726" playOrder="729">
+<navLabel><text>第七百二十六章 换个角度看洪荒</text></navLabel>
+<content src="chapter726.html"/>
+</navPoint>
+
+<navPoint id="chapter727" playOrder="730">
+<navLabel><text>第七百二十七章 李长寿的宝物名单</text></navLabel>
+<content src="chapter727.html"/>
+</navPoint>
+
+<navPoint id="chapter728" playOrder="731">
+<navLabel><text>第七百二十八章 诶嘿嘿</text></navLabel>
+<content src="chapter728.html"/>
+</navPoint>
+
+<navPoint id="chapter729" playOrder="732">
+<navLabel><text>第七百二十九章 哦，这熟悉的腔调</text></navLabel>
+<content src="chapter729.html"/>
+</navPoint>
+
+<navPoint id="chapter730" playOrder="733">
+<navLabel><text>第七百三十章 先遇多宝，后遇老君</text></navLabel>
+<content src="chapter730.html"/>
+</navPoint>
+
+<navPoint id="chapter731" playOrder="734">
+<navLabel><text>第七百三十一章 老君点一指，道祖托石胎！</text></navLabel>
+<content src="chapter731.html"/>
+</navPoint>
+
+<navPoint id="chapter732" playOrder="735">
+<navLabel><text>第七百三十二章 方寸山中坐，菩提待猴来</text></navLabel>
+<content src="chapter732.html"/>
+</navPoint>
+
+<navPoint id="chapter733" playOrder="736">
+<navLabel><text>第七百三十三章 化胡为佛！</text></navLabel>
+<content src="chapter733.html"/>
+</navPoint>
+
+<navPoint id="chapter734" playOrder="737">
+<navLabel><text>第七百三十四章 灵山夺权</text></navLabel>
+<content src="chapter734.html"/>
+</navPoint>
+
+<navPoint id="chapter735" playOrder="738">
+<navLabel><text>第七百三十五章 石猴出世！</text></navLabel>
+<content src="chapter735.html"/>
+</navPoint>
+
+<navPoint id="chapter736" playOrder="739">
+<navLabel><text>第七百三十六章 道祖这个大马猴！</text></navLabel>
+<content src="chapter736.html"/>
+</navPoint>
+
+<navPoint id="chapter737" playOrder="740">
+<navLabel><text>第七百三十七章 被抹除的记忆</text></navLabel>
+<content src="chapter737.html"/>
+</navPoint>
+
+<navPoint id="chapter738" playOrder="741">
+<navLabel><text>第七百三十八章 《取经人》</text></navLabel>
+<content src="chapter738.html"/>
+</navPoint>
+
+<navPoint id="chapter739" playOrder="742">
+<navLabel><text>第七百三十九章 教猴（上）</text></navLabel>
+<content src="chapter739.html"/>
+</navPoint>
+
+<navPoint id="chapter740" playOrder="743">
+<navLabel><text>第七百四十章 教猴（下）</text></navLabel>
+<content src="chapter740.html"/>
+</navPoint>
+
+<navPoint id="chapter741" playOrder="744">
+<navLabel><text>第七百四十一章 ‘虚菩提’的下场</text></navLabel>
+<content src="chapter741.html"/>
+</navPoint>
+
+<navPoint id="chapter742" playOrder="745">
+<navLabel><text>第七百四十二章 不灭金魂</text></navLabel>
+<content src="chapter742.html"/>
+</navPoint>
+
+<navPoint id="chapter743" playOrder="746">
+<navLabel><text>第七百四十三章 提菩虚</text></navLabel>
+<content src="chapter743.html"/>
+</navPoint>
+
+<navPoint id="chapter744" playOrder="747">
+<navLabel><text>第七百四十四章 接头大师</text></navLabel>
+<content src="chapter744.html"/>
+</navPoint>
+
+<navPoint id="chapter745" playOrder="748">
+<navLabel><text>第七百四十五章 叛天</text></navLabel>
+<content src="chapter745.html"/>
+</navPoint>
+
+<navPoint id="chapter746" playOrder="749">
+<navLabel><text>第七百四十六章 危&#183;金蝉&#183;危</text></navLabel>
+<content src="chapter746.html"/>
+</navPoint>
+
+<navPoint id="chapter747" playOrder="750">
+<navLabel><text>第七百四十七章 接引相召</text></navLabel>
+<content src="chapter747.html"/>
+</navPoint>
+
+<navPoint id="chapter748" playOrder="751">
+<navLabel><text>第七百四十八章 《大圣》</text></navLabel>
+<content src="chapter748.html"/>
+</navPoint>
+
+<navPoint id="chapter749" playOrder="752">
+<navLabel><text>第七百四十九章 悟空再上天，菩提坐莲池</text></navLabel>
+<content src="chapter749.html"/>
+</navPoint>
+
+<navPoint id="chapter750" playOrder="753">
+<navLabel><text>第七百五十章 玄雅之谏</text></navLabel>
+<content src="chapter750.html"/>
+</navPoint>
+
+<navPoint id="chapter751" playOrder="754">
+<navLabel><text>第七百五十一章 坏起来了</text></navLabel>
+<content src="chapter751.html"/>
+</navPoint>
+
+<navPoint id="chapter752" playOrder="755">
+<navLabel><text>第七百五十二章 均衡道再临！</text></navLabel>
+<content src="chapter752.html"/>
+</navPoint>
+
+<navPoint id="chapter753" playOrder="756">
+<navLabel><text>第七百五十三章 所向，紫霄宫！</text></navLabel>
+<content src="chapter753.html"/>
+</navPoint>
+
+<navPoint id="chapter754" playOrder="757">
+<navLabel><text>第七百五十四章 论道鸿钧！（下）</text></navLabel>
+<content src="chapter754.html"/>
+</navPoint>
+
+<navPoint id="chapter755" playOrder="758">
+<navLabel><text>第七百五十五章 弱小，却主宰</text></navLabel>
+<content src="chapter755.html"/>
+</navPoint>
+
+<navPoint id="chapter756" playOrder="759">
+<navLabel><text>第七百五十六章 愿吾道自长夜点起星辰之火焰</text></navLabel>
+<content src="chapter756.html"/>
+</navPoint>
+
+<navPoint id="chapter757" playOrder="760">
+<navLabel><text>第七百五十七章 伐天&#183;下！</text></navLabel>
+<content src="chapter757.html"/>
+</navPoint>
+
+<navPoint id="chapter758" playOrder="761">
+<navLabel><text>第七百五十八章 决战道祖！</text></navLabel>
+<content src="chapter758.html"/>
+</navPoint>
+
+<navPoint id="chapter759" playOrder="762">
+<navLabel><text>第七百五十九章 其实，有人撒了个谎</text></navLabel>
+<content src="chapter759.html"/>
+</navPoint>
+
+<navPoint id="chapter760" playOrder="763">
+<navLabel><text>第七百六十章 最弱金仙（又名：论道鸿钧&#183;终）</text></navLabel>
+<content src="chapter760.html"/>
+</navPoint>
+
+<navPoint id="chapter761" playOrder="764">
+<navLabel><text>第七百六十一章 永不落幕的小琼峰&#183;大结局</text></navLabel>
+<content src="chapter761.html"/>
+</navPoint>
+
+<navPoint id="chapter762" playOrder="765">
+<navLabel><text>完本感言</text></navLabel>
+<content src="chapter762.html"/>
+</navPoint>
+
+</navMap>
+</ncx>
