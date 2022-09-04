@@ -11,7 +11,7 @@ type NCXDocument struct {
 	Generator string
 	BookName  string
 	Author    string
-	NavMap    []NavPoint
+	NavMap    []*NavPoint
 }
 
 type NavPoint struct {
@@ -21,16 +21,20 @@ type NavPoint struct {
 	Content   string
 }
 
-func WriteToc(document *NCXDocument) error {
+func (doc *NCXDocument) Write() error {
 	dir, err := os.Getwd()
 	if err != nil {
 		return err
 	}
-	filename := fmt.Sprintf("%s\\..\\template\\epub3\\OEBPS\\toc.ncx", dir)
-	temp, err := template.New("toc.ncx").ParseFiles(filename)
+	tplFilename := fmt.Sprintf("%s\\..\\template\\epub3\\OEBPS\\toc.ncx", dir)
+	temp, err := template.New("toc.ncx").ParseFiles(tplFilename)
 	if err != nil {
 		return err
 	}
-	temp.Execute(os.Stdout, document)
-	return nil
+
+	fd, err := os.Create("toc.ncx")
+	if err != nil {
+		return err
+	}
+	return temp.Execute(fd, doc)
 }
