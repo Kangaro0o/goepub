@@ -8,10 +8,10 @@ import (
 
 type BookTOC struct {
 	Generator string
-	Chapters  []*Chapter
+	Chapters  []*ChapterBrief
 }
 
-type Chapter struct {
+type ChapterBrief struct {
 	Href string
 	Name string
 }

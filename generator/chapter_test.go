@@ -2,10 +2,12 @@ package generator
 
 import "testing"
 
-func TestBookTOC_Write(t *testing.T) {
+func TestChapter_Write(t *testing.T) {
 	type fields struct {
+		ID        int32
 		Generator string
-		Chapters  []*ChapterBrief
+		Title     string
+		Content   string
 	}
 	tests := []struct {
 		name    string
@@ -15,27 +17,23 @@ func TestBookTOC_Write(t *testing.T) {
 		{
 			name: "case1",
 			fields: fields{
+				ID:        1,
 				Generator: "Created by Kelvin",
-				Chapters: []*ChapterBrief{
-					{
-						Href: "chapter0.html",
-						Name: "内容简介",
-					},
-					{
-						Href: "chapter1.html",
-						Name: "第一章 test-chapter",
-					},
-				},
+				Title:     "第一章",
+				Content:   "<p>哈哈哈哈哈</p>",
 			},
+			wantErr: false,
 		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			toc := &BookTOC{
+			c := &Chapter{
+				ID:        tt.fields.ID,
 				Generator: tt.fields.Generator,
-				Chapters:  tt.fields.Chapters,
+				Title:     tt.fields.Title,
+				Content:   tt.fields.Content,
 			}
-			if err := toc.Write(); (err != nil) != tt.wantErr {
+			if err := c.Write(); (err != nil) != tt.wantErr {
 				t.Errorf("Write() error = %v, wantErr %v", err, tt.wantErr)
 			}
 		})
