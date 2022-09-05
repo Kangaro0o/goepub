@@ -7,10 +7,13 @@ import (
 )
 
 type Chapter struct {
-	ID        int32
-	Generator string
-	Title     string
-	Content   string
+	ID          int32
+	Generator   string
+	NavPointID  string
+	NavPointSrc string
+	Title       string
+	Content     string
+	MediaType   MediaType
 }
 
 func (c *Chapter) Write() error {

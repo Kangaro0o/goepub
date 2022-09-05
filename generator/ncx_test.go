@@ -24,16 +24,16 @@ func TestNCXDocument_Write(t *testing.T) {
 				Author:    "test-author",
 				NavMap: []*NavPoint{
 					{
-						ID:        "test-id",
-						PlayOrder: 1,
-						Label:     "第一章",
-						Content:   "chapter1.html",
+						ID:         "test-id",
+						PlayOrder:  1,
+						Label:      "第一章",
+						ContentSrc: "chapter1.html",
 					},
 					{
-						ID:        "test-id2",
-						PlayOrder: 2,
-						Label:     "第二章",
-						Content:   "chapter2.html",
+						ID:         "test-id2",
+						PlayOrder:  2,
+						Label:      "第二章",
+						ContentSrc: "chapter2.html",
 					},
 				},
 			},
@@ -49,7 +49,7 @@ func TestNCXDocument_Write(t *testing.T) {
 				Author:    tt.fields.Author,
 				NavMap:    tt.fields.NavMap,
 			}
-			if err := doc.Write(); (err != nil) != tt.wantErr {
+			if err := doc.Write("D:\\Workspace\\GoProjects\\goepub\\books"); (err != nil) != tt.wantErr {
 				t.Errorf("Write() error = %v, wantErr %v", err, tt.wantErr)
 			}
 		})

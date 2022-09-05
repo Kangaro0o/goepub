@@ -23,7 +23,7 @@
 <navLabel>
 <text>{{$navPoint.Label}}</text>
 </navLabel>
-<content src="{{$navPoint.Content}}"/>
+<content src="{{$navPoint.ContentSrc}}"/>
 </navPoint>
 {{end}}
 </navMap>

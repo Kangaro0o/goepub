@@ -2,6 +2,8 @@ package generator
 
 import (
 	"fmt"
+	"github.com/Kangrao0o/goepub/utils"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"text/template"
 )
@@ -15,25 +17,32 @@ type NCXDocument struct {
 }
 
 type NavPoint struct {
-	ID        string
-	PlayOrder int32
-	Label     string
-	Content   string
+	ID         string
+	PlayOrder  int32
+	Label      string
+	ContentSrc string
 }
 
-func (doc *NCXDocument) Write() error {
+func (doc *NCXDocument) Write(savePath string) error {
 	dir, err := os.Getwd()
 	if err != nil {
+		log.Errorf("ncx write err: %v when os.Getwd", err)
 		return err
 	}
 	tplFilename := fmt.Sprintf("%s\\..\\template\\epub3\\OEBPS\\toc.ncx", dir)
 	temp, err := template.New("toc.ncx").ParseFiles(tplFilename)
 	if err != nil {
+		log.Errorf("ncx write err: %v when template parse files", err)
 		return err
 	}
 
-	fd, err := os.Create("toc.ncx")
+	if err := utils.CreateDir(savePath); err != nil {
+		return err
+	}
+	filename := fmt.Sprintf("%s/toc.ncx", savePath)
+	fd, err := os.Create(filename)
 	if err != nil {
+		log.Errorf("ncx write err: %v when os.Create", err)
 		return err
 	}
 	return temp.Execute(fd, doc)

@@ -14,6 +14,7 @@ type Cover struct {
 	Title     string
 	Src       string
 	Alt       string
+	URL       string
 }
 
 func (c *Cover) Write() error {
@@ -33,8 +34,8 @@ func (c *Cover) Write() error {
 	return temp.Execute(fd, c)
 }
 
-func (c *Cover) Download(savePath, url string) error {
-	rsp, err := http.Get(url)
+func (c *Cover) Download(savePath string) error {
+	rsp, err := http.Get(c.URL)
 	if err != nil {
 		return err
 	}
@@ -45,7 +46,7 @@ func (c *Cover) Download(savePath, url string) error {
 	}
 
 	savePath = strings.TrimSuffix(savePath, "/")
-	idx := strings.LastIndex(url, "/")
-	savePath = fmt.Sprintf("%s/%s", savePath, url[idx+1:])
+	idx := strings.LastIndex(c.URL, "/")
+	savePath = fmt.Sprintf("%s/%s", savePath, c.URL[idx+1:])
 	return ioutil.WriteFile(savePath, bytes, 0666)
 }

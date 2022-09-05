@@ -45,10 +45,10 @@ func TestCover_Download(t *testing.T) {
 		Title     string
 		Src       string
 		Alt       string
+		URL       string
 	}
 	type args struct {
 		savePath string
-		url      string
 	}
 	tests := []struct {
 		name    string
@@ -58,18 +58,17 @@ func TestCover_Download(t *testing.T) {
 	}{
 		{
 			name:   "case1",
-			fields: fields{},
+			fields: fields{URL: "https://avatar.csdnimg.cn/2/9/0/1_togolife.jpg"},
 			args: args{
 				savePath: "D:\\Workspace\\GoProjects\\goepub\\generator",
-				url:      "https://avatar.csdnimg.cn/2/9/0/1_togolife.jpg",
 			},
 			wantErr: false,
 		},
 		{
-			name: "case2",
+			name:   "case2",
+			fields: fields{URL: "https://hbimg.huaban.com/32f065b3afb3fb36b75a5cbc90051b1050e1e6b6e199-Ml6q9F_fw320"},
 			args: args{
 				savePath: "D:\\Workspace\\GoProjects\\goepub\\generator",
-				url:      "https://hbimg.huaban.com/32f065b3afb3fb36b75a5cbc90051b1050e1e6b6e199-Ml6q9F_fw320",
 			},
 			wantErr: false,
 		},
@@ -82,7 +81,7 @@ func TestCover_Download(t *testing.T) {
 				Src:       tt.fields.Src,
 				Alt:       tt.fields.Alt,
 			}
-			if err := c.Download(tt.args.savePath, tt.args.url); (err != nil) != tt.wantErr {
+			if err := c.Download(tt.args.savePath); (err != nil) != tt.wantErr {
 				t.Errorf("Download() error = %v, wantErr %v", err, tt.wantErr)
 			}
 		})

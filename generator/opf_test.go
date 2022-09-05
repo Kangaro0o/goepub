@@ -79,7 +79,7 @@ func TestPackageDocument_Write(t *testing.T) {
 				Spines:    tt.fields.Spines,
 				Guides:    tt.fields.Guides,
 			}
-			if err := doc.Write(); (err != nil) != tt.wantErr {
+			if err := doc.Write("D:\\Workspace\\GoProjects\\goepub\\books"); (err != nil) != tt.wantErr {
 				t.Errorf("Write() error = %v, wantErr %v", err, tt.wantErr)
 			}
 		})
