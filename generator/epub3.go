@@ -87,16 +87,16 @@ func (book *Book) Write(savePath string) error {
 	}
 	// 下载封面图
 	cover := book.Cover
-	if err := cover.Download("D:\\Workspace\\GoProjects\\goepub\\generator"); err != nil {
+	if err := cover.Download(savePath + "/images"); err != nil {
 		return err
 	}
 	// 生成封面页
-	if err := cover.Write(); err != nil {
+	if err := cover.Write(savePath); err != nil {
 		return err
 	}
 	// 生成章节
 	for _, chapter := range book.Chapters {
-		if err := chapter.Write(); err != nil {
+		if err := chapter.Write(savePath + "/text"); err != nil {
 			return err
 		}
 	}

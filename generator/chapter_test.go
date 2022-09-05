@@ -33,7 +33,7 @@ func TestChapter_Write(t *testing.T) {
 				Title:     tt.fields.Title,
 				Content:   tt.fields.Content,
 			}
-			if err := c.Write(); (err != nil) != tt.wantErr {
+			if err := c.Write("D:\\Workspace\\GoProjects\\goepub\\book-chapter"); (err != nil) != tt.wantErr {
 				t.Errorf("Write() error = %v, wantErr %v", err, tt.wantErr)
 			}
 		})

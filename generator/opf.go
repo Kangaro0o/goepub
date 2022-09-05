@@ -34,7 +34,7 @@ const (
 	NCXMediaType  MediaType = "application/x-dtbncx+xml"
 	HTMLMediaType MediaType = "application/xhtml+xml"
 	CSSMediaType  MediaType = "text/css"
-	JPGMediaType  MediaType = "image/jpeg"
+	JPGMediaType  MediaType = "images/jpeg"
 )
 
 type Spine struct {

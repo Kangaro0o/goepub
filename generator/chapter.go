@@ -2,6 +2,8 @@ package generator
 
 import (
 	"fmt"
+	"github.com/Kangrao0o/goepub/utils"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"text/template"
 )
@@ -16,7 +18,7 @@ type Chapter struct {
 	MediaType   MediaType
 }
 
-func (c *Chapter) Write() error {
+func (c *Chapter) Write(savePath string) error {
 	dir, err := os.Getwd()
 	if err != nil {
 		return err
@@ -27,7 +29,14 @@ func (c *Chapter) Write() error {
 	if err != nil {
 		return err
 	}
-	filename := fmt.Sprintf("chapter%d.html", c.ID)
+
+	// 创建临时目录
+	if err := utils.CreateDir(savePath); err != nil {
+		log.Errorf("chapter write err: %v when create tmp dir", err)
+		return err
+	}
+
+	filename := fmt.Sprintf("%s/chapter%d.html", savePath, c.ID)
 	fd, err := os.Create(filename)
 	if err != nil {
 		return err
