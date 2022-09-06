@@ -12,4 +12,5 @@ var (
 	StyleEpub3Path     = filepath.Join("template", "epub3", "OEBPS", "styles")
 	MetaInfEpub3Path   = filepath.Join("template", "epub3", "META-INF")
 	ChapterEpub3Path   = filepath.Join("template", "epub3", "OEBPS", "text", "chapter.html")
+	MimeTypeEpub3Path  = filepath.Join("template", "epub3", "mimetype")
 )

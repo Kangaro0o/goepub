@@ -58,6 +58,7 @@ func main() {
 				Content:   "<p>哈哈哈哈哈哦哦哦哦哦</p>",
 			},
 		},
+		MimeType: &generator.MimeType{},
 	}
 	dir, _ := os.Getwd()
 	err := book.Write(dir + "/book-uid")

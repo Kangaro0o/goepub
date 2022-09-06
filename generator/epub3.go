@@ -12,6 +12,7 @@ type Book struct {
 	Cover     *Cover
 	Style     *Style
 	MetaInf   *MetaInf
+	MimeType  *MimeType
 }
 
 func (book *Book) convertToNCX() *NCXDocument {
@@ -110,6 +111,11 @@ func (book *Book) Write(savePath string) error {
 	// 拷贝 container.xml
 	metaInf := book.MetaInf
 	if err := metaInf.Write(savePath + "/META-INF"); err != nil {
+		return err
+	}
+	// 拷贝 mimetype
+	mimetype := book.MimeType
+	if err := mimetype.Write(savePath); err != nil {
 		return err
 	}
 	return nil
