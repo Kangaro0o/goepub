@@ -15,8 +15,8 @@ func TestCopyDir(t *testing.T) {
 		{
 			name: "case1",
 			args: args{
-				srcPath:  "D:\\Workspace\\GoProjects\\goepub\\template\\epub3",
-				destPath: "D:\\Workspace\\GoProjects\\goepub\\books",
+				srcPath:  "D:\\Workspace\\GoProjects\\goepub\\template\\epub3\\OEBPS\\styles",
+				destPath: "D:\\Workspace\\GoProjects\\goepub\\epub3-book\\OEBPS\\styles",
 			},
 			wantErr: false,
 		},

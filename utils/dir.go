@@ -83,11 +83,25 @@ func CopyDir(srcPath, destPath string) error {
 		// 生成新路径
 		destNewPath := strings.Replace(path, srcPath, destPath, -1)
 		if !f.IsDir() {
-			CopyFile(path, destNewPath)
+			_, err = CopyFile(path, destNewPath)
+			if err != nil {
+				return err
+			}
 		} else if !FileIsExisted(destNewPath) {
 			return CreateDir(destNewPath)
 		}
 		return nil
 	})
 	return err
+}
+
+func GetBasePath() (string, error) {
+	dir, err := os.Getwd()
+	if err != nil {
+		return "", err
+	}
+	if strings.HasSuffix(dir, "goepub") {
+		return dir, nil
+	}
+	return filepath.Dir(dir), nil
 }

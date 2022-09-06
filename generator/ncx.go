@@ -1,10 +1,11 @@
 package generator
 
 import (
-	"fmt"
+	"github.com/Kangrao0o/goepub/resource"
 	"github.com/Kangrao0o/goepub/utils"
 	log "github.com/sirupsen/logrus"
 	"os"
+	"path/filepath"
 	"text/template"
 )
 
@@ -29,7 +30,8 @@ func (doc *NCXDocument) Write(savePath string) error {
 		log.Errorf("ncx write err: %v when os.Getwd", err)
 		return err
 	}
-	tplFilename := fmt.Sprintf("%s\\..\\template\\epub3\\OEBPS\\toc.ncx", dir)
+
+	tplFilename := filepath.Join(dir, resource.NCXEpub3Path)
 	temp, err := template.New("toc.ncx").ParseFiles(tplFilename)
 	if err != nil {
 		log.Errorf("ncx write err: %v when template parse files", err)
@@ -39,7 +41,7 @@ func (doc *NCXDocument) Write(savePath string) error {
 	if err := utils.CreateDir(savePath); err != nil {
 		return err
 	}
-	filename := fmt.Sprintf("%s/toc.ncx", savePath)
+	filename := filepath.Join(savePath, "toc.ncx")
 	fd, err := os.Create(filename)
 	if err != nil {
 		log.Errorf("ncx write err: %v when os.Create", err)

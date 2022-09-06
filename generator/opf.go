@@ -1,10 +1,11 @@
 package generator
 
 import (
-	"fmt"
+	"github.com/Kangrao0o/goepub/resource"
 	"github.com/Kangrao0o/goepub/utils"
 	log "github.com/sirupsen/logrus"
 	"os"
+	"path/filepath"
 	"text/template"
 )
 
@@ -76,8 +77,8 @@ func (doc *PackageDocument) Write(savePath string) error {
 	if err != nil {
 		return err
 	}
-	tmpFilename := fmt.Sprintf("%s\\..\\template\\epub3\\OEBPS\\content.opf", dir)
-	temp, err := template.New("content.opf").ParseFiles(tmpFilename)
+	tplFilename := filepath.Join(dir, resource.OPFEpub3Path)
+	temp, err := template.New("content.opf").ParseFiles(tplFilename)
 	if err != nil {
 		return err
 	}
@@ -87,7 +88,7 @@ func (doc *PackageDocument) Write(savePath string) error {
 		log.Errorf("opf write err: %v when create tmp dir", err)
 		return err
 	}
-	filename := fmt.Sprintf("%s/content.opf", savePath)
+	filename := filepath.Join(savePath, "content.opf")
 	fd, err := os.Create(filename)
 	if err != nil {
 		return err

@@ -10,6 +10,8 @@ type Book struct {
 	Language  string
 	Chapters  []*Chapter
 	Cover     *Cover
+	Style     *Style
+	MetaInf   *MetaInf
 }
 
 func (book *Book) convertToNCX() *NCXDocument {
@@ -77,29 +79,38 @@ func (book *Book) convertToOPF() *PackageDocument {
 func (book *Book) Write(savePath string) error {
 	// 生成 toc.ncx 文件
 	ncx := book.convertToNCX()
-	if err := ncx.Write(savePath); err != nil {
+	if err := ncx.Write(savePath + "/OEBPS"); err != nil {
 		return err
 	}
 	// 生成 content.opf 文件
 	opf := book.convertToOPF()
-	if err := opf.Write(savePath); err != nil {
+	if err := opf.Write(savePath + "/OEBPS"); err != nil {
 		return err
 	}
 	// 下载封面图
 	cover := book.Cover
-	if err := cover.Download(savePath + "/images"); err != nil {
+	if err := cover.Download(savePath + "/OEBPS/images"); err != nil {
 		return err
 	}
 	// 生成封面页
-	if err := cover.Write(savePath); err != nil {
+	if err := cover.Write(savePath + "/OEBPS/text"); err != nil {
 		return err
 	}
 	// 生成章节
 	for _, chapter := range book.Chapters {
-		if err := chapter.Write(savePath + "/text"); err != nil {
+		if err := chapter.Write(savePath + "/OEBPS/text"); err != nil {
 			return err
 		}
 	}
-	// TODO 拷贝 css
+	// 拷贝 css
+	style := book.Style
+	if err := style.Write(savePath + "/OEBPS/styles"); err != nil {
+		return err
+	}
+	// 拷贝 container.xml
+	metaInf := book.MetaInf
+	if err := metaInf.Write(savePath + "/META-INF"); err != nil {
+		return err
+	}
 	return nil
 }

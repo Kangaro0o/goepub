@@ -2,9 +2,11 @@ package generator
 
 import (
 	"fmt"
+	"github.com/Kangrao0o/goepub/resource"
 	"github.com/Kangrao0o/goepub/utils"
 	log "github.com/sirupsen/logrus"
 	"os"
+	"path/filepath"
 	"text/template"
 )
 
@@ -23,8 +25,8 @@ func (c *Chapter) Write(savePath string) error {
 	if err != nil {
 		return err
 	}
-	tplFilename := fmt.Sprintf("%s\\..\\template\\epub3\\OEBPS\\text\\chapter.html", dir)
 
+	tplFilename := filepath.Join(dir, resource.ChapterEpub3Path)
 	temp, err := template.New("chapter.html").ParseFiles(tplFilename)
 	if err != nil {
 		return err
@@ -36,7 +38,7 @@ func (c *Chapter) Write(savePath string) error {
 		return err
 	}
 
-	filename := fmt.Sprintf("%s/chapter%d.html", savePath, c.ID)
+	filename := filepath.Join(savePath, fmt.Sprintf("chapter%d.html", c.ID))
 	fd, err := os.Create(filename)
 	if err != nil {
 		return err
