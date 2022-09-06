@@ -1,8 +1,8 @@
 package generator
 
 import (
-	"github.com/Kangrao0o/goepub/resource"
-	"github.com/Kangrao0o/goepub/utils"
+	"github.com/Kangaro0o/goepub/resource"
+	"github.com/Kangaro0o/goepub/utils"
 	log "github.com/sirupsen/logrus"
 	"io/ioutil"
 	"net/http"

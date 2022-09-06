@@ -29,7 +29,7 @@ func TestCover_Write(t *testing.T) {
 			c := &Cover{
 				Generator: tt.fields.Generator,
 				Title:     tt.fields.Title,
-				Src:       tt.fields.Src,
+				ImgSrc:    tt.fields.Src,
 				Alt:       tt.fields.Alt,
 			}
 			if err := c.Write("D:\\Workspace\\GoProjects\\goepub\\book-cover"); (err != nil) != tt.wantErr {
@@ -79,7 +79,7 @@ func TestCover_Download(t *testing.T) {
 				URL:       tt.fields.URL,
 				Generator: tt.fields.Generator,
 				Title:     tt.fields.Title,
-				Src:       tt.fields.Src,
+				ImgSrc:    tt.fields.Src,
 				Alt:       tt.fields.Alt,
 			}
 			if err := c.Download(tt.args.savePath); (err != nil) != tt.wantErr {

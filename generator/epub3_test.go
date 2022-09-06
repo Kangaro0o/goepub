@@ -32,7 +32,7 @@ func TestBook_Write(t *testing.T) {
 				Cover: &Cover{
 					Generator: "Created by Kelvin",
 					Title:     "Cover",
-					Src:       "1_togolife.jpg",
+					ImgSrc:    "1_togolife.jpg",
 					Alt:       "test-book-name",
 					URL:       "https://avatar.csdnimg.cn/2/9/0/1_togolife.jpg",
 				},
@@ -43,7 +43,6 @@ func TestBook_Write(t *testing.T) {
 						Src:       "chapter0.html",
 						Title:     "内容简介",
 						Content:   "<p>这是一段内容简介</p>",
-						MediaType: HTMLMediaType,
 					},
 				},
 			},

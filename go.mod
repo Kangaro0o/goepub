@@ -1,4 +1,4 @@
-module github.com/Kangrao0o/goepub
+module github.com/Kangaro0o/goepub
 
 go 1.18
 

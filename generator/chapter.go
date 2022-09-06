@@ -2,8 +2,8 @@ package generator
 
 import (
 	"fmt"
-	"github.com/Kangrao0o/goepub/resource"
-	"github.com/Kangrao0o/goepub/utils"
+	"github.com/Kangaro0o/goepub/resource"
+	"github.com/Kangaro0o/goepub/utils"
 	log "github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
