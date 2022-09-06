@@ -18,7 +18,6 @@ type Book struct {
 	Chapters  []*Chapter
 	Cover     *Cover
 	Toc       *BookTOC
-	Intro     *BookIntro
 	Style     *Style
 	MetaInf   *MetaInf
 	MimeType  *MimeType
@@ -37,20 +36,16 @@ func (book *Book) convertToNCX() *NCXDocument {
 		toc := book.Toc
 		navMap = append(navMap, toc.ConvertToNavPoint())
 	}
-	if book.Intro != nil {
-		// 添加内容简介
-		intro := book.Intro
-		navMap = append(navMap, intro.ConvertToNavPoint())
-	}
-	n := len(navMap)
-	for idx, chapter := range book.Chapters {
+	idx := int32(len(navMap))
+	for _, chapter := range book.Chapters {
 		navPoint := &NavPoint{
 			ID:         chapter.ID,
-			PlayOrder:  int32(idx + n),
+			PlayOrder:  idx,
 			Label:      chapter.Title,
 			ContentSrc: chapter.Src,
 		}
 		navMap = append(navMap, navPoint)
+		idx++
 	}
 	ncx := &NCXDocument{
 		UID:       book.UID,
@@ -70,6 +65,7 @@ func (book *Book) convertToOPF() (*PackageDocument, error) {
 		Date:     book.Date,
 		Rights:   book.Rights,
 		Language: book.Language,
+		CoverID:  getShortName(book.Cover.ImgSrc),
 	}
 	// 合成 manifests
 	manifests, err := GetManifests(book.SavePath)
@@ -83,50 +79,16 @@ func (book *Book) convertToOPF() (*PackageDocument, error) {
 		log.Errorf("convert to opf failed, err: %v", err)
 		return nil, err
 	}
-	opf.Manifests = manifests
-	opf.Spines = spines
-	return opf, nil
-}
-
-func (book *Book) convertToOPF1() *PackageDocument {
-	opf := &PackageDocument{
-		UID:      book.UID,
-		BookName: book.Name,
-		Author:   book.Author,
-		Date:     book.Date,
-		Rights:   book.Rights,
-		Language: book.Language,
-	}
-	var (
-		manifests []*Manifest
-		spines    []*Spine
-		guides    []*Guide
-	)
-	for idx, chapter := range book.Chapters {
-		if idx < 3 {
-			guide := &Guide{
-				Src:   chapter.Src,
-				Type:  TOCGuideType,
-				Title: TOCGuideTitle,
-			}
-			guides = append(guides, guide)
-		}
-		manifest := &Manifest{
-			ID:        chapter.ID,
-			Src:       chapter.Src,
-			MediaType: chapter.MediaType,
-		}
-		spine := &Spine{
-			IDRef:  chapter.ID,
-			Linear: YESLinear,
-		}
-		manifests = append(manifests, manifest)
-		spines = append(spines, spine)
+	// 合成 guides
+	guides, err := GetGuides(book.SavePath)
+	if err != nil {
+		log.Errorf("convert to opf guide failed, err: %v", err)
+		return nil, err
 	}
 	opf.Manifests = manifests
 	opf.Spines = spines
 	opf.Guides = guides
-	return opf
+	return opf, nil
 }
 
 func (book *Book) Write(savePath string) error {
@@ -136,14 +98,7 @@ func (book *Book) Write(savePath string) error {
 	if err := ncx.Write(savePath + "/OEBPS"); err != nil {
 		return err
 	}
-	// 生成 content.opf 文件
-	opf, err := book.convertToOPF()
-	if err != nil {
-		return err
-	}
-	if err := opf.Write(savePath + "/OEBPS"); err != nil {
-		return err
-	}
+
 	// 下载封面图
 	cover := book.Cover
 	if err := cover.Download(savePath + "/OEBPS/images"); err != nil {
@@ -172,6 +127,14 @@ func (book *Book) Write(savePath string) error {
 	// 拷贝 mimetype
 	mimetype := book.MimeType
 	if err := mimetype.Write(savePath); err != nil {
+		return err
+	}
+	// 最后步骤 生成 content.opf 文件
+	opf, err := book.convertToOPF()
+	if err != nil {
+		return err
+	}
+	if err := opf.Write(savePath + "/OEBPS"); err != nil {
 		return err
 	}
 	return nil

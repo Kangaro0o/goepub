@@ -4,6 +4,7 @@ import (
 	"archive/zip"
 	"io"
 	"os"
+	"path/filepath"
 	"strings"
 )
 
@@ -40,8 +41,8 @@ func AddFileToZip(zipWriter *zip.Writer, filename, savePath string) error {
 	if err != nil {
 		return err
 	}
-
-	header.Name = strings.TrimPrefix(filename, savePath)
+	shortName := strings.TrimPrefix(filename, savePath+string(filepath.Separator))
+	header.Name = strings.ReplaceAll(shortName, "\\", "/")
 	header.Method = zip.Deflate
 	writer, err := zipWriter.CreateHeader(header)
 	if err != nil {

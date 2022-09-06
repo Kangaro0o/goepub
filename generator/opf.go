@@ -19,6 +19,7 @@ type PackageDocument struct {
 	Date      string
 	Rights    string
 	Language  string
+	CoverID   string
 	Manifests []*Manifest
 	Spines    []*Spine
 	Guides    []*Guide
@@ -96,6 +97,7 @@ func (doc *PackageDocument) Write(savePath string) error {
 	}
 	filename := filepath.Join(savePath, "content.opf")
 	fd, err := os.Create(filename)
+	defer fd.Close()
 	if err != nil {
 		return err
 	}
@@ -116,9 +118,11 @@ func GetManifests(savePath string) ([]*Manifest, error) {
 		if strings.HasSuffix(f, ".opf") {
 			continue
 		}
+		// 拿到相对路径
+		f1 := strings.TrimPrefix(f, destDir+string(filepath.Separator))
 		m := &Manifest{
 			ID:        getShortName(f),
-			Src:       strings.TrimPrefix(f, destDir+string(filepath.Separator)),
+			Src:       strings.ReplaceAll(f1, "\\", "/"),
 			MediaType: getMediaType(f),
 		}
 		manifests = append(manifests, m)
@@ -157,23 +161,24 @@ func GetGuides(savePath string) ([]*Guide, error) {
 	prefixPath := filepath.Join(savePath, "OEBPS")
 	var guides []*Guide
 	for _, f := range filenames {
+		f1 := strings.TrimPrefix(f, prefixPath+string(filepath.Separator))
 		if strings.Contains(f, "cover.html") {
 			guides = append(guides, &Guide{
-				Src:   strings.TrimPrefix(f, prefixPath+string(filepath.Separator)),
+				Src:   strings.ReplaceAll(f1, "\\", "/"),
 				Type:  CoverGuideType,
 				Title: CoverGuideTitle,
 			})
 		}
 		if strings.Contains(f, "book-toc.html") {
 			guides = append(guides, &Guide{
-				Src:   strings.TrimPrefix(f, prefixPath+string(filepath.Separator)),
+				Src:   strings.ReplaceAll(f1, "\\", "/"),
 				Type:  TOCGuideType,
 				Title: TOCGuideTitle,
 			})
 		}
 		if strings.Contains(f, "chapter0.html") {
 			guides = append(guides, &Guide{
-				Src:   strings.TrimPrefix(f, prefixPath+string(filepath.Separator)),
+				Src:   strings.ReplaceAll(f1, "\\", "/"),
 				Type:  TextGuideType,
 				Title: TextGuideTitle,
 			})
@@ -185,6 +190,9 @@ func GetGuides(savePath string) ([]*Guide, error) {
 func getShortName(filename string) string {
 	start := strings.LastIndex(filename, string(filepath.Separator))
 	end := strings.LastIndex(filename, ".")
+	if start == -1 {
+		start = strings.LastIndex(filename, "/")
+	}
 	return filename[start+1 : end]
 }
 

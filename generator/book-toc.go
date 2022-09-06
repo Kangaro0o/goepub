@@ -42,6 +42,7 @@ func (toc *BookTOC) Write() error {
 	}
 
 	fd, err := os.Create("book-toc.html")
+	defer fd.Close()
 	if err != nil {
 		return err
 	}

@@ -8,21 +8,21 @@
 <dc:date>{{.Date}}</dc:date>
 <dc:rights>{{.Rights}}</dc:rights>
 <dc:language>{{.Language}}</dc:language>
-<meta name="cover" content="cover-image"/>
+<meta name="cover" content="{{.CoverID}}"/>
 </metadata>
 <manifest>
 {{range $item := .Manifests}}
-<item id="{{$item.ID}}" href="{{$item.Src}}" media-type="{{$item.MediaType}}"/>
-{{end}}
+<item id="{{$item.ID}}" href="{{$item.Src}}" media-type="{{$item.MediaType}}"/>{{end}}
+
 </manifest>
 <spine toc="toc">
 {{range $item := .Spines}}
-<itemref idref="{{$item.IDRef}}" linear="{{$item.Linear}}"/>
-{{end}}
+<itemref idref="{{$item.IDRef}}" linear="{{$item.Linear}}"/>{{end}}
+
 </spine>
 <guide>
 {{range $item := .Guides}}
-<reference href="{{$item.Src}}" type="{{$item.Type}}" title="{{$item.Title}}"/>
-{{end}}
+<reference href="{{$item.Src}}" type="{{$item.Type}}" title="{{$item.Title}}"/>{{end}}
+
 </guide>
 </package>

@@ -17,7 +17,8 @@ type Cover struct {
 	Generator string
 	Title     string
 	Desc      string
-	Src       string
+	ImgSrc    string
+	HtmlSrc   string
 	Alt       string
 	URL       string
 	PlayOrder int32
@@ -28,7 +29,7 @@ func (c *Cover) ConvertToNavPoint() *NavPoint {
 		ID:         c.Title,
 		PlayOrder:  c.PlayOrder,
 		Label:      c.Desc,
-		ContentSrc: c.Src,
+		ContentSrc: c.HtmlSrc,
 	}
 }
 
@@ -54,6 +55,7 @@ func (c *Cover) Write(savePath string) error {
 
 	filename := filepath.Join(savePath, "cover.html")
 	fd, err := os.Create(filename)
+	defer fd.Close()
 	if err != nil {
 		return err
 	}

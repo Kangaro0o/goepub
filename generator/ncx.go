@@ -44,6 +44,7 @@ func (doc *NCXDocument) Write(savePath string) error {
 	}
 	filename := filepath.Join(savePath, "toc.ncx")
 	fd, err := os.Create(filename)
+	defer fd.Close()
 	if err != nil {
 		log.Errorf("ncx write err: %v when os.Create", err)
 		return err

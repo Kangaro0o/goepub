@@ -18,7 +18,6 @@ type Chapter struct {
 	Content   string
 	Src       string
 	PlayOrder int32
-	MediaType MediaType
 }
 
 func (c *Chapter) Write(savePath string, index int32) error {
@@ -41,6 +40,7 @@ func (c *Chapter) Write(savePath string, index int32) error {
 
 	filename := filepath.Join(savePath, fmt.Sprintf("chapter%d.html", index))
 	fd, err := os.Create(filename)
+	defer fd.Close()
 	if err != nil {
 		return err
 	}
