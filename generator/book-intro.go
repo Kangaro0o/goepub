@@ -7,9 +7,22 @@ import (
 )
 
 type BookIntro struct {
-	Generator string
-	Title     string
-	Content   string
+	Generator     string
+	Title         string
+	Content       string
+	NavPointID    string
+	PlayOrder     int32
+	NavPointLabel string
+	ContentSrc    string
+}
+
+func (intro *BookIntro) ConvertToNavPoint() *NavPoint {
+	return &NavPoint{
+		ID:         intro.NavPointID,
+		PlayOrder:  intro.PlayOrder,
+		Label:      intro.NavPointLabel,
+		ContentSrc: intro.ContentSrc,
+	}
 }
 
 func (intro *BookIntro) Write() error {

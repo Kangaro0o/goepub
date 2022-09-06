@@ -2,7 +2,9 @@ package generator
 
 import (
 	"github.com/Kangrao0o/goepub/utils"
+	log "github.com/sirupsen/logrus"
 	"os"
+	"path/filepath"
 )
 
 type Book struct {
@@ -15,6 +17,8 @@ type Book struct {
 	Language  string
 	Chapters  []*Chapter
 	Cover     *Cover
+	Toc       *BookTOC
+	Intro     *BookIntro
 	Style     *Style
 	MetaInf   *MetaInf
 	MimeType  *MimeType
@@ -23,12 +27,28 @@ type Book struct {
 
 func (book *Book) convertToNCX() *NCXDocument {
 	var navMap []*NavPoint
+	if book.Cover != nil {
+		// 添加封面
+		c := book.Cover
+		navMap = append(navMap, c.ConvertToNavPoint())
+	}
+	if book.Toc != nil {
+		// 添加目录
+		toc := book.Toc
+		navMap = append(navMap, toc.ConvertToNavPoint())
+	}
+	if book.Intro != nil {
+		// 添加内容简介
+		intro := book.Intro
+		navMap = append(navMap, intro.ConvertToNavPoint())
+	}
+	n := len(navMap)
 	for idx, chapter := range book.Chapters {
 		navPoint := &NavPoint{
-			ID:         chapter.NavPointID,
-			PlayOrder:  int32(idx),
+			ID:         chapter.ID,
+			PlayOrder:  int32(idx + n),
 			Label:      chapter.Title,
-			ContentSrc: chapter.NavPointSrc,
+			ContentSrc: chapter.Src,
 		}
 		navMap = append(navMap, navPoint)
 	}
@@ -42,7 +62,33 @@ func (book *Book) convertToNCX() *NCXDocument {
 	return ncx
 }
 
-func (book *Book) convertToOPF() *PackageDocument {
+func (book *Book) convertToOPF() (*PackageDocument, error) {
+	opf := &PackageDocument{
+		UID:      book.UID,
+		BookName: book.Name,
+		Author:   book.Author,
+		Date:     book.Date,
+		Rights:   book.Rights,
+		Language: book.Language,
+	}
+	// 合成 manifests
+	manifests, err := GetManifests(book.SavePath)
+	if err != nil {
+		log.Errorf("convert to opf failed, err: %v", err)
+		return nil, err
+	}
+	// 合成 spines
+	spines, err := GetSpines(book.SavePath)
+	if err != nil {
+		log.Errorf("convert to opf failed, err: %v", err)
+		return nil, err
+	}
+	opf.Manifests = manifests
+	opf.Spines = spines
+	return opf, nil
+}
+
+func (book *Book) convertToOPF1() *PackageDocument {
 	opf := &PackageDocument{
 		UID:      book.UID,
 		BookName: book.Name,
@@ -59,19 +105,19 @@ func (book *Book) convertToOPF() *PackageDocument {
 	for idx, chapter := range book.Chapters {
 		if idx < 3 {
 			guide := &Guide{
-				Href:  chapter.NavPointSrc,
+				Src:   chapter.Src,
 				Type:  TOCGuideType,
 				Title: TOCGuideTitle,
 			}
 			guides = append(guides, guide)
 		}
 		manifest := &Manifest{
-			ID:        chapter.NavPointID,
-			Href:      chapter.NavPointSrc,
+			ID:        chapter.ID,
+			Src:       chapter.Src,
 			MediaType: chapter.MediaType,
 		}
 		spine := &Spine{
-			IDRef:  chapter.NavPointID,
+			IDRef:  chapter.ID,
 			Linear: YESLinear,
 		}
 		manifests = append(manifests, manifest)
@@ -91,7 +137,10 @@ func (book *Book) Write(savePath string) error {
 		return err
 	}
 	// 生成 content.opf 文件
-	opf := book.convertToOPF()
+	opf, err := book.convertToOPF()
+	if err != nil {
+		return err
+	}
 	if err := opf.Write(savePath + "/OEBPS"); err != nil {
 		return err
 	}
@@ -105,8 +154,8 @@ func (book *Book) Write(savePath string) error {
 		return err
 	}
 	// 生成章节
-	for _, chapter := range book.Chapters {
-		if err := chapter.Write(savePath + "/OEBPS/text"); err != nil {
+	for idx, chapter := range book.Chapters {
+		if err := chapter.Write(savePath+"/OEBPS/text", int32(idx)); err != nil {
 			return err
 		}
 	}
@@ -133,7 +182,8 @@ func (book *Book) MakeEpub3() error {
 	if err != nil {
 		return err
 	}
-	if err := book.Write(dir + "/" + book.UID); err != nil {
+	tmpSavePath := filepath.Join(dir, book.UID)
+	if err := book.Write(tmpSavePath); err != nil {
 		return err
 	}
 
@@ -142,7 +192,7 @@ func (book *Book) MakeEpub3() error {
 		return err
 	}
 	output := "test.epub"
-	if err := utils.ZipFiles(output, filenames, book.SavePath); err != nil {
+	if err := utils.ZipFiles(output, filenames, tmpSavePath); err != nil {
 		return err
 	}
 	return nil

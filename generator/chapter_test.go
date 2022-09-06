@@ -4,7 +4,7 @@ import "testing"
 
 func TestChapter_Write(t *testing.T) {
 	type fields struct {
-		ID        int32
+		ID        string
 		Generator string
 		Title     string
 		Content   string
@@ -17,7 +17,7 @@ func TestChapter_Write(t *testing.T) {
 		{
 			name: "case1",
 			fields: fields{
-				ID:        1,
+				ID:        "chapter1",
 				Generator: "Created by Kelvin",
 				Title:     "第一章",
 				Content:   "<p>哈哈哈哈哈</p>",
@@ -33,7 +33,7 @@ func TestChapter_Write(t *testing.T) {
 				Title:     tt.fields.Title,
 				Content:   tt.fields.Content,
 			}
-			if err := c.Write("D:\\Workspace\\GoProjects\\goepub\\book-chapter"); (err != nil) != tt.wantErr {
+			if err := c.Write("D:\\Workspace\\GoProjects\\goepub\\book-chapter", 0); (err != nil) != tt.wantErr {
 				t.Errorf("Write() error = %v, wantErr %v", err, tt.wantErr)
 			}
 		})

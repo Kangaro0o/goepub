@@ -6,6 +6,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
+	"strings"
 )
 
 // Style CSS 样式
@@ -21,6 +22,8 @@ func (s *Style) Write(savePath string) error {
 		log.Errorf("style write err: %v when create tmp dir", err)
 		return err
 	}
+
+	dir = strings.TrimSuffix(dir, "generator")
 	stylesSrcPath := filepath.Join(dir, resource.StyleEpub3Path)
 	if err := utils.CopyDir(stylesSrcPath, savePath); err != nil {
 		log.Errorf("style write err: %v when copy dir: %s", err, stylesSrcPath)

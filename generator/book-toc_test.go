@@ -5,7 +5,7 @@ import "testing"
 func TestBookTOC_Write(t *testing.T) {
 	type fields struct {
 		Generator string
-		Chapters  []*ChapterBrief
+		Chapters  []*Chapter
 	}
 	tests := []struct {
 		name    string
@@ -16,14 +16,14 @@ func TestBookTOC_Write(t *testing.T) {
 			name: "case1",
 			fields: fields{
 				Generator: "Created by Kelvin",
-				Chapters: []*ChapterBrief{
+				Chapters: []*Chapter{
 					{
-						Href: "chapter0.html",
-						Name: "内容简介",
+						Src:   "chapter0.html",
+						Title: "内容简介",
 					},
 					{
-						Href: "chapter1.html",
-						Name: "第一章 test-chapter",
+						Src:   "chapter1.html",
+						Title: "第一章 test-chapter",
 					},
 				},
 			},

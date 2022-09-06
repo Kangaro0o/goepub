@@ -12,17 +12,17 @@
 </metadata>
 <manifest>
 {{range $item := .Manifests}}
-<item id="{{$item.ID}}" href="{{$item.Href}}" media-type="{{$item.MediaType}}"/>
+<item id="{{$item.ID}}" href="{{$item.Src}}" media-type="{{$item.MediaType}}"/>
 {{end}}
 </manifest>
-<spine toc="ncxtoc">
+<spine toc="toc">
 {{range $item := .Spines}}
 <itemref idref="{{$item.IDRef}}" linear="{{$item.Linear}}"/>
 {{end}}
 </spine>
 <guide>
 {{range $item := .Guides}}
-<reference href="{{$item.Href}}" type="{{$item.Type}}" title="{{$item.Title}}"/>
+<reference href="{{$item.Src}}" type="{{$item.Type}}" title="{{$item.Title}}"/>
 {{end}}
 </guide>
 </package>

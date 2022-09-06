@@ -6,6 +6,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
+	"strings"
 )
 
 // MetaInf 元数据
@@ -21,6 +22,8 @@ func (m *MetaInf) Write(savePath string) error {
 		log.Errorf("meta info write err: %v when create tmp dir", err)
 		return err
 	}
+
+	dir = strings.TrimSuffix(dir, "generator")
 	metaInfSrcPath := filepath.Join(dir, resource.MetaInfEpub3Path)
 	if err := utils.CopyDir(metaInfSrcPath, savePath); err != nil {
 		log.Errorf("meta info write err: %v when copy dir", err)

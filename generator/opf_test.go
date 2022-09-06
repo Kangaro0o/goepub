@@ -1,6 +1,9 @@
 package generator
 
-import "testing"
+import (
+	"reflect"
+	"testing"
+)
 
 func TestPackageDocument_Write(t *testing.T) {
 	type fields struct {
@@ -31,12 +34,12 @@ func TestPackageDocument_Write(t *testing.T) {
 				Manifests: []*Manifest{
 					{
 						ID:        "ncxtoc",
-						Href:      "toc.ncx",
+						Src:       "toc.ncx",
 						MediaType: NCXMediaType,
 					},
 					{
 						ID:        "htmltoc",
-						Href:      "book-toc.html",
+						Src:       "book-toc.html",
 						MediaType: HTMLMediaType,
 					},
 				},
@@ -52,12 +55,12 @@ func TestPackageDocument_Write(t *testing.T) {
 				},
 				Guides: []*Guide{
 					{
-						Href:  "cover.html",
+						Src:   "cover.html",
 						Type:  CoverGuideType,
 						Title: CoverGuideTitle,
 					},
 					{
-						Href:  "toc.html",
+						Src:   "toc.html",
 						Type:  TOCGuideType,
 						Title: TOCGuideTitle,
 					},
@@ -81,6 +84,192 @@ func TestPackageDocument_Write(t *testing.T) {
 			}
 			if err := doc.Write("D:\\Workspace\\GoProjects\\goepub\\books"); (err != nil) != tt.wantErr {
 				t.Errorf("Write() error = %v, wantErr %v", err, tt.wantErr)
+			}
+		})
+	}
+}
+
+func TestPackageDocument_GetManifests(t *testing.T) {
+	type args struct {
+		savePath string
+	}
+	tests := []struct {
+		name    string
+		args    args
+		want    []string
+		wantErr bool
+	}{
+		{
+			name: "case1",
+			args: args{
+				savePath: "D:\\Workspace\\GoProjects\\goepub\\template\\epub3",
+			},
+			want:    nil,
+			wantErr: false,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			got, err := GetManifests(tt.args.savePath)
+			if (err != nil) != tt.wantErr {
+				t.Errorf("GetManifests() error = %v, wantErr %v", err, tt.wantErr)
+				return
+			}
+			if !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("GetManifests() got = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
+
+func Test_getShortName(t *testing.T) {
+	type args struct {
+		filename string
+	}
+	tests := []struct {
+		name string
+		args args
+		want string
+	}{
+		{
+			name: "case1",
+			args: args{
+				filename: "styles\\style.css",
+			},
+			want: "style",
+		},
+		{
+			name: "case2",
+			args: args{
+				filename: "content.opf",
+			},
+			want: "content",
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := getShortName(tt.args.filename); got != tt.want {
+				t.Errorf("getShortName() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
+
+func Test_getMediaType(t *testing.T) {
+	type args struct {
+		filename string
+	}
+	tests := []struct {
+		name string
+		args args
+		want MediaType
+	}{
+		{
+			name: "case1",
+			args: args{
+				filename: "styles\\style.css",
+			},
+			want: CSSMediaType,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := getMediaType(tt.args.filename); got != tt.want {
+				t.Errorf("getMediaType() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
+
+func TestGetSpines(t *testing.T) {
+	type args struct {
+		savePath string
+	}
+	tests := []struct {
+		name    string
+		args    args
+		want    []*Spine
+		wantErr bool
+	}{
+		{
+			name: "case1",
+			args: args{
+				savePath: "D:\\Workspace\\GoProjects\\goepub\\template\\epub3",
+			},
+			want: []*Spine{
+				{
+					IDRef:  "book-intro",
+					Linear: YESLinear,
+				},
+				{
+					IDRef:  "book-toc",
+					Linear: YESLinear,
+				},
+				{
+					IDRef:  "chapter",
+					Linear: YESLinear,
+				},
+				{
+					IDRef:  "cover",
+					Linear: NOLinear,
+				},
+			},
+			wantErr: false,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			got, err := GetSpines(tt.args.savePath)
+			if (err != nil) != tt.wantErr {
+				t.Errorf("GetSpines() error = %v, wantErr %v", err, tt.wantErr)
+				return
+			}
+			if !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("GetSpines() got = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
+
+func TestGetGuides(t *testing.T) {
+	type args struct {
+		savePath string
+	}
+	tests := []struct {
+		name    string
+		args    args
+		want    []*Guide
+		wantErr bool
+	}{
+		{
+			name: "case1",
+			args: args{
+				savePath: "D:\\Workspace\\GoProjects\\goepub\\template\\epub3",
+			},
+			want: []*Guide{
+				{
+					Src:   "text\\book-toc.html",
+					Type:  TOCGuideType,
+					Title: TOCGuideTitle,
+				},
+				{
+					Src:   "text\\cover.html",
+					Type:  CoverGuideType,
+					Title: CoverGuideTitle,
+				},
+			},
+			wantErr: false,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			got, err := GetGuides(tt.args.savePath)
+			if (err != nil) != tt.wantErr {
+				t.Errorf("GetGuides() error = %v, wantErr %v", err, tt.wantErr)
+				return
+			}
+			if !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("GetGuides() got = %v, want %v", got, tt.want)
 			}
 		})
 	}

@@ -7,25 +7,26 @@ import (
 	log "github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
+	"strings"
 	"text/template"
 )
 
 type Chapter struct {
-	ID          int32
-	Generator   string
-	NavPointID  string
-	NavPointSrc string
-	Title       string
-	Content     string
-	MediaType   MediaType
+	ID        string
+	Generator string
+	Title     string
+	Content   string
+	Src       string
+	PlayOrder int32
+	MediaType MediaType
 }
 
-func (c *Chapter) Write(savePath string) error {
+func (c *Chapter) Write(savePath string, index int32) error {
 	dir, err := os.Getwd()
 	if err != nil {
 		return err
 	}
-
+	dir = strings.TrimSuffix(dir, "generator")
 	tplFilename := filepath.Join(dir, resource.ChapterEpub3Path)
 	temp, err := template.New("chapter.html").ParseFiles(tplFilename)
 	if err != nil {
@@ -38,7 +39,7 @@ func (c *Chapter) Write(savePath string) error {
 		return err
 	}
 
-	filename := filepath.Join(savePath, fmt.Sprintf("chapter%d.html", c.ID))
+	filename := filepath.Join(savePath, fmt.Sprintf("chapter%d.html", index))
 	fd, err := os.Create(filename)
 	if err != nil {
 		return err

@@ -6,6 +6,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
+	"strings"
 )
 
 type MimeType struct{}
@@ -20,10 +21,12 @@ func (m *MimeType) Write(savePath string) error {
 		log.Errorf("mimetype write err: %v when create tmp dir", err)
 		return err
 	}
+
+	dir = strings.TrimSuffix(dir, "generator")
 	tplFilename := filepath.Join(dir, resource.MimeTypeEpub3Path)
 	filename := filepath.Join(savePath, "mimetype")
 	if _, err := utils.CopyFile(tplFilename, filename); err != nil {
-		log.Errorf("mimetype write err: %v when copy file")
+		log.Errorf("mimetype write err: %v when copy file", err)
 		return err
 	}
 	return nil

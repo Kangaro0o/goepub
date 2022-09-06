@@ -12,20 +12,34 @@ import (
 	"text/template"
 )
 
+// Cover 封面
 type Cover struct {
 	Generator string
 	Title     string
+	Desc      string
 	Src       string
 	Alt       string
 	URL       string
+	PlayOrder int32
 }
 
+func (c *Cover) ConvertToNavPoint() *NavPoint {
+	return &NavPoint{
+		ID:         c.Title,
+		PlayOrder:  c.PlayOrder,
+		Label:      c.Desc,
+		ContentSrc: c.Src,
+	}
+}
+
+// Write 写入 cover.html
 func (c *Cover) Write(savePath string) error {
 	dir, err := os.Getwd()
 	if err != nil {
 		return err
 	}
 
+	dir = strings.TrimSuffix(dir, "generator")
 	tplFilename := filepath.Join(dir, resource.CoverEpub3Path)
 	temp, err := template.New("cover.html").ParseFiles(tplFilename)
 	if err != nil {

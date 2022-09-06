@@ -37,12 +37,15 @@ func main() {
 		Cover: &generator.Cover{
 			Generator: "Created by Kelvin",
 			Title:     "Cover",
+			Desc:      "封面",
+			PlayOrder: 1,
 			Src:       "1_togolife.jpg",
 			Alt:       "test-book-name",
 			URL:       "https://avatar.csdnimg.cn/2/9/0/1_togolife.jpg",
 		},
 		Style:   &generator.Style{},
 		MetaInf: &generator.MetaInf{},
+
 		Chapters: []*generator.Chapter{
 			{
 				ID:        1,

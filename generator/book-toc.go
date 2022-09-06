@@ -6,14 +6,28 @@ import (
 	"text/template"
 )
 
+// BookTOC 目录
 type BookTOC struct {
-	Generator string
-	Chapters  []*ChapterBrief
+	Generator     string
+	NavPointID    string
+	PlayOrder     int32
+	NavPointLabel string
+	ContentSrc    string
+	Chapters      []*Chapter
 }
 
 type ChapterBrief struct {
 	Href string
 	Name string
+}
+
+func (toc *BookTOC) ConvertToNavPoint() *NavPoint {
+	return &NavPoint{
+		ID:         toc.NavPointID,
+		PlayOrder:  toc.PlayOrder,
+		Label:      toc.NavPointLabel,
+		ContentSrc: toc.ContentSrc,
+	}
 }
 
 func (toc *BookTOC) Write() error {

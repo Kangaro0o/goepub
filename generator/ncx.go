@@ -6,6 +6,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
+	"strings"
 	"text/template"
 )
 
@@ -30,7 +31,7 @@ func (doc *NCXDocument) Write(savePath string) error {
 		log.Errorf("ncx write err: %v when os.Getwd", err)
 		return err
 	}
-
+	dir = strings.TrimSuffix(dir, "generator")
 	tplFilename := filepath.Join(dir, resource.NCXEpub3Path)
 	temp, err := template.New("toc.ncx").ParseFiles(tplFilename)
 	if err != nil {

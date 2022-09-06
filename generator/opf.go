@@ -1,11 +1,14 @@
 package generator
 
 import (
+	"fmt"
 	"github.com/Kangrao0o/goepub/resource"
 	"github.com/Kangrao0o/goepub/utils"
 	log "github.com/sirupsen/logrus"
 	"os"
 	"path/filepath"
+	"sort"
+	"strings"
 	"text/template"
 )
 
@@ -24,7 +27,7 @@ type PackageDocument struct {
 // Manifest 目录清单
 type Manifest struct {
 	ID        string
-	Href      string
+	Src       string
 	MediaType MediaType
 }
 
@@ -51,7 +54,7 @@ const (
 )
 
 type Guide struct {
-	Href  string
+	Src   string
 	Type  GuideType
 	Title GuideTitle
 }
@@ -72,11 +75,14 @@ const (
 	TextGuideTitle  GuideTitle = "Beginning"
 )
 
+// Write 写入 content.opf
 func (doc *PackageDocument) Write(savePath string) error {
 	dir, err := os.Getwd()
 	if err != nil {
 		return err
 	}
+
+	dir = strings.TrimSuffix(dir, "generator")
 	tplFilename := filepath.Join(dir, resource.OPFEpub3Path)
 	temp, err := template.New("content.opf").ParseFiles(tplFilename)
 	if err != nil {
@@ -94,4 +100,105 @@ func (doc *PackageDocument) Write(savePath string) error {
 		return err
 	}
 	return temp.Execute(fd, doc)
+}
+
+// GetManifests 获取 manifest 列表
+func GetManifests(savePath string) ([]*Manifest, error) {
+	destDir := filepath.Join(savePath, "OEBPS")
+	filenames, err := utils.GetAllFile(destDir)
+	if err != nil {
+		return nil, err
+	}
+
+	sort.Strings(filenames)
+	var manifests []*Manifest
+	for _, f := range filenames {
+		if strings.HasSuffix(f, ".opf") {
+			continue
+		}
+		m := &Manifest{
+			ID:        getShortName(f),
+			Src:       strings.TrimPrefix(f, destDir+string(filepath.Separator)),
+			MediaType: getMediaType(f),
+		}
+		manifests = append(manifests, m)
+	}
+	return manifests, nil
+}
+
+// GetSpines 获取 spine 列表
+func GetSpines(savePath string) ([]*Spine, error) {
+	destDir := filepath.Join(savePath, "OEBPS", "text")
+	filenames, err := utils.GetAllFile(destDir)
+	if err != nil {
+		return nil, err
+	}
+	var spines []*Spine
+	for _, f := range filenames {
+		s := &Spine{
+			IDRef:  getShortName(f),
+			Linear: YESLinear,
+		}
+		if strings.Contains(f, "cover.html") {
+			s.Linear = NOLinear
+		}
+		spines = append(spines, s)
+	}
+	return spines, nil
+}
+
+func GetGuides(savePath string) ([]*Guide, error) {
+	destDir := filepath.Join(savePath, "OEBPS", "text")
+	filenames, err := utils.GetAllFile(destDir)
+	if err != nil {
+		return nil, err
+	}
+
+	prefixPath := filepath.Join(savePath, "OEBPS")
+	var guides []*Guide
+	for _, f := range filenames {
+		if strings.Contains(f, "cover.html") {
+			guides = append(guides, &Guide{
+				Src:   strings.TrimPrefix(f, prefixPath+string(filepath.Separator)),
+				Type:  CoverGuideType,
+				Title: CoverGuideTitle,
+			})
+		}
+		if strings.Contains(f, "book-toc.html") {
+			guides = append(guides, &Guide{
+				Src:   strings.TrimPrefix(f, prefixPath+string(filepath.Separator)),
+				Type:  TOCGuideType,
+				Title: TOCGuideTitle,
+			})
+		}
+		if strings.Contains(f, "chapter0.html") {
+			guides = append(guides, &Guide{
+				Src:   strings.TrimPrefix(f, prefixPath+string(filepath.Separator)),
+				Type:  TextGuideType,
+				Title: TextGuideTitle,
+			})
+		}
+	}
+	return guides, nil
+}
+
+func getShortName(filename string) string {
+	start := strings.LastIndex(filename, string(filepath.Separator))
+	end := strings.LastIndex(filename, ".")
+	return filename[start+1 : end]
+}
+
+func getMediaType(filename string) MediaType {
+	ext := strings.ToLower(filepath.Ext(filename))
+	fmt.Println("ext: ", ext)
+	switch ext {
+	case ".css":
+		return CSSMediaType
+	case ".ncx":
+		return NCXMediaType
+	case ".jpg":
+		return JPGMediaType
+	default:
+		return HTMLMediaType
+	}
 }
