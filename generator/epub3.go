@@ -1,5 +1,10 @@
 package generator
 
+import (
+	"github.com/Kangrao0o/goepub/utils"
+	"os"
+)
+
 type Book struct {
 	UID       string
 	Generator string
@@ -13,6 +18,7 @@ type Book struct {
 	Style     *Style
 	MetaInf   *MetaInf
 	MimeType  *MimeType
+	SavePath  string // 存储目录
 }
 
 func (book *Book) convertToNCX() *NCXDocument {
@@ -78,6 +84,7 @@ func (book *Book) convertToOPF() *PackageDocument {
 }
 
 func (book *Book) Write(savePath string) error {
+	book.SavePath = savePath
 	// 生成 toc.ncx 文件
 	ncx := book.convertToNCX()
 	if err := ncx.Write(savePath + "/OEBPS"); err != nil {
@@ -116,6 +123,26 @@ func (book *Book) Write(savePath string) error {
 	// 拷贝 mimetype
 	mimetype := book.MimeType
 	if err := mimetype.Write(savePath); err != nil {
+		return err
+	}
+	return nil
+}
+
+func (book *Book) MakeEpub3() error {
+	dir, err := os.Getwd()
+	if err != nil {
+		return err
+	}
+	if err := book.Write(dir + "/" + book.UID); err != nil {
+		return err
+	}
+
+	filenames, err := utils.GetAllFile(book.SavePath)
+	if err != nil {
+		return err
+	}
+	output := "test.epub"
+	if err := utils.ZipFiles(output, filenames, book.SavePath); err != nil {
 		return err
 	}
 	return nil

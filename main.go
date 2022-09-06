@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"github.com/Kangrao0o/goepub/generator"
-	"os"
 )
 
 //import (
@@ -60,8 +59,9 @@ func main() {
 		},
 		MimeType: &generator.MimeType{},
 	}
-	dir, _ := os.Getwd()
-	err := book.Write(dir + "/book-uid")
+	//dir, _ := os.Getwd()
+	//err := book.Write(dir + "/book-uid")
+	err := book.MakeEpub3()
 	fmt.Println("err: ", err)
 	fmt.Println("book write done")
 }

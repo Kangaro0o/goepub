@@ -95,13 +95,14 @@ func CopyDir(srcPath, destPath string) error {
 	return err
 }
 
-func GetBasePath() (string, error) {
-	dir, err := os.Getwd()
-	if err != nil {
-		return "", err
-	}
-	if strings.HasSuffix(dir, "goepub") {
-		return dir, nil
-	}
-	return filepath.Dir(dir), nil
+// GetAllFile 获取指定目录下所有文件列表
+func GetAllFile(dir string) ([]string, error) {
+	var filenames []string
+	err := filepath.Walk(dir, func(path string, info fs.FileInfo, err error) error {
+		if !info.IsDir() {
+			filenames = append(filenames, path)
+		}
+		return err
+	})
+	return filenames, err
 }

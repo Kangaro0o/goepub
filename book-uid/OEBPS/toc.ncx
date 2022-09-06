@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head>
+<meta name="cover" content="cover"/>
+<meta name="dtb:uid" content="uid-12345" />
+<meta name="dtb:depth" content="1"/>
+<meta name="dtb:generator" content="Created by Kelvin"/>
+<meta name="dtb:totalPageCount" content="0"/>
+<meta name="dtb:maxPageNumber" content="0"/>
+</head>
+
+<docTitle>
+<text>test-book</text>
+</docTitle>
+<docAuthor>
+<text>test-author</text>
+</docAuthor>
+
+<navMap>
+
+<navPoint id="" playOrder="0">
+<navLabel>
+<text>第一章</text>
+</navLabel>
+<content src=""/>
+</navPoint>
+
+<navPoint id="" playOrder="1">
+<navLabel>
+<text>第二章</text>
+</navLabel>
+<content src=""/>
+</navPoint>
+
+</navMap>
+</ncx>
